@@ -1,5 +1,4 @@
-# NyasRoryo/ 
-## MCConfigurations
+# NyasRoryo/MCConfigurations
 
 ### 这是什么？
 
