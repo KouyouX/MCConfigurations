@@ -1,0 +1,85 @@
+#Infoboard-Reborn broad.yml配置文件
+#by 杨叶
+
+
+# Info Board Board, Last Edited in v1.0.0 by Ktar5
+# ===============================================================================================
+# |                               Max Rows for a board is 15                                    |
+# |                            Max characters for a title is 32                                 |
+# |                             Max characters for a line is 48                                 |
+# |---------------------------------------------------------------------------------------------|
+# |               When using scroll there is no limit for characters per line                   |
+# |=============================================================================================|
+# |=============================================================================================|
+# |                                        Example                                              |
+# |---------------------------------------------------------------------------------------------|
+# |Info Board:                                                                                  |
+# |  "1":                                                                                       |
+# |    Show Time: 10                                           # How Long this page is shown for|
+# |    global:                                        # What world sees this page (global = All)|
+# |      default:                        # What Permissions group sees this page (default = All)|
+# |        Title: "&4&lDuskHaven"                                                               |
+# |         Rows:                                                                               |
+# |         - " "                                                                               |
+# |         - "This board is seen by everyone"                                                  |
+# |         - "That isn""t in Admin"                                                            |
+# |      Admin:                                                                                 |
+# |        Title: "&4&lAdmin Page"                                                              |
+# |        Rows:                                                                                |
+# |        - " "                                                                                |
+# |        - "This board is only"                                                               |
+# |        - "seen by Admins"                                                                   |
+# |  "2":                                                                                       |
+# |    Show Time: 5                                                                             |
+# |    world:                                                                                   |
+# |      default:                                                                               |
+# |        Title: "&a&lStats"                                                                   |
+# |         Rows:                                                                               |
+# |         - "Online Players: ; <onlineplayers>"      # Splitting a line can be done by using ;|
+# |         - "Money: ; <balance>"                                                              |
+# |    world_the_nether:                                                                        |
+# |      default:                                                                               |
+# |        Title: "&a&lNether"                                                                  |
+# |         Rows:                                                                               |
+# |         - "Your Level:"                                                                     |
+# |         - "~!<level>Your Level:"      # Will only display if <level> isn"t "0" or "Unknown" |
+# |         - "~!<level><math<level>+<exp>>"                                                    | 
+# ==============================================================================================
+Info Board:
+  "1":
+    Show Time: 1
+    global:
+      default:
+        Title: "&r&l欢迎来到服务器!"
+        Rows:
+        - "&6<nuke>----~<skull>~----<nuke>"
+        - "&r"
+        - "&a欢迎您，亲爱的玩家 &r<player> &a!"
+        - "&a在线玩家: &e<onlineplayers>&a/&7<maxplayers>"
+        - ""
+        - "&a腐竹QQ: &b"
+        - "&c赞助请认准这个哦~"
+        - ""
+        - "&a官方QQ群: &6"
+        - "&b快进来与玩家们交流吧!"
+        - "&r"
+        - "&d全体管理祝您游戏愉快~"
+        - "&r"
+        - "&6<nuke>----=<skull>=----<nuke>"
+      Admin:
+        Title: "&r&l欢迎来到服务器!"
+        Rows:
+        - "&6<nuke>----~<skull>~----<nuke>"
+        - "&r"
+        - "&a欢迎您，亲爱的玩家 &r<player> &a!"
+        - "&a在线玩家: &e<onlineplayers>&a/&7<maxplayers>"
+        - ""
+        - "&a腐竹QQ: &b"
+        - "&c赞助请认准这个哦~"
+        - ""
+        - "&a官方QQ群: &6"
+        - "&b快进来与玩家们交流吧!"
+        - "&r"
+        - "&d全体管理祝您游戏愉快~"
+        - "&r"
+        - "&6<nuke>----=<skull>=----<nuke>"

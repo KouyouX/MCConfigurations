@@ -1,0 +1,78 @@
+#塞进去记得reload 乱码就转U码再reload
+
+#汉化 by 杨叶
+
+denied_command: "&b登录 &9>> &c你必须登录才能使用这个指令!"
+same_ip_online: "&b登录 &9>> &c另一个相同ip的玩家已经在线!你是不是开小号了?"
+denied_chat: "&b登录 &9>> &c你必须登录才能说话!"
+kick_antibot: "&b登录 &9>> &c服务器已启用反假人模式!请等待一会再加入."
+unknown_user: "&b登录 &9>> &c你还没有注册呢!"
+unsafe_spawn: "&b登录 &9>> &a你的退出地点不安全，已经自动将你传送到一个安全的地点."
+not_logged_in: "&b登录 &9>> &c你还没有登录呢!"
+usage_log: "&b登录 &9>> &c使用方法: /l <密码>"
+wrong_pwd: "&b登录 &9>> &4密码错误!"
+unregistered: "&b登录 &9>> &c成功注销ID!该ID再次可以注册了."      #就是清除某ID的密码
+reg_disabled: "&b登录 &9>> &c游戏内不能注册!"     #用于网页注册，你在联机侠可能永远不会看到这段话
+valid_session: "&b登录 &9>> &a你在短时间内再次以同一IP进入，享受免密登录."     #session不安全，慎开
+login: "&b登录 &9>> &a成功登录!"
+vb_nonActiv: "&b登录 &9>> &c你的账号未激活,请检查邮箱!"    #与邮箱联动的注册，联机侠也没法搞
+user_regged: "&b登录 &9>> &c该ID已经注册!"
+no_perm: "&b登录 &9>> &4你没有权限做这个!"
+error: "&b登录 &9>> &4登录系统发生未知错误,请向管理员反馈!"
+login_msg: "&b登录 &9>> &a请用 /l <密码> 登录!"
+reg_msg: "&b登录 &9>> &a请用 /reg <密码> <重复一遍密码> 注册!"
+max_reg: "&b登录 &9>> &c你已经达到了注册上限!不要再开小号了!"       #联机侠可能不会看到这条信息
+usage_reg: "&b登录 &9>> &c使用方法: /reg <密码> <重复一遍密码>"
+usage_unreg: "&b登录 &9>> &c使用方法: /unregister <密码> ,&4请慎重注销账号!改密码可以使用 &c/cp <旧密码> <新密码> &4!"
+pwd_changed: "&b登录 &9>> &a成功改变密码!"
+password_error: "&b登录 &9>> &c密码不正确!"
+password_error_nick: "&b登录 &9>> &c不要用你的ID做密码!换一个!"
+password_error_unsafe: "&b登录 &9>> &c这个密码太不安全了!换一个!"
+password_error_chars: "&b登录 &9>> &c密码只能用字母和数字!"
+invalid_session: "&b登录 &9>> &c你登录的IP改变了!这次不能享受免密登录!"
+reg_only: "&b登录 &9>> &c只有注册了的玩家才能登录!请访问 xxx.com 注册!"      #用于网页注册
+logged_in: "&b登录 &9>> &c你已经登录了!"
+logout: "&b登录 &9>> &a成功登出!"
+same_nick: "&b登录 &9>> &c服务器里有一个相同昵称的玩家!"
+registered: "&b登录 &9>> &a成功注册!"
+pass_len: "&b登录 &9>> &c你的密码太短或太长了!"
+reload: "&b登录 &9>> &a成功重载配置和数据库!"
+timeout: "&b登录 &9>> &c给你登录的时间已经过了!"
+usage_changepassword: "&b登录 &9>> &c使用方法: /cp <旧密码> <新密码>"
+name_len: "&b登录 &9>> &c你的用户名太短或太长了!"
+regex: "&b登录 &9>> &c你的用户名有非法字符!(如中文,中文名玩家暂不能登录)"
+add_email: "&b登录 &9>> &a请用 /email add <邮箱> <重复一遍邮箱> 来绑定邮箱,邮箱可用于找回密码,务必慎重绑定!"
+recovery_email: "&b登录 &9>> &a你是不是忘记了密码?可以用 /email recovery <你绑定的邮箱> 来找回!"
+usage_captcha: "&b登录 &9>> &c你登录太频繁了,请用 /captcha <验证码> 来验证你不是在破解密码!"
+wrong_captcha: "&b登录 &9>> &c验证码不正确,请重新输入!"
+valid_captcha: "&b登录 &9>> &a验证码正确!"
+kick_forvip: "&b登录 &9>> &c抱歉,有一个VIP使用了满人加入权限,你被踢了!"        #在联机侠不可能看到这个
+kick_fullserver: "&b登录 &9>> &c服务器满了!"       #同上
+usage_email_add: "&b登录 &9>> &c使用方法: /email add <邮箱> <重复一遍邮箱>"
+usage_email_change: "&b登录 &9>> &c使用方法: /email change <原绑定邮箱> <新邮箱>"
+usage_email_recovery: "&b登录 &9>> &c使用方法: /email recovery <你绑定的邮箱>"
+new_email_invalid: "&b登录 &9>> &c邮箱格式错误,请重新输入!"
+old_email_invalid: "&b登录 &9>> &c旧邮箱输入错误,请检查!"
+email_invalid: "&b登录 &9>> &c邮箱格式错误,请重新输入!"
+email_added: "&b登录 &9>> &a成功绑定邮箱!"
+email_confirm: "&b登录 &9>> &c使用方法: /email add <邮箱> <重复一遍邮箱>"
+email_changed: "&b登录 &9>> &a成功改变邮箱!"
+email_show: "&b登录 &9>> &a你的邮箱地址是: &b%email"
+show_no_email: "&b登录 &9>> &c你还没有绑定邮箱!"
+email_send: "&b登录 &9>> &a密码找回验证码已发送!"
+email_exists: "&b登录 &9>> &c已经发送了密码找回验证码!可以用下面的指令取消并重新发送:"
+country_banned: "&b登录 &9>> &c你的国家地址不能加入服务器!"       #需要GeoIP，没用
+antibot_auto_enabled: "&b登录 &9>> &c检测到有大量登录,反假人已开启!"
+antibot_auto_disabled: "&b登录 &9>> &c反假人系统保护了服务器 %m 分钟,使攻击者撤退了,反假人系统已关闭!"
+email_already_used: "&b登录 &9>> &c该邮箱已经被绑定过!"
+two_factor_create: "&b登录 &9>> &a你的验证码是 &b%code,请到 %url 使用."      #用于两步注册，联机侠不能用
+not_owner_error: "&b登录 &9>> &c你不是该账号的所有者,请用另一个ID"      #用于外置登录的，联机侠不能用
+invalid_name_case: "&b登录 &9>> &c你应该用 %valid 加入游戏,不是 %invalid ,请不要试图卡大小写Bug!"      #联机侠没有这个问题
+tempban_max_logins: "&b登录 &9>> &4你登录太多次了,为了防止破解密码,你暂时不能进入服务器!"
+accounts_owned_self: "&r"      #同ip账号显示，应关闭，联机侠都是127.0.0.1，输出的都是无用信息
+accounts_owned_other: "&r"       #同上
+kicked_admin_registered: "&b登录 &9>> &c管理员改变了你的密码,请重新登录!"
+incomplete_email_settings: "&b登录 &9>> &c抱歉,该服关闭了邮箱找回密码,请联系管理员来手动找回密码."
+email_send_failure: "&b登录 &9>> &c抱歉,这个邮箱地址无法发送邮件,请联系管理员来手动找回密码."
+recovery_code_sent: "&b登录 &9>> &a密码找回验证码已经发送到你的绑定邮箱!"
+recovery_code_incorrect: "&b登录 &9>> &c验证码错误,已经销毁!请用 /email recovery <你绑定的邮箱> 再生成一个验证码."

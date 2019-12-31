@@ -1,0 +1,190 @@
+# by 杨叶
+
+settings:
+  auto-update: false
+  config-version: 8
+  disable-waterlife: true
+  keep-spawn-in-memory: true
+  enable-api: true
+  
+
+ram-meter:
+  enabled: false
+  interval: 20
+  ram-limit: 5000
+  commands:
+    - "lagg killmobs"
+    - "lagg clear"
+    - "lagg gc"
+
+player-speed-limiter:
+  enabled: false
+  chunk-to-chunk-time: 600
+  limit-only-fly: false
+  
+mob-breeding-limiter:
+  enabled: false
+  max-mobs: 6
+  check-radius: 15
+  
+log-purger:
+  enabled: false
+  days-old: 3
+  
+area-filter:
+    - Itemframe
+    - Painting
+    - Wolf
+    - Villager
+    - Horse
+    - ARMOR_STAND
+
+config-updater:
+  force-update: false
+ 
+mobegg-limiter:
+  enabled: false
+  check-radius: 8
+  max-mobs: 5
+ 
+chunk-limiter:
+  enabled: false
+  limit: 6000
+  create-new-chunks: true
+ 
+mob-range:
+  enabled: false
+  zombie: 30
+  skeleton: 30
+  creeper: 20
+ 
+live-time:
+  enabled: false
+  interval: 10
+  mobtimer: true
+  itemtimer: true
+  arrowtimer: true
+  arrowkilltime: 15
+  moblivetime: 600
+  itemlivetime: 240
+  
+tnt-minecart:
+  enabled: false
+  max: 2
+  radius: 6
+  
+dispenser-reducer:
+  enabled: false
+  time: 100
+  
+tnt-reducer:
+  enabled: false
+  
+firespread-reducer:
+  enabled: false
+  time: 2000
+  
+chunk-entity-limiter:
+  enabled: false
+  limit: 10
+  entities:
+    - Squid
+    - Zombie
+    - Skeleton
+    - Creeper
+    - Chicken
+    - Pig
+    - Sheep
+    - Cow
+    - Horse
+  
+spawn-limiter:
+  enabled: false
+  interval: 15
+  mobs: 300
+  animals: 300
+  
+tps-meter:
+  enabled: false
+  interval: 15
+  tps-trigger: 14.0
+  commands:
+    - "lagg killmobs"
+    - "lagg clear"
+  
+kill-mobs:
+  remove-named: false
+  mob-filter:
+        - Villager
+        - Wolf
+        - Horse
+  
+mobspawner:
+  enabled: false
+  max-spawn: 4
+  remove-mobs-on-chunk-unload: true
+  
+item-merger:
+  enabled: false
+  radius: 6
+  
+auto-removal:
+  enabled: true
+  broadcast-message: "&b清道夫 &9>> &a这次清理了&c +RemoveAmount &a个垃圾，服务器更流畅了!
+  broadcast-removal: true
+  autoremoval-interval: 460
+  world-filter:
+    - this_world
+  boat: true
+  falling-block: true
+  experience-orb: true
+  painting: true
+  projectile: true
+  item: true
+  itemframe: false
+  minecart: true
+  primed-tnt: true
+  item-filter:
+  remove-mobs:
+  warnings:
+        - "time:400 msg:&b清道夫 &9>> &a地上的掉落物品将在 &c60 &a秒后清除!"
+        - "time:430 msg:&b清道夫 &9>> &a地上的掉落物品将在 &c30 &a秒后清除!"
+        - "time:440 msg:&b清道夫 &9>> &a地上的掉落物品将在 &c20 &a秒后清除!"
+        - "time:450 msg:&b清道夫 &9>> &a地上的掉落物品将在 &c10 &a秒后清除!"
+        - "time:455 msg:&b清道夫 &9>> &a地上的掉落物品将在 &c5 &a秒后清除!"
+ 
+command-remove:
+  world-filter:
+    - this_world
+  broadcast-removal: false
+  boat: true
+  falling-block: true
+  experience-orb: true
+  painting: true
+  projectile: true
+  item: true
+  itemframe: false
+  minecart: true
+  primed-tnt: true
+  item-filter:
+  remove-mobs:
+   
+limit:
+  enabled: false
+  max: 1000
+  check-interval: 60
+  broadcast-message: "&b清道夫 &9>> &a已清理&c +RemoveAmount &a个垃圾，服务器更流畅了!
+  world-filter:
+    - this_world
+  broadcast-removal: true
+  boat: true
+  falling-block: true
+  experience-orb: true
+  painting: true
+  projectile: true
+  item: true
+  itemframe: false
+  minecart: true
+  primed-tnt: true
+  item-filter:
+
