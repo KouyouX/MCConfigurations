@@ -1,0 +1,19 @@
+Notbuildworld:
+- world
+- world_the_end
+- sj
+- kne
+Break:
+  switch: true
+  message: 这里不能破坏哟.
+Place:
+  switch: true
+  message: 这里不能建筑哟.
+LeavesDecayworld:
+- world
+- world_nether
+- world_the_end
+BlockFadeworld:
+- world
+- world_nether
+- world_the_end

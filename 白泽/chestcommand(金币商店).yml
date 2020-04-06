@@ -1,0 +1,50 @@
+menu-settings:
+  name: '&e&l&o实体金币商店兑换菜单'
+  rows: 1
+  command: 'jbsd'
+  open-with-item:
+
+
+
+TreeDiagramA2:
+  NAME: '&e兑换100游戏币实体卷'
+  ID: 339
+  KEEP-OPEN: true
+  PRICE: 100
+  COMMAND: 'op:mm i get 100游戏币'
+  POSITION-X: 2
+  POSITION-Y: 1
+
+
+
+TreeDiagramA4:
+  NAME: '&e兑换1000游戏币实体卷'
+  ID: 339
+  KEEP-OPEN: true
+  PRICE: 1000
+  COMMAND: 'op:mm i get 1000游戏币'
+  POSITION-X: 4
+  POSITION-Y: 1
+
+
+
+TreeDiagramA6:
+  NAME: '&e兑换10000游戏币实体卷'
+  ID: 339
+  KEEP-OPEN: true
+  PRICE: 10000
+  COMMAND: 'op:mm i get 10000游戏币'
+  POSITION-X: 6
+  POSITION-Y: 1
+
+
+
+TreeDiagramA8:
+  NAME: '&e兑换100000游戏币实体卷'
+  ID: 339
+  KEEP-OPEN: true
+  PRICE: 100000
+  COMMAND: 'op:mm i get 100000游戏币'
+  POSITION-X: 8
+  POSITION-Y: 1
+

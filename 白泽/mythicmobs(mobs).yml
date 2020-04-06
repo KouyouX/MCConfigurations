@@ -1,0 +1,1142 @@
+开荒僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a？？？&7]&b开荒活动僵尸&f'
+  Health: 10000
+  Damage: 100
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 皮帽:4
+  - 黑皮甲:3
+  - 深天蓝裤:2
+  - 橙红色靴:1
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.35
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - money 1000
+  - 开荒僵尸肉 1 1
+  - 开荒僵尸肉 1 1
+  - 开荒僵尸肉 0-3 0.5
+  - 开荒僵尸肉 0-3 0.5
+  Skills: 
+  - jsonmessage{m="[{'text':'&a处于僵尸世界的玩家请注意!'}]"} @Server ~onSpawn
+  - jsonmessage{m="[{'text':'&6&n开荒僵尸已被释放&7[&a主城传送&7]','hoverEvent':{'action':'show_text','value':{'text':'&a点击将传送到怪物身边 '}},'clickEvent':{'action':'run_command','value':'/spawn'}}]"} @Server ~onSpawn
+实体金币购买特效:
+  Type: ARMOR_STAND
+  Options:
+    HasArms: true
+    Invisible: true
+    Marker: true
+    Invincible: true
+  Pose:
+    RightArm: 80,0,0
+  Skills:
+  - skill{s=实体金币购买} @self ~onSpawn
+普通僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b普通僵尸&f'
+  Health: 50
+  Damage: 12
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 1
+  - money 10
+  - 僵尸肉 0-1 1
+路障僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b路障僵尸&f'
+  Health: 80
+  Damage: 14
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 黄土赭色帽:4
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.22
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 3
+  - money 15
+  - 僵尸肉 0-2 1
+铁桶僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b铁桶僵尸&f'
+  Health: 140
+  Damage: 16
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 黑皮帽:4
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.18
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 5
+  - money 20
+  - 僵尸肉 0-3 1
+铁栅门僵尸:
+  Type: ZOMBIE
+  Display: '&7[&b精英&7]&b铁栅门僵尸&f'
+  Health: 300
+  Damage: 20
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 皮帽:4
+  - 盾牌:0
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.10
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 7
+  - money 50
+  - 僵尸肉 0-3 1
+  - 僵尸牙齿 0-1 1
+橄榄球僵尸:
+  Type: ZOMBIE
+  Display: '&7[&b精英&7]&b橄榄球僵尸&f'
+  Health: 380
+  Damage: 18
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 橙红色帽:4
+  - 橙红色甲:3
+  - 橙红色裤:2
+  - 橙红色靴:1
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 7
+  - money 50
+  - 僵尸肉 0-3 1
+  - 僵尸牙齿 0-1 1
+舞王僵尸:
+  Type: ZOMBIE
+  Display: '&7[&b精英&7]&b舞王僵尸&f'
+  Health: 500
+  Damage: 25
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 僵尸舞王:4
+  - 黑皮裤:2
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.35
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Skills:
+  - summon{type=跳舞小僵尸;amount=4;radius=4} @Target ~onTimer:200
+  Drops:
+  - exp 10
+  - money 80
+  - 僵尸肉 0-3 1
+  - 僵尸牙齿 0-1 1
+跳舞小僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b跳舞小僵尸&f'
+  Health: 10
+  Damage: 10
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.5
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 1
+  - money 5
+海豚僵尸:
+  Type: ZOMBIE
+  Display: '&7[&5史诗&7]&b海豚僵尸&f'
+  Health: 500
+  Damage: 27
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 深天蓝帽:4
+  - 鱼:0
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.4
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 10
+  - money 80
+  - 僵尸肉 0-3 1
+  - 僵尸牙齿 0-2 1
+巨人僵尸:
+  Type: ZOMBIE
+  Display: '&7[&5史诗&7]&b巨人僵尸&f'
+  Health: 800
+  Damage: 34
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 皮帽:4
+  - 巨人僵尸斧头:0
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 15
+  - money 100
+  - 僵尸肉 0-5 1
+  - 僵尸牙齿 0-3 1
+僵王博士:
+  Type: ZOMBIE
+  Display: '&7[&c传说&7]&b僵王博士&f'
+  Health: 2000
+  Damage: 35
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 皮帽:4
+  - 黑皮甲:3
+  - 黑皮裤:2
+  - 黑皮靴:1
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 20
+  - money 300
+  - 僵尸肉 0-5 1
+  - 僵尸牙齿 0-3 1
+  - 机动核心 1-2 1
+  Skills:  
+  - skill{s=蛇毒液术} @PlayersInRadius{r=30} ~onDamaged =70%
+  - skill{s=毒液冲击} @PlayersInRadius{r=30} ~onDamaged =40%
+  - skill{s=毒液冲击} @PlayersInRadius{r=30} ~onDamaged >40%
+  - skill{s=蛇毒液术} @PlayersInRadius{r=30} ~onDamaged >30%
+  - summon{type=普通僵尸;amount=4;radius=4} @Target ~onTimer:400
+  - summon{type=巨人僵尸;amount=2;radius=4} @Target ~onTimer:400
+冲浪僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b冲浪僵尸&f'
+  Health: 200000
+  Damage: 400
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Equipment:
+  - 皮帽:4
+  Drops:
+  - exp 70
+  - money 20000
+  - 僵尸肉 0-5 1
+  - 冲浪滑板 0-2 1
+冲浪路障僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b冲浪路障僵尸&f'
+  Health: 240000
+  Damage: 450
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 黄土赭色帽:4
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.22
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 75
+  - money 25000
+  - 僵尸肉 0-5 1
+  - 冲浪滑板 0-2 1
+冲浪铁桶僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b冲浪铁桶僵尸&f'
+  Health: 280000
+  Damage: 500
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 黑皮帽:4
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.18
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 80
+  - money 30000
+  - 僵尸肉 0-3 1
+  - 冲浪滑板 0-3 1
+冲浪比基尼僵尸:
+  Type: ZOMBIE
+  Display: '&7[&b精英&7]&b冲浪比基尼僵尸&f'
+  Health: 400000
+  Damage: 600
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.4
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Equipment:
+  - 橙红色裤:2
+  - 深天蓝帽:4
+  Drops:
+  - exp 80
+  - money 40000
+  - 僵尸肉 0-5 1
+  - 冲浪滑板 1-5 1
+  Skills:
+  - forcepull{spread=8} @EntitiesInRadius{r=8} ~onTimer:40
+冲浪巨人僵尸:
+  Type: ZOMBIE
+  Display: '&7[&b精英&7]&b冲浪巨人僵尸&f'
+  Health: 4500000
+  Damage: 600
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.4
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Equipment:
+  - 橙红色帽:4
+  - 橙红色甲:3
+  - 橙红色裤:2
+  - 橙红色靴:1
+  Drops:
+  - exp 100
+  - money 50000
+  - 僵尸肉 0-5 1
+  - 冲浪滑板 1-5 1
+  Skills:
+  - damage{a=300} @EntitiesInRadius{r=8} ~onTimer:20
+  - effect:particlebox{particle=mobspell;amount=100;radius=3} @Self ~onTimer:20
+冲浪僵王博士:
+  Type: ZOMBIE
+  Display: '&7[&c传说&7]&b冲浪鲨鱼附身僵王&f'
+  Health: 600000
+  Damage: 700
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 橙红色帽:4
+  - 黑皮裤:2
+  - 金剑:0
+  - 金剑:5
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.4
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 100
+  - money 80000
+  - 僵尸肉 1-10 1
+  - 冲浪滑板 1-10 1
+  Skills:  
+  - throw{velocity=5;velocityY=5} @PlayersInRadius{r=5} ~onTimer:200
+  - pull{velocity=20} @PlayersInRadius{r=20} ~onTimer:240
+  - effect:particlesphere{p=reddust;color=#FFA500;a=300;radius=1;y=0.5} @Self ~onTimer:20
+暗黑僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b暗黑僵尸&f'
+  Health: 40000
+  Damage: 280
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Equipment:
+  - 皮帽:4
+  Drops:
+  - exp 50
+  - money 4000
+  - 僵尸肉 0-5 1
+  - 暗黑蘑菇 0-2 1
+暗黑路障僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b暗黑路障僵尸&f'
+  Health: 50000
+  Damage: 300
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 黄土赭色帽:4
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.22
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 55
+  - money 6000
+  - 僵尸肉 0-5 1
+  - 暗黑蘑菇 0-2 1
+暗黑铁桶僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b暗黑铁桶僵尸&f'
+  Health: 60000
+  Damage: 320
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 黑皮帽:4
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.18
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 60
+  - money 8000
+  - 僵尸肉 0-3 1
+  - 暗黑蘑菇 0-3 1
+暗黑盗贼僵尸:
+  Type: ZOMBIE
+  Display: '&7[&b精英&7]&b暗黑盗贼僵尸&f'
+  Health: 100000
+  Damage: 380
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.4
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Equipment:
+  - 黑皮帽:4
+  - 黑皮甲:3
+  - 黑皮裤:2
+  - 黑皮靴:1
+  Drops:
+  - money 20000
+  - 僵尸肉 0-5 1
+  - 暗黑蘑菇 1-5 1
+  Skills:
+  - currencytake{amount=300} @PIR{r=5} ~onAttack
+暗黑魔法师僵尸:
+  Type: ZOMBIE
+  Display: '&7[&b精英&7]&b暗黑魔法师僵尸&f'
+  Health: 150000
+  Damage: 350
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.25
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Equipment:
+  - 黑皮帽:4
+  - 烈焰棒:0
+  - 烈焰棒:5
+  Drops:
+  - exp 60
+  - money 15000
+  - 僵尸肉 0-5 1
+  - 暗黑蘑菇 1-5 1
+  Skills:  
+  - skill{s=暗黑魔法师僵尸技能} @Self ~onSpawn
+  - skill{s=暗黑魔法师僵尸特效} @Self ~onTimer:20
+暗黑僵王博士:
+  Type: ZOMBIE
+  Display: '&7[&c传说&7]&b暗黑巨龙附身僵王&f'
+  Health: 200000
+  Damage: 400
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 黑皮帽:4
+  - 黑皮裤:2
+  - 木剑:0
+  - 木剑:5
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 80
+  - money 30000
+  - 僵尸肉 1-10 1
+  - 暗黑蘑菇 1-10 1
+  Skills:  
+  - skill{s=暗黑魔法师僵尸技能} @Self ~onSpawn
+  - skill{s=暗黑魔法师僵尸特效} @Self ~onTimer:20
+  - skill{s=召唤飞剑} @self ~onSpawn
+飞剑主:
+  Type: ARMOR_STAND
+  Options:
+    HasArms: true
+    Invisible: true
+    Marker: true
+    Invincible: true
+    ItemHand: 剑
+  Pose:
+    RightArm: 80,0,0
+  Skills:
+  - skill{s=飞剑} @PlayersInRadius{r=30} ~onTimer:40
+飞剑装饰:
+  Type: ARMOR_STAND
+  Options:
+    HasArms: true
+    Invisible: true
+    Marker: true
+    Invincible: true
+    ItemHand: 剑
+  Pose:
+    RightArm: 80,0,0
+  Skills:
+飞剑弹:
+  Type: ARMOR_STAND
+  Options:
+    HasArms: true
+    Invisible: true
+    Marker: true
+    Invincible: true
+    ItemHand: 剑
+  Pose:
+    RightArm: -10,0,0
+  Skills:
+armorstand:
+  Type: armor_stand
+  Skills:
+  - skill{s=flysw} @self ~onSpawn
+armorstand1:
+  Skills:
+  - skill{s=我们是飞剑弹} @PlayersInRadius{r=30} ~onTimer:60
+海盗僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b海盗僵尸&f'
+  Health: 3000
+  Damage: 95
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Equipment:
+  - 皮帽:4
+  Drops:
+  - exp 15
+  - money 100
+  - 僵尸肉 0-5 1
+  - 海盗碎布 0-2 1
+海盗路障僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b海盗路障僵尸&f'
+  Health: 3800
+  Damage: 100
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 黄土赭色帽:4
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.22
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 20
+  - money 100
+  - 僵尸肉 0-2 1
+  - 海盗碎布 0-2 1
+海盗铁桶僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b海盗铁桶僵尸&f'
+  Health: 4600
+  Damage: 110
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 黑皮帽:4
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.18
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 23
+  - money 110
+  - 僵尸肉 0-3 1
+  - 海盗碎布 0-3 1
+海盗小鬼僵尸炮:
+  Type: irongolem
+  Display: '&7[&b精英&7]&b小鬼僵尸炮&f'
+  Health: 6000
+  Damage: 130
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.25
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 30
+  - money 200
+  - 僵尸肉 0-3 1
+  - 海盗碎布 1-5 1
+  Skills:
+  - summon{type=海盗小鬼僵尸;amount=4;radius=4} @Target ~onTimer:200
+海盗小鬼僵尸:
+  Type: BABYZOMBIE
+  Display: '&7[&a普通&7]&b海盗小鬼僵尸&f'
+  Health: 300
+  Damage: 90
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.45
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Equipment:
+  - 皮帽:4
+  - 皮甲:3
+  - 皮裤:2
+  - 皮靴:1
+  Drops:
+  - exp 5
+  - money 30
+  - 海盗碎布 0-1 0.6
+海盗飞索僵尸:
+  Type: ZOMBIE
+  Display: '&7[&b精英&7]&b海盗飞索僵尸&f'
+  Health: 7000
+  Damage: 140
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.35
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Equipment:
+  - 皮帽:4
+  Drops:
+  - exp 25
+  - money 250
+  - 僵尸肉 0-5 1
+  - 海盗碎布 1-5 1
+海盗僵王博士:
+  Type: ZOMBIE
+  Display: '&7[&c传说&7]&b海盗僵王博士&f'
+  Health: 12000
+  Damage: 180
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 皮帽:4
+  - 黑皮甲:3
+  - 黑皮裤:2
+  - 黑皮靴:1
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 40
+  - money 1000
+  - 僵尸肉 0-5 1
+  - 海盗碎布 1-5 1
+  Skills:  
+  - skill{s=海盗僵王博士雷电} @PlayersInRadius{r=30} ~onDamaged >1%
+  - shootfireball{y=1;v=1} @target ~onTimer:80
+  - arrowvolley{a=10;s=25;v=10;f=50;rd=200} @Target
+埃及僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b埃及僵尸&f'
+  Health: 1000
+  Damage: 45
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Equipment:
+  - 皮帽:4
+  Drops:
+  - exp 8
+  - money 80
+  - 僵尸肉 0-2 1
+  - 埃及沙 0-2 1
+埃及路障僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b埃及路障僵尸&f'
+  Health: 1400
+  Damage: 50
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 黄土赭色帽:4
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.22
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 13
+  - money 100
+  - 僵尸肉 0-2 1
+  - 埃及沙 0-2 1
+埃及铁桶僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b埃及铁桶僵尸&f'
+  Health: 1500
+  Damage: 58
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 黑皮帽:4
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.18
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 16
+  - money 120
+  - 僵尸肉 0-3 1
+  - 埃及沙 0-3 1
+埃及探险家僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b埃及探险家僵尸&f'
+  Health: 2000
+  Damage: 70
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 皮帽:4
+  - 火把:0
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.35
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 16
+  - money 180
+  - 僵尸肉 0-3 1
+  - 埃及沙 0-3 1
+埃及太阳神僵尸:
+  Type: ZOMBIE
+  Display: '&7[&b精英&7]&b埃及太阳神僵尸&f'
+  Health: 2800
+  Damage: 80
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 金帽:4
+  - 烈焰棒:0
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 20
+  - money 200
+  - 僵尸肉 0-3 1
+  - 僵尸牙齿 0-1 1
+  - 埃及沙 0-3 1
+埃及法老僵尸:
+  Type: ZOMBIE
+  Display: '&7[&b精英&7]&b埃及法老僵尸&f'
+  Health: 3000
+  Damage: 90
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 金帽:4
+  - 金甲:3
+  - 金裤:2
+  - 金靴:1
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 23
+  - money 250
+  - 僵尸肉 0-3 1
+  - 僵尸牙齿 0-1 1
+  - 埃及沙 0-3 1
+埃及僵王博士:
+  Type: ZOMBIE
+  Display: '&7[&c传说&7]&b埃及僵王博士&f'
+  Health: 5000
+  Damage: 110
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 皮帽:4
+  - 黑皮甲:3
+  - 黑皮裤:2
+  - 黑皮靴:1
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 30
+  - money 500
+  - 僵尸肉 0-5 1
+  - 僵尸牙齿 0-3 1
+  - 机动核心 1-5 1
+  Skills:  
+  - skill{s=鬼鲛弹} @PlayersInRadius{r=30} ~onDamaged =90%
+  - skill{s=鬼鲛弹} @PlayersInRadius{r=30} ~onDamaged =80%
+  - skill{s=鬼鲛弹} @PlayersInRadius{r=30} ~onDamaged =70%
+  - skill{s=鬼鲛弹} @PlayersInRadius{r=30} ~onDamaged =60%
+  - skill{s=鬼鲛弹} @PlayersInRadius{r=30} ~onDamaged =50%
+  - skill{s=鬼鲛弹} @PlayersInRadius{r=30} ~onDamaged =40%
+  - skill{s=鬼鲛弹} @PlayersInRadius{r=30} ~onDamaged >20%
+  - summon{type=埃及法老僵尸;amount=2;radius=4} @Target ~onTimer:600
+  - summon{type=埃及太阳神僵尸;amount=2;radius=4} @Target ~onTimer:400
+科技僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b科技僵尸&f'
+  Health: 15000
+  Damage: 160
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Equipment:
+  - 皮帽:4
+  Drops:
+  - exp 40
+  - money 800
+  - 僵尸肉 0-5 1
+  - 电子产品 0-2 1
+科技路障僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b科技路障僵尸&f'
+  Health: 18000
+  Damage: 165
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 黄土赭色帽:4
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.22
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 45
+  - money 900
+  - 僵尸肉 0-5 1
+  - 电子产品 0-2 1
+科技铁桶僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b科技铁桶僵尸&f'
+  Health: 20000
+  Damage: 170
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 黑皮帽:4
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.18
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 50
+  - money 1000
+  - 僵尸肉 0-3 1
+  - 电子产品 0-3 1
+科技电磁盾僵尸:
+  Type: ZOMBIE
+  Display: '&7[&b精英&7]&b科技电磁盾僵尸&f'
+  Health: 30000
+  Damage: 160
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.25
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Equipment:
+  - 深天蓝帽:4
+  - 深天蓝甲:3
+  - 深天蓝裤:2
+  - 深天蓝靴:1
+  - 钻石剑:0
+  Drops:
+  - exp 40
+  - money 1600
+  - 僵尸肉 0-5 1
+  - 电子产品 1-5 1
+  Skills:
+  - skill{s=科技电磁盾僵尸} @Self ~onTimer:20
+科技巨人僵尸:
+  Type: ZOMBIE
+  Display: '&7[&b精英&7]&b科技巨人僵尸&f'
+  Health: 25000
+  Damage: 200
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.25
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Equipment:
+  - 深天蓝帽:4
+  - 巨人僵尸斧头:0
+  - 巨人僵尸斧头:5
+  Drops:
+  - exp 40
+  - money 1800
+  - 僵尸肉 0-5 1
+  - 电子产品 1-5 1
+科技僵王博士:
+  Type: ZOMBIE
+  Display: '&7[&c传说&7]&b科技机甲僵王&f'
+  Health: 100000
+  Damage: 250
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 深天蓝帽:4
+  - 深天蓝甲:3
+  - 深天蓝裤:2
+  - 深天蓝靴:1
+  - 钻石剑:0
+  - 钻石剑:5
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 50
+  - money 10000
+  - 僵尸肉 1-10 1
+  - 电子产品 1-10 1
+  Skills:  
+  - skill{s=科技僵王博士技能} @Self ~onSpawn
+  - skill{s=科技僵王博士特效} @Self ~onTimer:20
+功夫僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b西部功夫僵尸&f'
+  Health: 6000
+  Damage: 135
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Equipment:
+  - 皮帽:4
+  Drops:
+  - exp 20
+  - money 250
+  - 僵尸肉 0-5 1
+  - 西部牛角 0-2 1
+功夫路障僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b功夫路障僵尸&f'
+  Health: 10000
+  Damage: 145
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 黄土赭色帽:4
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.22
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 25
+  - money 250
+  - 僵尸肉 0-5 1
+  - 西部牛角 0-2 1
+功夫铁桶僵尸:
+  Type: ZOMBIE
+  Display: '&7[&a普通&7]&b功夫铁桶僵尸&f'
+  Health: 13000
+  Damage: 150
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 黑皮帽:4
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.18
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 30
+  - money 350
+  - 僵尸肉 0-3 1
+  - 西部牛角 0-3 1
+功夫气功僵尸:
+  Type: ZOMBIE
+  Display: '&7[&b精英&7]&b功夫气功僵尸&f'
+  Health: 18000
+  Damage: 160
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.35
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Equipment:
+  - 黄土赭色帽:4
+  - 金甲:3
+  - 黄土赭色裤:2
+  - 烈焰棒:0
+  Drops:
+  - exp 35
+  - money 800
+  - 僵尸肉 0-5 1
+  - 西部牛角 1-5 1
+  Skills:
+  - skill{s=功夫气功僵尸气功} @Target ~onTimer:40
+功夫旗子僵尸:
+  Type: ZOMBIE
+  Display: '&7[&b精英&7]&b功夫旗子僵尸&f'
+  Health: 20000
+  Damage: 168
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Equipment:
+  - 黑皮帽:4
+  Drops:
+  - exp 40
+  - money 1000
+  - 僵尸肉 0-5 1
+  - 西部牛角 1-5 1
+  Skills:
+  - summon{type=功夫铁桶僵尸;amount=1;radius=4} @Target ~onTimer:400
+  - summon{type=功夫路障僵尸;amount=2;radius=4} @Target ~onTimer:400
+  - summon{type=功夫僵尸;amount=3;radius=4} @Target ~onTimer:400
+功夫僵王博士:
+  Type: ZOMBIE
+  Display: '&7[&c传说&7]&b功夫持刀僵王&f'
+  Health: 30000
+  Damage: 200
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - 皮帽:4
+  - 黑皮甲:3
+  - 黑皮裤:2
+  - 黑皮靴:1
+  - 金剑:0
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    FollowRange: 5
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+  Drops:
+  - exp 50
+  - money 5000
+  Skills:  
+  - skill{s=功夫气功僵王博士气功} @Target ~onTimer:40
+  - skill{s=功夫僵王博士技能} ~onTimer:300

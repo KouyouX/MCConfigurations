@@ -1,0 +1,2323 @@
+
+last-created-npc-id: 75
+npc:
+  '0':
+    name: §7[§a§l新手指引§7]
+    uuid: 89ede0bc-d1dd-40f3-b31d-f3f44babbcaa
+    traits:
+      spawned: true
+      type: VILLAGER
+      location:
+        world: world
+        x: '3222.5'
+        y: '69.0'
+        z: '1103.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    name: §7[§c§l全球市场§7]
+    uuid: 88f55d23-f23d-4cb6-8e7c-18f17cdf7556
+    traits:
+      spawned: true
+      gravity:
+        enabled: false
+      type: BLAZE
+      location:
+        world: world
+        x: '3256.3998'
+        y: '69.0'
+        z: '1069.4164'
+        yaw: '178.4058837890625'
+        pitch: '0.0'
+      owner:
+        owner: HTN_HZEH
+        uuid: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    traitnames: type,owner,equipment,scoreboardtrait,inventory,mounttrait,location,spawned,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    metadata:
+      player-skin-name: a14752
+    name: a14752
+    uuid: 60f64625-ee61-4436-931f-25c5892d0d89
+    traits:
+      type: PLAYER
+      location:
+        world: world
+        x: '3175.6957'
+        y: '68.0'
+        z: '1110.4861'
+        yaw: '-121.257568359375'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      gravity:
+        enabled: false
+      owner:
+        owner: HTN_HZEH
+        uuid: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    traitnames: type,owner,equipment,lookclose,scoreboardtrait,inventory,mounttrait,location,gravity,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    name: §7[§c§l角色属性查询§7]
+    uuid: 9c478758-b266-48c7-826d-019c49176ff9
+    traits:
+      type: WITCH
+      location:
+        world: world
+        x: '3202.4079'
+        y: '68.0'
+        z: '1095.2435'
+        yaw: '-90.0'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      gravity:
+        enabled: false
+      owner:
+        owner: HTN_HZEH
+        uuid: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    traitnames: type,owner,equipment,lookclose,scoreboardtrait,inventory,mounttrait,location,spawned,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    name: §7[§c§l火炬树桩§7]
+    uuid: 6c9190f2-e92a-4ccb-a9d3-91c1dabfec96
+    traits:
+      type: VILLAGER
+      location:
+        world: world
+        x: '3235.5'
+        y: '69.0'
+        z: '1104.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    name: §7[§6§l坚果§7]
+    uuid: 285e5fc6-e8a8-4116-b537-91d785acfcfa
+    traits:
+      type: VILLAGER
+      location:
+        world: world
+        x: '3234.5'
+        y: '69.0'
+        z: '1104.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    name: §7[§e§l土豆地雷§7]
+    uuid: 5ec88e57-bd12-4991-abd9-b63fe509b96a
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '3237.5'
+        y: '69.0'
+        z: '1104.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    name: §7[§5§l喷雾蘑菇§7]
+    uuid: 49f2bb74-28ba-48c1-b844-bacf1d8cd631
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '3236.5'
+        y: '69.0'
+        z: '1104.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    name: §7[§b§l物品回收商人§7]
+    uuid: 6fe545c4-841e-45e1-ba1c-83d4690829c1
+    traits:
+      type: PLAYER
+      location:
+        world: world
+        x: '3240.5688'
+        y: '69.0'
+        z: '1092.247'
+        yaw: '-178.24444580078125'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      gravity:
+        enabled: false
+      owner:
+        owner: HTN_HZEH
+        uuid: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    traitnames: type,owner,equipment,lookclose,scoreboardtrait,inventory,mounttrait,location,gravity,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    name: §7[§b§l食物商人§7]
+    uuid: c918f426-6d53-4d0a-a393-d916c29b19fd
+    traits:
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      location:
+        world: world
+        x: '3219.5'
+        y: '69.0'
+        z: '1095.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '12':
+    name: §7[§d§l墓碑吞噬§7]
+    uuid: 5383a29c-ee94-4783-a9d8-42bea3904874
+    traits:
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      location:
+        world: world
+        x: '3240.5'
+        y: '69.0'
+        z: '1104.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '11':
+    name: §7[§3§l花盆§7]
+    uuid: 742cd76e-99d9-4115-8264-05e154f1cd87
+    traits:
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      location:
+        world: world
+        x: '3238.5'
+        y: '69.0'
+        z: '1104.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '13':
+    name: §7[§a§l豌豆家族§7]
+    uuid: ad244c11-adcc-49d6-8b0c-d6deaf640f20
+    traits:
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      location:
+        world: world
+        x: '3241.5'
+        y: '69.0'
+        z: '1107.5'
+        yaw: '58.54981994628906'
+        pitch: '0.0'
+      spawned: true
+      gravity:
+        enabled: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,equipment,lookclose,scoreboardtrait,inventory,mounttrait,location,gravity,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '14':
+    name: §7[§a§l如何食用技能§7]
+    uuid: d10a3a62-bb80-4b48-8f98-76b04626bd9b
+    traits:
+      location:
+        world: world
+        x: '3225.5264'
+        y: '69.0'
+        z: '1117.8623'
+        yaw: '-90.0'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      gravity:
+        enabled: false
+      type: WITCH
+      spawned: true
+      owner:
+        owner: HTN_HZEH
+        uuid: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    traitnames: type,owner,equipment,lookclose,scoreboardtrait,inventory,mounttrait,location,spawned,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '17':
+    name: §7[§a§l豌豆荚§7]
+    uuid: 037d82b6-7c9b-4e99-b7d2-0b6764bc4dc1
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      location:
+        world: world
+        x: '3236.5'
+        y: '69.0'
+        z: '1110.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '16':
+    name: §7[§8§l大蒜§7]
+    uuid: 6427b445-c6f6-4321-82c5-36225d682dc8
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      location:
+        world: world
+        x: '3235.5'
+        y: '69.0'
+        z: '1110.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '15':
+    name: §7[§a§l三叶草§7]
+    uuid: 6c5422fe-a13d-4eec-9ac5-4b6268889cab
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      location:
+        world: world
+        x: '3234.5'
+        y: '69.0'
+        z: '1110.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '18':
+    name: §7[§c§l樱桃炸弹§7]
+    uuid: b16ee986-8823-4d35-9b25-20c41f2ad683
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      location:
+        world: world
+        x: '3240.5'
+        y: '69.0'
+        z: '1110.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '24':
+    name: §7[§e§l玉米加农炮§7]
+    uuid: 8ffd8d3e-e576-4054-8d1d-3c879a8e0c51
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      type: VILLAGER
+      spawned: true
+      location:
+        world: world
+        x: '3184.5'
+        y: '68.0'
+        z: '1099.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '23':
+    name: §7[§c§l火龙草§7]
+    uuid: 6230d216-6000-4831-89a9-060c83c339dc
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      type: VILLAGER
+      spawned: true
+      location:
+        world: world
+        x: '3184.5'
+        y: '68.0'
+        z: '1100.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '22':
+    name: §7[§l钢地刺§7]
+    uuid: f940c17d-d27d-4e0b-9cfe-2fb98351ac1f
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      type: VILLAGER
+      spawned: true
+      location:
+        world: world
+        x: '3184.5'
+        y: '68.0'
+        z: '1101.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '21':
+    name: §7[§8§l地刺§7]
+    uuid: 574a34e6-242b-48f3-91cb-93844d2c4acc
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      type: VILLAGER
+      spawned: true
+      location:
+        world: world
+        x: '3184.5'
+        y: '68.0'
+        z: '1102.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '20':
+    name: §7[§6§l高坚果§7]
+    uuid: f53eb71f-a0c3-470d-a589-8ce239a55bc6
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      type: VILLAGER
+      spawned: true
+      location:
+        world: world
+        x: '3238.5'
+        y: '69.0'
+        z: '1110.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '19':
+    name: §7[§b§l冰冻生菜§7]
+    uuid: da440132-b9d9-4311-aa40-c0bcee078e61
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      type: VILLAGER
+      spawned: true
+      location:
+        world: world
+        x: '3237.5'
+        y: '69.0'
+        z: '1110.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '26':
+    name: §7[§c§l竹员外§7]
+    uuid: 52eeb41c-1224-4589-a094-9274b6d56da4
+    traits:
+      location:
+        world: world
+        x: '3247.5'
+        y: '69.0'
+        z: '1073.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      type: VILLAGER
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '25':
+    name: §7[§4§l火焰豌豆射手§7]
+    uuid: 2cd44f96-2b20-4c6d-980a-35bcfb7e3e9a
+    traits:
+      location:
+        world: world
+        x: '3184.5'
+        y: '68.0'
+        z: '1098.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      type: VILLAGER
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '27':
+    name: §7[§b§l游玩本服注意事项§7]
+    uuid: 4e2c54da-b0d7-473f-b5d9-24e7fa208a7d
+    traits:
+      location:
+        world: world
+        x: '3217.5246'
+        y: '69.0'
+        z: '1117.2998'
+        yaw: '-166.07186889648438'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      type: WITCH
+      gravity:
+        enabled: false
+      owner:
+        owner: HTN_HZEH
+        uuid: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    traitnames: type,owner,equipment,lookclose,scoreboardtrait,inventory,mounttrait,location,gravity,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '32':
+    name: §7[§b§l雷龙草§7]
+    uuid: fa34faad-0500-4bd5-bb02-c8ed5a3cceef
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      location:
+        world: world
+        x: '3189.5'
+        y: '68.0'
+        z: '1102.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      spawned: true
+      type: VILLAGER
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '31':
+    name: §7[§1§l仙桃§7]
+    uuid: ec4d8a31-d319-454a-8bcf-69e061270868
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      location:
+        world: world
+        x: '3184.5'
+        y: '68.0'
+        z: '1094.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      spawned: true
+      type: VILLAGER
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '30':
+    name: §7[§c§l星星树桩§7]
+    uuid: 9e0ce2aa-acbd-44e4-a551-f7c5cc2ed98f
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      location:
+        world: world
+        x: '3184.5'
+        y: '68.0'
+        z: '1095.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      spawned: true
+      type: VILLAGER
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '29':
+    name: §7[§a§l大力菜花§7]
+    uuid: 19caf692-7773-4566-9621-4b53d2275f1d
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      location:
+        world: world
+        x: '3184.5'
+        y: '68.0'
+        z: '1096.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      spawned: true
+      type: VILLAGER
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '28':
+    name: §7[§3§l能量花§7]
+    uuid: 9ccbff35-f506-48a6-bf82-8091cc8cfeec
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      location:
+        world: world
+        x: '3184.5'
+        y: '68.0'
+        z: '1097.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      spawned: true
+      type: VILLAGER
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '33':
+    name: §7[§a§l竹笋§7]
+    uuid: 50c41301-af45-4f44-80b4-ca6b75e5ca95
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      location:
+        world: world
+        x: '3189.5'
+        y: '68.0'
+        z: '1101.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      spawned: true
+      type: VILLAGER
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '36':
+    name: §7[§f§l白萝卜§7]
+    uuid: 1f429919-7a3c-4ad5-a073-8b301af581ff
+    traits:
+      spawned: true
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      location:
+        world: world
+        x: '3189.5'
+        y: '68.0'
+        z: '1098.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '35':
+    name: §7[§b§l冰冻生菜§7]
+    uuid: 913786a8-f7e4-4951-8ea5-b0687e62e9a3
+    traits:
+      spawned: true
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      location:
+        world: world
+        x: '3189.5'
+        y: '68.0'
+        z: '1099.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '34':
+    name: §7[§c§l火葫芦§7]
+    uuid: b2209233-5aa6-421e-818f-b8d3e4a84a41
+    traits:
+      spawned: true
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      location:
+        world: world
+        x: '3189.5'
+        y: '68.0'
+        z: '1100.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '37':
+    name: §7[§a§l豌豆荚§7]
+    uuid: f11a29a6-d520-4a4b-8e3c-089c48331597
+    traits:
+      spawned: true
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      location:
+        world: world
+        x: '3189.5'
+        y: '68.0'
+        z: '1097.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '38':
+    name: §7[§a§l激光豆§7]
+    uuid: 1ebf00bf-a62a-483b-ae9f-32fc044b6808
+    traits:
+      spawned: true
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      location:
+        world: world
+        x: '3189.5'
+        y: '68.0'
+        z: '1096.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '44':
+    name: §7[§b§l工会大叔§7]
+    uuid: b947d4ea-ceb8-4ada-b3c7-51807393447b
+    traits:
+      type: PLAYER
+      location:
+        world: world
+        x: '3201.5437'
+        y: '73.0'
+        z: '1122.4906'
+        yaw: '159.41749572753906'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      gravity:
+        enabled: false
+      owner:
+        owner: HTN_HZEH
+        uuid: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    traitnames: type,owner,equipment,lookclose,scoreboardtrait,inventory,mounttrait,location,spawned,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '43':
+    name: §7[§e§l财神爷§7]
+    uuid: 13ab999a-1d47-4a4d-a555-605c80f25743
+    traits:
+      type: PLAYER
+      location:
+        world: world
+        x: '3201.3436'
+        y: '68.0'
+        z: '1120.5326'
+        yaw: '155.2021484375'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      gravity:
+        enabled: false
+      owner:
+        owner: HTN_HZEH
+        uuid: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    traitnames: type,owner,equipment,lookclose,scoreboardtrait,inventory,mounttrait,location,spawned,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '42':
+    name: §7[§a§l地皮世界§7]
+    uuid: a64657bc-cf29-47ea-bb4f-c4e54538092a
+    traits:
+      type: PLAYER
+      location:
+        world: world
+        x: '3186.6401'
+        y: '68.0'
+        z: '1122.3213'
+        yaw: '134.92686462402344'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      gravity:
+        enabled: false
+      owner:
+        owner: HTN_HZEH
+        uuid: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    traitnames: type,owner,equipment,lookclose,scoreboardtrait,inventory,mounttrait,location,gravity,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '41':
+    name: §7[§c§l火焰花拳击手§7]
+    uuid: 4d802efe-fb74-4ff8-a62e-72e9cac0b39c
+    traits:
+      type: VILLAGER
+      location:
+        world: world
+        x: '3191.5'
+        y: '68.0'
+        z: '1102.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '40':
+    name: §7§l[§b§l全息坚果§7]
+    uuid: 36beeae4-0909-4f09-89b8-0c7c209afe4d
+    traits:
+      type: VILLAGER
+      location:
+        world: world
+        x: '3189.5'
+        y: '68.0'
+        z: '1094.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '39':
+    name: §7[§f§l棱镜草§7]
+    uuid: 9b2b9ba4-3e97-4888-9cdb-8ff720eb3afb
+    traits:
+      type: VILLAGER
+      location:
+        world: world
+        x: '3189.5'
+        y: '68.0'
+        z: '1095.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '48':
+    name: §7[§a§l生存资源兑换§7]
+    uuid: bcd09ae0-0a88-45a1-a094-57461801b72e
+    traits:
+      type: VILLAGER
+      location:
+        world: world
+        x: '3190.5'
+        y: '68.0'
+        z: '1138.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '47':
+    name: §7[§a生存食物兑换§7]
+    uuid: 26957b5e-65a7-45eb-8c81-607060e9f085
+    traits:
+      type: VILLAGER
+      location:
+        world: world
+        x: '3190.5'
+        y: '68.0'
+        z: '1136.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '52':
+    name: §7[§e§l脉冲黄桃§7]
+    uuid: 94e1503d-80bf-4da1-b7c4-2bddd974829e
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      type: VILLAGER
+      spawned: true
+      location:
+        world: world
+        x: '3191.5'
+        y: '68.0'
+        z: '1098.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '51':
+    name: §7[§6§l大丽菊§7]
+    uuid: fdf12abb-d78f-41a6-9bfc-8cccf2806a8d
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      type: VILLAGER
+      spawned: true
+      location:
+        world: world
+        x: '3191.5'
+        y: '68.0'
+        z: '1099.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '50':
+    name: §7[§e§l五角星星果§7]
+    uuid: 94d50258-60af-4381-8a6d-d7a8d7d52f9c
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      type: VILLAGER
+      spawned: true
+      location:
+        world: world
+        x: '3191.5'
+        y: '68.0'
+        z: '1100.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '49':
+    name: §7[§5§l闪电芦苇§7]
+    uuid: 77b0c694-7c16-414e-a238-d09071ea32bb
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      type: VILLAGER
+      spawned: true
+      location:
+        world: world
+        x: '3191.5'
+        y: '68.0'
+        z: '1101.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '53':
+    name: §7[§6§l榴莲§7]
+    uuid: ad3ff7b0-7b97-4afe-b26f-3d162acec953
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      location:
+        world: world
+        x: '3191.5'
+        y: '68.0'
+        z: '1097.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '54':
+    name: §7[§2§l巴豆§7]
+    uuid: 3d53ef0e-97c8-42e6-9519-b4ba6a92ffb9
+    traits:
+      location:
+        world: world
+        x: '3191.5'
+        y: '68.0'
+        z: '1096.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      spawned: true
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '59':
+    name: §7[§a§l缠绕水草§7]
+    uuid: c0d05510-ac30-4cbd-adaf-60f0a3a70263
+    traits:
+      location:
+        world: world
+        x: '3182.5'
+        y: '68.0'
+        z: '1096.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '58':
+    name: §7[§f§l蒲公英炸弹§7]
+    uuid: 390ff158-b3dd-4530-9faf-6b4be6893273
+    traits:
+      location:
+        world: world
+        x: '3182.5'
+        y: '68.0'
+        z: '1095.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '57':
+    name: §7[§5§l磁力菇§7]
+    uuid: 50c02824-4bba-484c-b0c8-49113dce8723
+    traits:
+      location:
+        world: world
+        x: '3182.5'
+        y: '68.0'
+        z: '1094.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '56':
+    name: §7[§e§l阳光菇§7]
+    uuid: f022a542-4a3c-465c-b263-41fe0d6ad4c0
+    traits:
+      location:
+        world: world
+        x: '3191.5'
+        y: '68.0'
+        z: '1094.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '55':
+    name: §7[§a§l大力菜花§7]
+    uuid: 667d31c1-96b6-4a3d-8a0a-867441b67218
+    traits:
+      location:
+        world: world
+        x: '3191.5'
+        y: '68.0'
+        z: '1095.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '62':
+    name: §7[§f§l捣蛋萝卜§7]
+    uuid: e31f8ec0-cd53-4b3b-b01e-f91f0f67ea64
+    traits:
+      spawned: true
+      type: VILLAGER
+      location:
+        world: world
+        x: '3182.5'
+        y: '68.0'
+        z: '1098.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '61':
+    name: §7[§b§l龙舌兰§7]
+    uuid: 539fb09a-a604-42be-904c-d0e251258486
+    traits:
+      spawned: true
+      type: VILLAGER
+      location:
+        world: world
+        x: '3182.5'
+        y: '68.0'
+        z: '1097.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '70':
+    name: §7[§b剧情开始§7]
+    uuid: 409e089d-e7e5-484d-a346-4c076eceed48
+    traits:
+      location:
+        world: kne
+        x: '1281.5'
+        y: '66.0'
+        z: '288.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: PIG
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '69':
+    name: §a智慧村原版稀有物品
+    uuid: bc212ea6-61b7-4e41-9382-09bd32c93f7c
+    traits:
+      location:
+        world: kne
+        x: '1345.5'
+        y: '64.0'
+        z: '267.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '68':
+    name: §a智慧村增益药水出售
+    uuid: c4d3d871-ae72-4840-a1e5-ada1cbb00ed8
+    traits:
+      location:
+        world: kne
+        x: '1345.5'
+        y: '64.0'
+        z: '277.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '67':
+    name: §a智慧村保存大哥
+    uuid: f6871903-e50b-4485-9988-5822c6269d8f
+    traits:
+      location:
+        world: kne
+        x: '1326.5'
+        y: '64.0'
+        z: '286.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '66':
+    name: §a智慧村商人
+    uuid: f9a08608-029e-495d-9a15-a978547570ee
+    traits:
+      location:
+        world: kne
+        x: '1327.5'
+        y: '64.0'
+        z: '267.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '64':
+    name: §a智慧村铁匠
+    uuid: 20d5ffdc-d78d-4908-8dd3-2c462db94fff
+    traits:
+      location:
+        world: kne
+        x: '1328.5'
+        y: '64.0'
+        z: '243.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '63':
+    name: §a智慧村村长
+    uuid: 03c0d608-0688-4f83-b190-99a78420ab34
+    traits:
+      location:
+        world: kne
+        x: '1284.5'
+        y: '66.0'
+        z: '289.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '71':
+    name: §a经验小羊
+    uuid: 8a942b21-602d-4dd3-abf0-af3cf29f5352
+    traits:
+      location:
+        world: kne
+        x: '1279.5'
+        y: '64.0'
+        z: '264.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: SHEEP
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '73':
+    name: §e
+    uuid: a15e7b93-4391-4f87-bc79-ad894b882e32
+    traits:
+      location:
+        world: sj
+        x: '968.5'
+        y: '64.0'
+        z: '-225.5'
+        yaw: '-31.588817596435547'
+        pitch: '0.0'
+      type: SILVERFISH
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '75':
+    name: §7[§a§l智慧树§7]
+    uuid: 4c92dacd-b858-4a39-8f14-7075f1d887ef
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      type: CHICKEN
+      location:
+        world: kne
+        x: '1309.5'
+        y: '65.0'
+        z: '270.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '74':
+    name: §7[§6§l高坚果§7]
+    uuid: b45e9040-f90c-4a18-a3e7-523d90ecbdb0
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      type: VILLAGER
+      location:
+        world: world
+        x: '3182.5'
+        y: '68.0'
+        z: '1099.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,owner,lookclose,mounttrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

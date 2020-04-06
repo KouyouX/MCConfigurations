@@ -1,0 +1,8 @@
+every minute:
+    set {_a} to a random integer between 1 and 3
+    if {_a} is 1:
+        broadcast "&a&l公告>>&7 请玩家尽量文明用语，善待他人，和平相处"
+    if {_a} is 2:
+        broadcast "&a&l公告>>&7 氪金请加群联系群主，私下交易被骗不管"
+    if {_a} is 3:
+        broadcast "&a&l公告>>&7 举报-主城杀人-违规操作-违规物品-抢普通刷怪挂机点->获得丰厚奖励（请携带证据）"

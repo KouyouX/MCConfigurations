@@ -1,0 +1,104 @@
+title:
+  Enable: true
+  Title: '&d等级提升！'
+  SubTitle: '&f现在的等级: &e%level%级&b丨&f之前的等级: &e%oldlevel%级'
+  FadeIn: 15
+  Time: 20
+  FadeOut: 15
+message:
+  Enable: true
+  Msg: '&b&l&m          &e&l丨&d&l等级提升&e&l丨&b&l&m          /n&7<&e&l!&7> &f之前的等级: &e%oldlevel%级/n&7<&e&l!&7> &f现在的等级: &e%level%级/n&b&l&m          &e&l丨&d&l等级提升&e&l丨&b&l&m          '
+limit:
+  chat: false
+  allow_chat_level: 0
+  deny_chat_msg: 'You cant speak!'
+chat:
+  enable: true
+  format: '&7[&e等级&c-&a{level}&7]'
+levelcustom:
+  '10': 
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &610级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a10级 &f!'
+  '20': 
+    Cmd:
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &620级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a20级 &f!'
+  '30': 
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &630级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a30级 &f!'
+  '40': 
+    Cmd:
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &640级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a40级 &f!'
+  '50': 
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &650级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a50级 &f!'
+  '60': 
+    Cmd:
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &660级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a60级 &f!'
+  '70': 
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &670级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a70级 &f!'
+  '80': 
+    Cmd:
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &680级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a80级 &f!'
+  '90': 
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &690级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a90级 &f!'
+  '100': 
+    Cmd:
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &6100级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a100级 &f!'
+  '120': 
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &6120级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a120级 &f!'
+  '150': 
+    Cmd:
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &6150级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a150级 &f!'
+  '180': 
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &6180级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a180级 &f!'
+  '200': 
+    Cmd:
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &6200级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a200级 &f!'
+  '250': 
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &6250级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a250级 &f!'
+  '300': 
+    Cmd:
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &6300级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a300级 &f!'
+  '350': 
+    Cmd:
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &6350级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a350级 &f!'
+  '400': 
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &6400级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a400级 &f!'
+  '450': 
+    Cmd:
+    Cmd:
+      - 'bc &f玩家 &a%player% &f提升到了 &6450级 &f!'
+    Msg: '&f恭喜你的等级已经提升到了 &a450级 &f!'

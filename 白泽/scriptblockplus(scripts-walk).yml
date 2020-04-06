@@ -1,0 +1,111 @@
+world:
+  3194, 67, 1167:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/01 20:18:18
+    Scripts:
+    - '[@oldcooldown:8][@bypass mv tp sc]'
+  3193, 67, 1167:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/01 20:18:20
+    Scripts:
+    - '[@oldcooldown:8][@bypass mv tp sc]'
+  3192, 67, 1167:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/01 20:18:23
+    Scripts:
+    - '[@oldcooldown:8][@bypass mv tp sc]'
+  3191, 67, 1167:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/01 20:18:25
+    Scripts:
+    - '[@oldcooldown:8][@bypass mv tp sc]'
+  3190, 67, 1167:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/01 20:18:28
+    Scripts:
+    - '[@oldcooldown:8][@bypass mv tp sc]'
+  3190, 67, 1166:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/01 20:18:30
+    Scripts:
+    - '[@oldcooldown:8][@bypass mv tp sc]'
+  3191, 67, 1166:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/01 20:18:32
+    Scripts:
+    - '[@oldcooldown:8][@bypass mv tp sc]'
+  3192, 67, 1166:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/01 20:18:34
+    Scripts:
+    - '[@oldcooldown:8][@bypass mv tp sc]'
+  3193, 67, 1166:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/01 20:18:37
+    Scripts:
+    - '[@oldcooldown:8][@bypass mv tp sc]'
+  3194, 67, 1166:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/01 20:18:39
+    Scripts:
+    - '[@oldcooldown:8][@bypass mv tp sc]'
+  3192, 62, 1089:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/06 13:20:03
+    Scripts:
+    - '[@bypass warp 智慧村][@cooldown:60]'
+  3192, 62, 1088:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/06 13:20:05
+    Scripts:
+    - '[@bypass warp 智慧村][@cooldown:60]'
+  3192, 62, 1087:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/06 13:20:07
+    Scripts:
+    - '[@bypass warp 智慧村][@cooldown:60]'
+  3193, 62, 1088:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/06 13:20:12
+    Scripts:
+    - '[@bypass warp 智慧村][@cooldown:60]'
+  3193, 62, 1089:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/06 13:20:13
+    Scripts:
+    - '[@bypass warp 智慧村][@cooldown:60]'
+  3194, 62, 1089:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/06 13:20:16
+    Scripts:
+    - '[@bypass warp 智慧村][@cooldown:60]'
+  3194, 62, 1088:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/06 13:20:18
+    Scripts:
+    - '[@bypass warp 智慧村][@cooldown:60]'
+  3193, 62, 1087:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/06 13:20:31
+    Scripts:
+    - '[@bypass warp 智慧村][@cooldown:60]'
+  3194, 62, 1087:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/06 13:20:33
+    Scripts:
+    - '[@bypass warp 智慧村][@cooldown:60]'
+  3195, 62, 1087:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/06 13:20:36
+    Scripts:
+    - '[@bypass warp 智慧村][@cooldown:60]'
+  3195, 62, 1088:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/06 13:20:38
+    Scripts:
+    - '[@bypass warp 智慧村][@cooldown:60]'
+  3195, 62, 1089:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/06 13:20:40
+    Scripts:
+    - '[@bypass warp 智慧村][@cooldown:60]'

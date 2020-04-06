@@ -1,0 +1,4204 @@
+植物豌豆射手:
+  Id: 276
+  Data: 0
+  Display: '&f- &6植物·豌豆射手 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a10'
+  - '&7'
+  - '&7PVP攻击力:&a+20%'
+  - '&7'
+  - '&7暴击几率:&a12%'
+  - '&7'
+  - '&7暴击伤害:&a130%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a暂无'
+  - '&7'
+  - '&7技能伤害:&a空'
+  - '&7'
+  - '&7最大范围:&a空'
+  - '&7'
+  - '&7触发方式:&a空'
+  - '&7'
+  - '&7冷却时间:&a空'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+疯狂戴夫:
+  Id: 306
+  Data: 0
+  Display: '&f- &6疯狂戴夫·帽子 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a头盔'
+  - '&7'
+  - '&7生命上限:&a100'
+  - '&7'
+  - '&7防御力:&a8%'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+8%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a暂无'
+  - '&7'
+  - '&7技能伤害:&a空'
+  - '&7'
+  - '&7最大范围:&a空'
+  - '&7'
+  - '&7触发方式:&a空'
+  - '&7'
+  - '&7冷却时间:&a空'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+植物向日葵:
+  Id: 175
+  Data: 0
+  Display: '&f- &6植物·向日葵 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7防御力:&a10&'
+  - '&7'
+  - '&7经验加成:&a+10%'
+  - '&7'
+  - '&7生命恢复:&a3%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a阳光能量'
+  - '&7'
+  - '&7技能用处:&a恢复自身血量'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a主手'
+  - '&7'
+  - '&7冷却时间:&a1s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+100游戏币:
+  Id: 339
+  Data: 0
+  Display: '&f- &a100游戏币 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7服务器内流通的实体金币'
+  - '&7可以兑换各种植物，道具'
+  - '&7有很高的价格'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7出售价格:&a100'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+1000游戏币:
+  Id: 339
+  Data: 0
+  Display: '&f- &a1000游戏币 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7服务器内流通的实体金币'
+  - '&7可以兑换各种植物，道具'
+  - '&7有很高的价格'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7出售价格:&a1000'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+10000游戏币:
+  Id: 339
+  Data: 0
+  Display: '&f- &a10000游戏币 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7服务器内流通的实体金币'
+  - '&7可以兑换各种植物，道具'
+  - '&7有很高的价格'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7出售价格:&a10000'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+100000游戏币:
+  Id: 339
+  Data: 0
+  Display: '&f- &a100000游戏币 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7服务器内流通的实体金币'
+  - '&7可以兑换各种植物，道具'
+  - '&7有很高的价格'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7出售价格:&a100000'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+僵尸牙齿:
+  Id: 367
+  Data: 0
+  Display: '&f- &a僵尸牙齿 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7低等级僵尸掉落的牙齿'
+  - '&7超级丑，闻到了会很晕'
+  - '&7推荐卖了赚钱'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7出售价格:&a20'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+僵尸肉:
+  Id: 367
+  Data: 0
+  Display: '&f- &a僵尸肉 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7低等级僵尸掉落的肉'
+  - '&7异常难闻，没什么用'
+  - '&7推荐卖了赚钱'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7出售价格:&a10'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+冲浪滑板:
+  Id: 78
+  Data: 0
+  Display: '&f- &a冲浪滑板 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7自从僵尸学会了享受'
+  - '&7就觉得冲浪是一种刺激'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7出售价格:&a800'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+埃及沙:
+  Id: 348
+  Data: 0
+  Display: '&f- &a埃及沙子 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7神秘埃及地上的沙之'
+  - '&7打晕了僵尸就能获得'
+  - '&7推荐卖了赚钱'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7出售价格:&a80'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+开荒僵尸肉:
+  Id: 367
+  Data: 0
+  Display: '&f- &a开荒僵尸肉 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7开荒僵尸掉落'
+  - '&7兑换竹员外'
+  - '&7不推荐卖了赚钱'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7出售价格:&a100'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+暗黑蘑菇:
+  Id: 351
+  Data: 5
+  Display: '&f- &a暗黑蘑菇 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7生长在阴暗的环境中'
+  - '&7对僵尸来说是一种美味'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7出售价格:&a300'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+机动核心:
+  Id: 341
+  Data: 0
+  Display: '&f- &a机动核心 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7僵王博士所操控的机甲'
+  - '&7垃圾到爆，妈的'
+  - '&7推荐卖了赚钱'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7出售价格:&a100'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+海盗碎布:
+  Id: 351
+  Data: 15
+  Display: '&f- &a海盗碎布 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7潜伏在船上的海盗'
+  - '&7这是抢来的布匹'
+  - '&7推荐卖了赚钱'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7出售价格:&a120'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+电子产品:
+  Id: 339
+  Data: 0
+  Display: '&f- &a电子产品 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7太可怕了，僵尸诞生了智慧'
+  - '&7发明了一款电子产品，毒害人类'
+  - '&7卖了可以赚钱，高新科技'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7出售价格:&a250'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+西部牛角:
+  Id: 371
+  Data: 0
+  Display: '&f- &a西部牛角 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7西部功夫世界的牛'
+  - '&7却被僵尸撤下了牛角'
+  - '&7太可怜了，回收商人要高价收'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7出售价格:&a180'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+植物樱桃炸弹:
+  Id: 331
+  Data: 0
+  Display: '&f- &6植物·樱桃炸弹 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7樱桃炸弹'
+  - '&7氪金十块赠送'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a20'
+  - '&7'
+  - '&7PVP攻击力:&a+50%'
+  - '&7'
+  - '&7暴击几率:&a10%'
+  - '&7'
+  - '&7暴击伤害:&a10%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a樱桃爆炸'
+  - '&7'
+  - '&7技能用处:&a范围轰炸'
+  - '&7'
+  - '&7伤害值:&a50'
+  - '&7'
+  - '&7最大范围:&a15格范围'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a18S'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物樱桃炸弹} @Self ~onUse
+陨落星星果:
+  Id: 283
+  Display: '&a陨落星星果'
+  Lore:
+  - '&8&m&8&m-----------&6&l『&d&l技能描述&6&l』&8&m-----------'
+  - '§6陨落之星'
+  - '§8技能冷却: §b30'
+  - '§8触发类型: §b右键触发'
+  - '§a右键对10格内所有目标'
+  - '§a造成§7100§a伤害'
+  - '§a并恢复§d&l等量§a生命'
+  - '§c短暂蓄力后召唤等量伤害的流星群'
+  - '&8&m&8&m-----------&6&l『&d&l物品属性&6&l』&8&m-----------'
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a30'
+  - '&7'
+  - '&7暴击几率:&a10%'
+  - '&7'
+  - '&7暴击伤害:&a100%'
+  - '&7'
+  - '&8&m&8&m-----------&6&l『&d&l私人订制&6&l』&8&m-----------'
+  Options:
+    Unbreakable: true
+  Skills:
+  - skill{s=陨落之星} @Self ~onUse
+植物三叶草:
+  Id: 6
+  Data: 0
+  Display: '&f- &6植物·三叶草 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a30'
+  - '&7'
+  - '&7PVP攻击力:&a+10%'
+  - '&7'
+  - '&7暴击几率:&a40%'
+  - '&7'
+  - '&7暴击伤害:&a+10%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a摧枯拉朽'
+  - '&7'
+  - '&7技能用处:&a吹目标上天'
+  - '&7'
+  - '&7伤害值:&a40'
+  - '&7'
+  - '&7最大范围:&a10格范围'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a14S'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物三叶草} @Target ~onUse
+植物三枪豌豆:
+  Id: 276
+  Data: 0
+  Display: '&f- &6植物·三枪豌豆 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a40'
+  - '&7'
+  - '&7PVP攻击力:&a+20%'
+  - '&7'
+  - '&7暴击几率:&a12%'
+  - '&7'
+  - '&7暴击伤害:&a130%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a暂无'
+  - '&7'
+  - '&7技能伤害:&a空'
+  - '&7'
+  - '&7最大范围:&a空'
+  - '&7'
+  - '&7触发方式:&a空'
+  - '&7'
+  - '&7冷却时间:&a空'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+植物冰冻生菜:
+  Id: 351
+  Data: 6
+  Display: '&f- &6植物·冰冻生菜 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a80'
+  - '&7'
+  - '&7失明几率:&a10%'
+  - '&7'
+  - '&7暴击几率:&a5%'
+  - '&7'
+  - '&7暴击伤害:&a+80%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a致盲冰霜'
+  - '&7'
+  - '&7技能用处:&a冰冻目标'
+  - '&7'
+  - '&7最大范围:&a8格范围'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a10S'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物冰冻生菜} @Target ~onUse
+植物双枪豌豆:
+  Id: 276
+  Data: 0
+  Display: '&f- &6植物·双枪豌豆 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a25'
+  - '&7'
+  - '&7PVP攻击力:&a+20%'
+  - '&7'
+  - '&7暴击几率:&a12%'
+  - '&7'
+  - '&7暴击伤害:&a130%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a暂无'
+  - '&7'
+  - '&7技能伤害:&a空'
+  - '&7'
+  - '&7最大范围:&a空'
+  - '&7'
+  - '&7触发方式:&a空'
+  - '&7'
+  - '&7冷却时间:&a空'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+植物土豆地雷:
+  Id: 348
+  Data: 0
+  Display: '&f- &6植物·土豆地雷 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a15'
+  - '&7'
+  - '&7PVP攻击力:&a+10%'
+  - '&7'
+  - '&7暴击几率:&a10%'
+  - '&7'
+  - '&7暴击伤害:&a+80%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a潜伏爆炸'
+  - '&7'
+  - '&7技能用处:&a引爆敌人'
+  - '&7'
+  - '&7伤害值:&a20'
+  - '&7'
+  - '&7最大范围:&a10格范围'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a12S'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物土豆地雷} @Target ~onUse
+植物坚果:
+  Id: 299
+  Data: 0
+  Display: '&f- &6植物·坚果 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a盔甲'
+  - '&7'
+  - '&7生命上限:&a80'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+3%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a绝地保护'
+  - '&7'
+  - '&7技能用处:&a有几率恢复部分血量'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a被攻击'
+  - '&7'
+  - '&7冷却时间:&a未知'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7耐久度:&a250&7/250'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Skills:
+  - skill{s=植物坚果} @Self ~onDamaged 0.1
+植物坚果无限耐久:
+  Id: 299
+  Data: 0
+  Display: '&f- &6植物·坚果 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a盔甲'
+  - '&7'
+  - '&7生命上限:&a80'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+3%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a绝地保护'
+  - '&7'
+  - '&7技能用处:&a有几率恢复部分血量'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a被攻击'
+  - '&7'
+  - '&7冷却时间:&a未知'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Skills:
+  - skill{s=植物坚果} @Self ~onDamaged 0.1
+  Options:
+      Unbreakable: true
+植物墓碑苔藓:
+  Id: 263
+  Data: 0
+  Display: '&f- &6植物·墓碑苔藓 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a20'
+  - '&7'
+  - '&7PVP攻击力:&a+10%'
+  - '&7'
+  - '&7暴击几率:&a8%'
+  - '&7'
+  - '&7暴击伤害:&a+80%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a禁锢吞噬'
+  - '&7'
+  - '&7技能用处:&a禁锢目标'
+  - '&7'
+  - '&7伤害值:&a12'
+  - '&7'
+  - '&7最大范围:&a10格范围'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a12S'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物墓碑苔藓} @Target ~onUse
+植物大蒜:
+  Id: 337
+  Data: 0
+  Display: '&f- &6植物·大蒜 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a50'
+  - '&7'
+  - '&7PVP攻击力:&a+50%'
+  - '&7'
+  - '&7暴击几率:&a2%'
+  - '&7'
+  - '&7暴击伤害:&a+200%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a致晕粉'
+  - '&7'
+  - '&7技能用处:&a使目标缓慢'
+  - '&7'
+  - '&7最大范围:&a5格范围'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a5S'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物大蒜} @Target ~onUse
+植物火炬树桩:
+  Id: 351
+  Data: 1
+  Display: '&f- &6植物·火炬树桩 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a副武器'
+  - '&7'
+  - '&7攻击力:&a10'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7暴击几率:&a+4%'
+  - '&7'
+  - '&7点燃几率:&a+50%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a助燃'
+  - '&7'
+  - '&7技能用处:&a攻击时点燃敌人'
+  - '&7'
+  - '&7最大范围:&a目标'
+  - '&7'
+  - '&7触发方式:&a攻击触发'
+  - '&7'
+  - '&7冷却时间:&a半几率'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+植物烟雾蘑菇:
+  Id: 351
+  Data: 5
+  Display: '&f- &6植物·烟雾蘑菇 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a12'
+  - '&7'
+  - '&7PVP攻击力:&a+40%'
+  - '&7'
+  - '&7暴击几率:&a2%'
+  - '&7'
+  - '&7暴击伤害:&a+200%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a紫烟吐射'
+  - '&7'
+  - '&7技能用处:&a射出紫烟'
+  - '&7'
+  - '&7伤害值:&a5'
+  - '&7'
+  - '&7最大范围:&a20格范围'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a2S'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物烟雾蘑菇} @Target ~onUse
+植物花盆:
+  Id: 301
+  Data: 0
+  Display: '&f- &6植物·花盆 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a靴子'
+  - '&7'
+  - '&7生命上限:&a100'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+6%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a孕育保护'
+  - '&7'
+  - '&7技能用处:&a恢复部分血量'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a穿戴'
+  - '&7'
+  - '&7冷却时间:&a1s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7耐久度:&a500&7/250'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Skills:
+  - skill{s=植物花盆} @Self ~onTimer:20
+植物花盆无限耐久:
+  Id: 301
+  Data: 0
+  Display: '&f- &6植物·花盆 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a靴子'
+  - '&7'
+  - '&7生命上限:&a100'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+6%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a孕育保护'
+  - '&7'
+  - '&7技能用处:&a恢复部分血量'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a穿戴'
+  - '&7'
+  - '&7冷却时间:&a1s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Skills:
+  - skill{s=植物花盆} @Self ~onTimer:20
+  Options:
+      Unbreakable: true
+植物寒冰豌豆:
+  Id: 276
+  Data: 0
+  Display: '&f- &6植物·寒冰豌豆 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a30'
+  - '&7'
+  - '&7雷霆几率:&a20%'
+  - '&7'
+  - '&7缓慢几率:&a20%'
+  - '&7'
+  - '&7暴击几率:&a20%'
+  - '&7'
+  - '&7暴击伤害:&a120%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a寒冰雷霆'
+  - '&7'
+  - '&7技能伤害:&a30'
+  - '&7'
+  - '&7最大范围:&a目标'
+  - '&7'
+  - '&7触发方式:&a攻击时'
+  - '&7'
+  - '&7冷却时间:&a1/5几率'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+植物高坚果:
+  Id: 299
+  Data: 0
+  Display: '&f- &6植物·高坚果 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a盔甲'
+  - '&7'
+  - '&7生命上限:&a180'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+3%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a绝地保护'
+  - '&7'
+  - '&7技能用处:&a有几率恢复部分血量'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a被攻击'
+  - '&7'
+  - '&7冷却时间:&a未知'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7耐久度:&a250&7/250'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Skills:
+  - skill{s=植物坚果} @Self ~onDamaged 0.1
+植物高坚果无限耐久:
+  Id: 299
+  Data: 0
+  Display: '&f- &6植物·高坚果 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a盔甲'
+  - '&7'
+  - '&7生命上限:&a180'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+3%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a绝地保护'
+  - '&7'
+  - '&7技能用处:&a有几率恢复部分血量'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a被攻击'
+  - '&7'
+  - '&7冷却时间:&a未知'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Skills:
+  - skill{s=植物坚果} @Self ~onDamaged 0.1
+  Options:
+      Unbreakable: true
+植物鸡你太美:
+  Id: 283
+  Data: 0
+  Display: '&f- &6定制·鸡你太美 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7鸡你太美'
+  - '&7定制者：&b&l&oXu_kun'
+  - '&6绑定'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a副武器'
+  - '&7'
+  - '&7攻击力:&a700'
+  - '&7'
+  - '&7暴击几率:&a+5%'
+  - '&7'
+  - '&7撕裂几率:&a+5%'
+  - '&7'
+  - '&7暴击伤害:&a+180%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a金钱气息'
+  - '&7'
+  - '&7技能用处:&a专属特效'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a持有'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物鸡你太美特效} @Self ~onTimer:20
+氪金九折卡666e:
+  Id: 339
+  Data: 0
+  Display: '&f- &6氪金玩家九折卡 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7氪金永久获得九折优惠'
+  - '&7来源神秘-获得途径未知'
+  - '&7'
+  - '&7不可出售'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&6绑定'
+  - '&7此卡归属者:&e&o666e'
+  - '&7'
+  - '&7卡密:&a684156451318462451'
+  - '&7卡密被外人知晓-此卡将报废'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+氪金九折卡Xu_kun:
+  Id: 339
+  Data: 0
+  Display: '&f- &6氪金玩家九折卡 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7氪金永久获得九折优惠'
+  - '&7来源神秘-获得途径未知'
+  - '&7'
+  - '&7不可出售'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&6绑定'
+  - '&7此卡归属者:&e&oXu_kun'
+  - '&7'
+  - '&7卡密:&a627141271657256775'
+  - '&7卡密被外人知晓-此卡将报废'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+氪金九折卡zhoo:
+  Id: 339
+  Data: 0
+  Display: '&f- &6氪金玩家九折卡 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7氪金永久获得九折优惠'
+  - '&7来源神秘-获得途径未知'
+  - '&7'
+  - '&7不可出售'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&6绑定'
+  - '&7此卡归属者:&e&ozhoo'
+  - '&7'
+  - '&7卡密:&a698517676512751374'
+  - '&7卡密被外人知晓-此卡将报废'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+植物火葫芦:
+  Id: 351
+  Data: 1
+  Display: '&f- &6植物·火葫芦 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a300'
+  - '&7'
+  - '&7点燃几率:&a20%'
+  - '&7'
+  - '&7暴击几率:&a10%'
+  - '&7'
+  - '&7暴击伤害:&a+20%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a火葫芦射线'
+  - '&7'
+  - '&7技能用处:&a吐火'
+  - '&7'
+  - '&7技能伤害:&a50'
+  - '&7'
+  - '&7最大范围:&a10格范围'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a0.2S'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物火葫芦} @Target ~onUse
+植物白萝卜:
+  Id: 299
+  Data: 0
+  Display: '&f- &6植物·白萝卜 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a盔甲'
+  - '&7'
+  - '&7生命上限:&a500'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+5%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a气功护体'
+  - '&7'
+  - '&7技能用处:&a抵御气功'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a穿戴'
+  - '&7'
+  - '&7冷却时间:&a几率'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7耐久度:&a1000&7/1000'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Color: 255,255,255
+  Skills:
+  - skill{s=植物白萝卜} @Self ~onTimer:140
+植物白萝卜无限耐久:
+  Id: 299
+  Data: 0
+  Display: '&f- &6植物·白萝卜 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a盔甲'
+  - '&7'
+  - '&7生命上限:&a500'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+5%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a气功护体'
+  - '&7'
+  - '&7技能用处:&a抵御气功'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a穿戴'
+  - '&7'
+  - '&7冷却时间:&a几率'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Unbreakable: true
+    Color: 255,255,255
+  Skills:
+  - skill{s=植物白萝卜} @Self ~onTimer:140
+植物竹笋:
+  Id: 338
+  Data: 0
+  Display: '&f- &6植物·竹笋 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a300'
+  - '&7'
+  - '&7限制等级:&a80'
+  - '&7'
+  - '&7移动速度:&a+10%'
+  - '&7'
+  - '&7PVP攻击力:&a+10%'
+  - '&7'
+  - '&7暴击几率:&a10%'
+  - '&7'
+  - '&7暴击伤害:&a10%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a竹笋突刺'
+  - '&7'
+  - '&7技能伤害:&a80'
+  - '&7'
+  - '&7最大范围:&a15'
+  - '&7'
+  - '&7触发方式:&a右键'
+  - '&7'
+  - '&7冷却时间:&a10s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true 
+  Skills:
+  - skill{s=植物竹笋} @Target{r=15} ~onUse
+智慧斧:
+  Id: 279
+  Data: 0
+  Display: '&f- &a智慧斧头 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7由智慧村村长打造'
+  - '&7效类很高'
+  - '&7'
+  - '&7&o既能砍树，也能杀怪'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a20'
+  - '&7'
+  - '&7限制等级:&a10'
+  - '&7'
+  - '&7撕裂几率:&a10%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7出售价格:&a1800'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  - DIG_SPEED:7
+  - ARROW_DAMAGE:3
+  - WATER_WORKER:3
+  Options:
+      Unbreakable: true
+智慧稿:
+  Id: 278
+  Data: 0
+  Display: '&f- &a智慧稿子 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7由智慧村村长打造'
+  - '&7效类很高'
+  - '&7'
+  - '&7&o既能挖矿，也能杀怪'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a20'
+  - '&7'
+  - '&7限制等级:&a10'
+  - '&7'
+  - '&7撕裂几率:&a10%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7出售价格:&a1800'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  - DIG_SPEED:7
+  - ARROW_DAMAGE:3
+  - WATER_WORKER:3
+  Options:
+      Unbreakable: true
+剑:
+  Id: 272
+火把:
+  Id: 50
+  Display: '&a火把'
+  Options:
+    Unbreakable: true
+烈焰棒:
+  Id: 269
+  Display: '&a烈焰棒'
+  Options:
+    Unbreakable: true
+巨人僵尸斧头:
+  Id: 271
+  Display: '&a斧头'
+  Options:
+    Unbreakable: true
+鱼:
+  Id: 349
+  Display: '&a鱼'
+  Options:
+    Unbreakable: true
+钓鱼钩:
+  Id: 346
+  Display: '&a钓鱼钩'
+  Options:
+    Unbreakable: true
+皮帽:
+  Id: 298
+  Display: '&a皮帽'
+  Options:
+    Unbreakable: true
+皮甲:
+  Id: 299
+  Display: '&a皮甲'
+  Options:
+    Unbreakable: true
+皮裤:
+  Id: 300
+  Display: '&a皮裤'
+  Options:
+    Unbreakable: true
+皮靴:
+  Id: 301
+  Display: '&a皮靴'
+  Options:
+    Unbreakable: true
+黑皮帽:
+  Id: 298
+  Display: '&a皮帽'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+黑皮甲:
+  Id: 299
+  Display: '&a皮甲'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+黑皮裤:
+  Id: 300
+  Display: '&a皮裤'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+黑皮靴:
+  Id: 301
+  Display: '&a皮靴'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+锁帽:
+  Id: 302
+  Display: '&a锁帽'
+  Options:
+    Unbreakable: true
+锁甲:
+  Id: 303
+  Display: '&a锁甲'
+  Options:
+    Unbreakable: true
+锁裤:
+  Id: 304
+  Display: '&a锁裤'
+  Options:
+    Unbreakable: true
+锁靴:
+  Id: 305
+  Display: '&a锁靴'
+  Options:
+    Unbreakable: true
+金帽:
+  Id: 314
+  Display: '&a金帽'
+  Options:
+    Unbreakable: true
+金甲:
+  Id: 315
+  Display: '&a金甲'
+  Options:
+    Unbreakable: true
+金裤:
+  Id: 316
+  Display: '&a金裤'
+  Options:
+    Unbreakable: true
+金靴:
+  Id: 317
+  Display: '&a金靴'
+  Options:
+    Unbreakable: true
+钻石帽:
+  Id: 310
+  Display: '&a钻石帽'
+  Options:
+    Unbreakable: true
+钻石甲:
+  Id: 311
+  Display: '&a钻石甲'
+  Options:
+    Unbreakable: true
+钻石裤:
+  Id: 312
+  Display: '&a钻石裤'
+  Options:
+    Unbreakable: true
+钻石靴:
+  Id: 313
+  Display: '&a钻石靴'
+  Options:
+    Unbreakable: true
+木剑:
+  Id: 268
+  Display: '&a木剑'
+  Options:
+    Unbreakable: true
+石剑:
+  Id: 272
+  Display: '&a木剑'
+  Options:
+    Unbreakable: true
+铁剑:
+  Id: 267
+  Display: '&a木剑'
+  Options:
+    Unbreakable: true
+金剑:
+  Id: 283
+  Display: '&a木剑'
+  Options:
+    Unbreakable: true
+钻石剑:
+  Id: 276
+  Display: '&a木剑'
+  Options:
+    Unbreakable: true
+石斧:
+  Id: 275
+  Display: '&a木剑'
+  Options:
+    Unbreakable: true
+铁斧:
+  Id: 258
+  Display: '&a木剑'
+  Options:
+    Unbreakable: true
+金斧:
+  Id: 286
+  Display: '&a木剑'
+  Options:
+    Unbreakable: true
+钻石斧:
+  Id: 279
+  Display: '&a木剑'
+  Options:
+    Unbreakable: true
+弓:
+  Id: 261
+  Display: '&a弓'
+  Options:
+    Unbreakable: true
+铁帽:
+  Id: 306
+  Display: '&a铁帽'
+  Options:
+    Unbreakable: true
+铁甲:
+  Id: 307
+  Display: '&a铁甲'
+  Options:
+    Unbreakable: true
+铁裤:
+  Id: 308
+  Display: '&a铁裤'
+  Options:
+    Unbreakable: true
+铁靴:
+  Id: 309
+  Display: '&a铁靴'
+  Options:
+    Unbreakable: true
+深天蓝帽:
+  Id: 298
+  Display: ''
+  Options:
+    Unbreakable: true
+    Color: 0,191,255
+深天蓝甲:
+  Id: 299
+  Display: ''
+  Options:
+    Unbreakable: true
+    Color: 0,191,255
+深天蓝裤:
+  Id: 300
+  Display: ''
+  Options:
+    Unbreakable: true
+    Color: 0,191,255
+深天蓝靴:
+  Id: 301
+  Display: ''
+  Options:
+    Unbreakable: true
+    Color: 0,191,255
+橙红色帽:
+  Id: 298
+  Display: ''
+  Options:
+    Unbreakable: true
+    Color: 255,69,0
+橙红色甲:
+  Id: 299
+  Display: ''
+  Options:
+    Unbreakable: true
+    Color: 255,69,0
+橙红色裤:
+  Id: 300
+  Display: ''
+  Options:
+    Unbreakable: true
+    Color: 255,69,0
+橙红色靴:
+  Id: 301
+  Display: ''
+  Options:
+    Unbreakable: true
+    Color: 255,69,0
+黄土赭色帽:
+  Id: 298
+  Display: ''
+  Options:
+    Unbreakable: true
+    Color: 160,82,45
+黄土赭色甲:
+  Id: 299
+  Display: ''
+  Options:
+    Unbreakable: true
+    Color: 160,82,45
+黄土赭色裤:
+  Id: 300
+  Display: ''
+  Options:
+    Unbreakable: true
+    Color: 160,82,45
+黄土赭色靴:
+  Id: 301
+  Display: ''
+  Options:
+    Unbreakable: true
+    Color: 160,82,45
+盾牌:
+  Id: 160
+  Display: '0'
+  Options:
+    Unbreakable: true
+suoliantou:
+  Id: 302
+  Display: '&e&l怪物装备'
+  
+suolianxiong:
+  Id: 303
+  Display: '&e&l怪物装备'
+  
+suolianku:
+  Id: 304
+  Display: '&e&l怪物装备'
+  
+suolianxie:
+  Id: 305
+  Display: '&e&l怪物装备'
+  
+tietou:
+  Id: 306
+  Display: '&e&l怪物装备'
+  
+tiexiong:
+  Id: 307
+  Display: '&e&l怪物装备'
+  
+tieku:
+  Id: 308
+  Display: '&e&l怪物装备'
+  
+tiexie:
+  Id: 309
+  Display: '&e&l怪物装备'
+  
+zuantou:
+  Id: 310
+  Display: '&e&l怪物装备'
+  
+zuanxiong:
+  Id: 311
+  Display: '&e&l怪物装备'
+  
+zuanku:
+  Id: 312
+  Display: '&e&l怪物装备'
+
+zuanxie:
+  Id: 313
+  Display: '&e&l怪物装备'
+  
+jintou:
+  Id: 314
+  Display: '&e&l怪物装备'
+  
+jinxiong:
+  Id: 315
+  Display: '&e&l怪物装备'
+  
+jinku:
+  Id: 316
+  Display: '&e&l怪物装备'
+  
+jinxie:
+  Id: 317
+  Display: '&e&l怪物装备'
+  
+tiejian:
+  Id: 267
+  Display: '&e&l怪物装备'
+  
+mujian:
+  Id: 268
+  Display: '&e&l怪物装备'
+  
+shijian:
+  Id: 272
+  Display: '&e&l怪物装备'
+  
+zuanjian:
+  Id: 276
+  Display: '&e&l怪物装备'
+  
+jinjian:
+  Id: 283
+  Display: '&e&l怪物装备'
+
+huipixie:
+  Id: leather_boots
+  Options:
+    Color: 182,184,179
+huipiku:
+  Id: leather_leggings
+  Options:
+    Color: 182,184,179
+huipixiong:
+  Id: leather_chestplate
+  Options:
+    Color: 182,184,179
+huipitou:
+  Id: leather_helmet
+  Options:
+    Color: 182,184,179
+qingpitou:
+  Id: leather_helmet
+  Options:
+    Color: 0,255,255
+qingpixiong:
+  Id: leather_chestplate
+  Options:
+    Color: 0,255,255
+qingpiku:
+  Id: leather_leggings
+  Options:
+    Color: 0,255,255
+qingpixie:
+  Id: leather_boots
+  Options:
+    Color: 0,255,255
+hongpitou:
+  Id: leather_helmet
+  Options:
+    Color: 255,0,0
+hongpixiong:
+  Id: leather_chestplate
+  Options:
+    Color: 255,0,0
+hongpiku:
+  Id: leather_leggings
+  Options:
+    Color: 255,0,0
+hongpixie:
+  Id: leather_boots
+  Options:
+    Color: 255,0,0
+zihongpitou:
+  Id: leather_helmet
+  Options:
+    Color: 128,0,128
+zihongpixiong:
+  Id: leather_chestplate
+  Options:
+    Color: 128,0,128
+zihongpiku:
+  Id: leather_leggings
+  Options:
+    Color: 128,0,128
+zihongpixie:
+  Id: leather_boots
+  Options:
+    Color: 128,0,128
+zipitou:
+  Id: leather_helmet
+  Options:
+    Color: 255,20,147
+zipixiong:
+  Id: leather_chestplate
+  Options:
+    Color: 255,20,147
+zipiku:
+  Id: leather_leggings
+  Options:
+    Color: 255,20,147
+zipixie:
+  Id: leather_boots
+  Options:
+    Color: 255,20,147
+植物巴豆:
+  Id: 271
+  Data: 0
+  Display: '&f- &6植物·巴豆 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a副武器'
+  - '&7'
+  - '&7生命上限:&a+300'
+  - '&7'
+  - '&7攻击力:&a500'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7缓慢几率:&a10%'
+  - '&7'
+  - '&7暴击几率:&a+3%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a臭屁'
+  - '&7'
+  - '&7技能用处:&a造成缓慢'
+  - '&7'
+  - '&7最大范围:&a目标'
+  - '&7'
+  - '&7触发方式:&a副手 攻击时'
+  - '&7'
+  - '&7冷却时间:&a几率'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+定制Dafuk:
+  Id: 300
+  Data: 0
+  Display: '&f- &6你啥也不是 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7干死你这个臭鱼烂虾的东西你啥也不是你知道么'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a护腿'
+  - '&7'
+  - '&7定制者：&b&l&oDafuk'
+  - '&6绑定'
+  - '&7'
+  - '&7攻击力:&a+1000'
+  - '&7'
+  - '&7暴击几率:&a+20'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a自动回血'
+  - '&7'
+  - '&7技能用处:&a自动回血'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a穿戴'
+  - '&7'
+  - '&7冷却时间:&a每秒'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a雷霆反击'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7技能伤害:&a2000'
+  - '&7'
+  - '&7触发方式:&a雷霆反击'
+  - '&7'
+  - '&7冷却时间:&a3s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Unbreakable: true
+    Color: 127,255,212
+  Skills:
+  - skill{s=植物Dafuk反击} @Target ~onDamaged
+  - skill{s=植物Dafuk回血} @Self ~onTimer:20
+定制xukun裤子:
+  Id: 300
+  Data: 0
+  Display: '&f- &6定制Xu_kun的遗物·留有烂鸡蛋的内裤 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7嘿嘿嘿'
+  - '&7全服唯一的裤子'
+  - '&7真香'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7上面还存有隔壁老王的*液'
+  - '&7傻*的口水'
+  - '&7疯子的**'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a护腿'
+  - '&7'
+  - '&7定制者：&b&l&oXu_kun'
+  - '&6绑定'
+  - '&7'
+  - '&7颜色:&5基佬紫'
+  - '&7'
+  - '&7智力:&a250'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a智力攻击'
+  - '&7'
+  - '&7技能用处:&a使对方第三属性智力下降'
+  - '&7'
+  - '&7最大范围:&a10格'
+  - '&7'
+  - '&7触发方式:&a穿戴'
+  - '&7'
+  - '&7冷却时间:&a每秒'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Unbreakable: true
+    Color: 154,50,205
+定制zhoo的小裤衩:
+  Id: 312
+  Data: 0
+  Display: '&f- &6定制·zhoo的小裤衩 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7没有属性'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a护腿'
+  - '&7'
+  - '&7定制者：&b&l&ozhoo'
+  - '&6绑定'
+  - '&7'
+  - '&7生命上限:&a6000'
+  - '&7'
+  - '&7生命恢复:&a4%'
+  - '&7'
+  - '&7撕裂几率:&a5%'
+  - '&7'
+  - '&7经验加成:&a+10%'
+  - '&7'
+  - '&7攻击速度:&a+10%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&azhoo领域'
+  - '&7'
+  - '&7技能用处:&a绝对保护-受伤给予反击'
+  - '&7'
+  - '&7技能伤害:&a每次反击4000伤害'
+  - '&7'
+  - '&7领域范围:&a自身-目标'
+  - '&7'
+  - '&7触发方式:&a自动反击'
+  - '&7'
+  - '&7触发方式:&a穿戴'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Unbreakable: true
+  Skills:
+  - skill{s=植物zhoo白风} @Target ~onDamaged
+  - skill{s=植物zhoo回血} @Self ~onTimer:3
+  - skill{s=植物zhoo领域} @Self ~onTimer:20
+  - skill{s=植物zhoo领域2} @Self ~onTimer:20
+定制凤求凰:
+  Id: 316
+  Data: 0
+  Display: '&f- &6定制·凤求凰 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7邂逅你，是生生世世的宿命'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a护腿'
+  - '&7'
+  - '&7定制者：&b&l&o666e'
+  - '&6绑定'
+  - '&7'
+  - '&7生命上限:&a3000'
+  - '&7'
+  - '&7生命恢复:&a2%'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+5%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a白凤亮翅'
+  - '&7'
+  - '&7技能用处:&a对凤凰绝对保护-受伤给予反击'
+  - '&7'
+  - '&7技能伤害:&a每次反击2000伤害'
+  - '&7'
+  - '&7领域范围:&a自身-目标'
+  - '&7'
+  - '&7触发方式:&a自动白风亮翅'
+  - '&7'
+  - '&7触发方式:&a穿戴'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Unbreakable: true
+  Skills:
+  - skill{s=植物666e白风} @Target ~onDamaged
+  - skill{s=植物666e领域} @Self ~onTimer:20
+定制cssyu:
+  Id: 300
+  Data: 0
+  Display: '&f- &6定制·小推车 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a护腿'
+  - '&7'
+  - '&7定制者：&b&l&ocssyu'
+  - '&6绑定'
+  - '&7'
+  - '&7生命上限:&a500'
+  - '&7'
+  - '&7攻击力:&a250'
+  - '&7'
+  - '&7经验加成:&a+75%'
+  - '&7'
+  - '&7生命恢复:&a1%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Unbreakable: true
+    Color: 139,137,137
+活动对打第一:
+  Id: 300
+  Data: 0
+  Display: '&f- &6活动·工会对打冠军 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a护腿'
+  - '&7'
+  - '&7活动工会空手对决冠军'
+  - '&7'
+  - '&7生命上限:&a300'
+  - '&7'
+  - '&7攻击力:&a200'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7生命恢复:&a1%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Unbreakable: true
+活动对打第二:
+  Id: 300
+  Data: 0
+  Display: '&f- &6活动·工会对打亚军 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a护腿'
+  - '&7'
+  - '&7活动工会空手对决亚军'
+  - '&7'
+  - '&7生命上限:&a100'
+  - '&7'
+  - '&7攻击力:&a50'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Unbreakable: true
+植物大丽菊:
+  Id: 284
+  Data: 0
+  Display: '&f- &6植物·大丽菊 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a920'
+  - '&7'
+  - '&7限制等级:&a130'
+  - '&7'
+  - '&7失明几率:&a10%'
+  - '&7'
+  - '&7中毒几率:&a5%'
+  - '&7'
+  - '&7暴击几率:&a+10%'
+  - '&7'
+  - '&7暴击伤害:&a+180%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a菊花开'
+  - '&7'
+  - '&7技能用处:&a目标菊花绽放'
+  - '&7'
+  - '&7技能伤害:&a1400'
+  - '&7'
+  - '&7最大范围:&a10格范围'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a8s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物大丽菊} @Target ~onUse
+植物五角星星果:
+  Id: 294
+  Data: 0
+  Display: '&f- &6植物·五角星星果 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a880'
+  - '&7'
+  - '&7限制等级:&a140'
+  - '&7'
+  - '&7撕裂几率:&a8%'
+  - '&7'
+  - '&7暴击几率:&a+20%'
+  - '&7'
+  - '&7暴击伤害:&a+200%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a星星坠'
+  - '&7'
+  - '&7技能用处:&a坠落星星'
+  - '&7'
+  - '&7技能伤害:&a3000+血/生物'
+  - '&7'
+  - '&7最大范围:&a20格范围'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a60s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物五角星星果} @Self ~onUse
+植物榴莲:
+  Id: 299
+  Data: 0
+  Display: '&f- &6植物·榴莲 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a盔甲'
+  - '&7'
+  - '&7生命上限:&a2000'
+  - '&7'
+  - '&7限制等级:&a120'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+5%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a榴莲反伤'
+  - '&7'
+  - '&7技能用处:&a有几率反击伤害'
+  - '&7'
+  - '&7最大范围:&a攻击的玩家/2400伤害'
+  - '&7'
+  - '&7触发方式:&a被攻击'
+  - '&7'
+  - '&7冷却时间:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7耐久度:&a1000&7/1000'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Color: 255,193,37
+  Skills:
+  - skill{s=植物榴莲} @Target ~onDamaged 0.05
+植物榴莲无限耐久:
+  Id: 299
+  Data: 0
+  Display: '&f- &6植物·榴莲 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a盔甲'
+  - '&7'
+  - '&7生命上限:&a2000'
+  - '&7'
+  - '&7限制等级:&a120'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+5%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a榴莲反伤'
+  - '&7'
+  - '&7技能用处:&a有几率反射伤害'
+  - '&7'
+  - '&7最大范围:&a攻击的玩家'
+  - '&7'
+  - '&7触发方式:&a被攻击'
+  - '&7'
+  - '&7冷却时间:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Unbreakable: true
+    Color: 255,193,37
+  Skills:
+  - skill{s=植物榴莲} @Target ~onDamaged 0.05
+植物磁力菇:
+  Id: 351
+  Data: 5
+  Display: '&f- &6植物·磁力菇 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a520'
+  - '&7'
+  - '&7限制等级:&a100'
+  - '&7'
+  - '&7失明几率:&a10%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a植物磁力'
+  - '&7'
+  - '&7技能用处:&a将目标拉到自己身旁'
+  - '&7'
+  - '&7技能伤害:&a400'
+  - '&7'
+  - '&7最大范围:&a10格范围'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a5s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物磁力菇} @Target{a=10} ~onUse
+植物阳光菇:
+  Id: 351
+  Data: 11
+  Display: '&f- &6植物·阳光菇 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7生命上限:&a1200'
+  - '&7'
+  - '&7限制等级:&a100'
+  - '&7'
+  - '&7暴击伤害:&a+30%'
+  - '&7'
+  - '&7经验加成:&a+10%'
+  - '&7'
+  - '&7生命恢复:&a1%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a给玩家治疗'
+  - '&7'
+  - '&7技能目标:&a半径四格内最近的玩家'
+  - '&7'
+  - '&7恢复血量:&a2000'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a8s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物阳光菇} @NearestPlayer{r=4} ~onUse
+植物缠绕水草:
+  Id: 276
+  Data: 0
+  Display: '&f- &6植物·缠绕水草 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a1300'
+  - '&7'
+  - '&7限制等级:&a140'
+  - '&7'
+  - '&7失明几率:&a10%'
+  - '&7'
+  - '&7中毒几率:&a3%'
+  - '&7'
+  - '&7暴击几率:&a+8%'
+  - '&7'
+  - '&7暴击伤害:&a+240%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a水草连绵'
+  - '&7'
+  - '&7技能目标:&a目标移动降低'
+  - '&7'
+  - '&7技能伤害:&a1800'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a8s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物缠绕水草} @Target{a=8} ~onUse
+植物大力菜花皮肤:
+  Id: 267
+  Data: 0
+  Display: '&f- &6植物·大力菜花 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a红色眼镜'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a1100'
+  - '&7'
+  - '&7限制等级:&a140'
+  - '&7'
+  - '&7撕裂几率:&a20%'
+  - '&7'
+  - '&7PVP攻击力:&a+10%'
+  - '&7'
+  - '&7暴击几率:&a10%'
+  - '&7'
+  - '&7暴击伤害:&a100%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a狂暴捶打'
+  - '&7'
+  - '&7技能伤害:&a伤害附加'
+  - '&7'
+  - '&7最大范围:&a目标'
+  - '&7'
+  - '&7触发方式:&a攻击时'
+  - '&7'
+  - '&7冷却时间:&a几率触发'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+植物蒲公英炸弹:
+  Id: 267
+  Data: 0
+  Display: '&f- &6植物·蒲公英炸弹 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a1080'
+  - '&7'
+  - '&7限制等级:&a140'
+  - '&7'
+  - '&7凋零几率:&a20%'
+  - '&7'
+  - '&7暴击几率:&a2%'
+  - '&7'
+  - '&7暴击伤害:&a300%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a炸弹赠送'
+  - '&7'
+  - '&7技能伤害:&a目标爆炸'
+  - '&7'
+  - '&7最大范围:&a目标'
+  - '&7'
+  - '&7技能伤害:&a800'
+  - '&7'
+  - '&7触发方式:&a右键'
+  - '&7'
+  - '&7冷却时间:&a几率触发'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物蒲公英炸弹} @Target{a=8} ~onUse
+植物高坚果:
+  Id: 299
+  Data: 0
+  Display: '&f- &6植物·高坚果 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a盔甲'
+  - '&7'
+  - '&7生命上限:&a5000'
+  - '&7'
+  - '&7限制等级:&a200'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+5%'
+  - '&7'
+  - '&7洞穿智慧:&a+2%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a稳如泰山'
+  - '&7'
+  - '&7技能用处:&a小几率闪避攻击'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a被攻击'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7耐久度:&a1000&7/1000'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Color: 138,54,15
+植物高坚果无限耐久:
+  Id: 299
+  Data: 0
+  Display: '&f- &6植物·高坚果 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a盔甲'
+  - '&7'
+  - '&7生命上限:&a5000'
+  - '&7'
+  - '&7限制等级:&a200'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+5%'
+  - '&7'
+  - '&7洞穿智慧:&a+2%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a稳如泰山'
+  - '&7'
+  - '&7技能用处:&a小几率闪避攻击'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a被攻击'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Unbreakable: true
+    Color: 138,54,15
+植物智慧树1:
+  Id: 298
+  Data: 0
+  Display: '&f- &6智慧树 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a头盔'
+  - '&7'
+  - '&7生命上限:&a1000'
+  - '&7'
+  - '&7限制等级:&a50'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+5%'
+  - '&7'
+  - '&7洞穿智慧:&a+1%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a洞穿の智慧'
+  - '&7'
+  - '&7技能用处:&a几率闪避攻击'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a被攻击'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Unbreakable: true
+    Color:  0,255,0
+植物智慧树2:
+  Id: 298
+  Data: 0
+  Display: '&f- &6智慧树 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a头盔'
+  - '&7'
+  - '&7生命上限:&a2000'
+  - '&7'
+  - '&7限制等级:&a100'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+5%'
+  - '&7'
+  - '&7洞穿智慧:&a+1%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a洞穿の智慧'
+  - '&7'
+  - '&7技能用处:&a几率闪避攻击'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a被攻击'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Unbreakable: true
+    Color:  0,255,0
+植物智慧树3:
+  Id: 298
+  Data: 0
+  Display: '&f- &6智慧树 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a头盔'
+  - '&7'
+  - '&7生命上限:&a3000'
+  - '&7'
+  - '&7限制等级:&a150'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+5%'
+  - '&7'
+  - '&7洞穿智慧:&a+2%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a洞穿の智慧'
+  - '&7'
+  - '&7技能用处:&a几率闪避攻击'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a被攻击'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Unbreakable: true
+    Color:  0,255,0
+植物智慧树4:
+  Id: 298
+  Data: 0
+  Display: '&f- &6智慧树 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a头盔'
+  - '&7'
+  - '&7生命上限:&a4000'
+  - '&7'
+  - '&7限制等级:&a200'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+5%'
+  - '&7'
+  - '&7洞穿智慧:&a+3%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a洞穿の智慧'
+  - '&7'
+  - '&7技能用处:&a几率闪避攻击'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a被攻击'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Unbreakable: true
+    Color:  0,255,0
+植物智慧树5:
+  Id: 298
+  Data: 0
+  Display: '&f- &6智慧树 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a头盔'
+  - '&7'
+  - '&7生命上限:&a8000'
+  - '&7'
+  - '&7限制等级:&a250'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+5%'
+  - '&7'
+  - '&7洞穿智慧:&a+3%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a洞穿の智慧'
+  - '&7'
+  - '&7技能用处:&a几率闪避攻击'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a被攻击'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Unbreakable: true
+    Color:  0,255,0
+植物智慧树6:
+  Id: 298
+  Data: 0
+  Display: '&f- &6智慧树 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a头盔'
+  - '&7'
+  - '&7生命上限:&a10000'
+  - '&7'
+  - '&7限制等级:&a300'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+5%'
+  - '&7'
+  - '&7洞穿智慧:&a+3%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a洞穿の智慧'
+  - '&7'
+  - '&7技能用处:&a几率闪避攻击'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a被攻击'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Unbreakable: true
+    Color:  0,255,0
+植物捣蛋萝卜:
+  Id: 267
+  Data: 0
+  Display: '&f- &6植物·捣蛋萝卜 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a1500'
+  - '&7'
+  - '&7限制等级:&a180'
+  - '&7'
+  - '&7凋零几率:&a5%'
+  - '&7'
+  - '&7失明几率:&a5%'
+  - '&7'
+  - '&7暴击几率:&a10%'
+  - '&7'
+  - '&7暴击伤害:&a180%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a萝卜导弹'
+  - '&7'
+  - '&7技能伤害:&a目标三连爆炸'
+  - '&7'
+  - '&7最大范围:&a目标'
+  - '&7'
+  - '&7技能伤害:&a1600*3'
+  - '&7'
+  - '&7触发方式:&a右键'
+  - '&7'
+  - '&7冷却时间:&a16s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物捣蛋萝卜} @Target{a=10} ~onUse
+植物龙舌兰:
+  Id: 276
+  Data: 0
+  Display: '&f- &6植物·龙舌兰 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a1400'
+  - '&7'
+  - '&7限制等级:&a180'
+  - '&7'
+  - '&7撕裂几率:&a10%'
+  - '&7'
+  - '&7吸血几率:&a2%'
+  - '&7'
+  - '&7吸血倍率:&a75%'
+  - '&7'
+  - '&7暴击几率:&a10%'
+  - '&7'
+  - '&7暴击伤害:&a180%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a暴风劈'
+  - '&7'
+  - '&7技能伤害:&a斩出靓丽一刀'
+  - '&7'
+  - '&7最大范围:&a目标'
+  - '&7'
+  - '&7技能伤害:&a4000'
+  - '&7'
+  - '&7触发方式:&a右键'
+  - '&7'
+  - '&7冷却时间:&a8s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物龙舌兰} @Target ~onUse
+植物冰冻生菜皮肤:
+  Id: 351
+  Data: 6
+  Display: '&f- &6植物·冰冻生菜 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a能量豆形态'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a220'
+  - '&7'
+  - '&7失明几率:&a10%'
+  - '&7'
+  - '&7暴击几率:&a5%'
+  - '&7'
+  - '&7暴击伤害:&a+80%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a致盲冰霜'
+  - '&7'
+  - '&7技能用处:&a冰冻目标'
+  - '&7'
+  - '&7最大范围:&a8格范围所有生物'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a10S'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物冰冻生菜皮肤} @LivingEntitiesInRadius{r=8} ~onUse
+植物仙桃:
+  Id: 351
+  Data: 9
+  Display: '&f- &6植物·仙桃 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a副武器'
+  - '&7'
+  - '&7生命上限:&a+100'
+  - '&7'
+  - '&7生命恢复:&a1%'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a生命恢复'
+  - '&7'
+  - '&7技能用处:&a每秒恢复少许血量'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a副手'
+  - '&7'
+  - '&7冷却时间:&a每秒'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+植物地刺:
+  Id: 305
+  Data: 0
+  Display: '&f- &6植物·地刺 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a靴子'
+  - '&7'
+  - '&7生命上限:&a300'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+6%'
+  - '&7'
+  - '&7反射几率:&a5%'
+  - '&7'
+  - '&7反射伤害:&a5%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a绝地反击'
+  - '&7'
+  - '&7技能用处:&a收到伤害有几率反击'
+  - '&7'
+  - '&7最大范围:&a自身->目标'
+  - '&7'
+  - '&7触发方式:&a穿戴'
+  - '&7'
+  - '&7冷却时间:&a？？？'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7耐久度:&a600&7/600'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+植物地刺无限耐久:
+  Id: 305
+  Data: 0
+  Display: '&f- &6植物·地刺 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a靴子'
+  - '&7'
+  - '&7生命上限:&a300'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+6%'
+  - '&7'
+  - '&7反射几率:&a5%'
+  - '&7'
+  - '&7反射伤害:&a5%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a绝地反击'
+  - '&7'
+  - '&7技能用处:&a收到伤害有几率反击'
+  - '&7'
+  - '&7最大范围:&a自身->目标'
+  - '&7'
+  - '&7触发方式:&a穿戴'
+  - '&7'
+  - '&7冷却时间:&a？？？'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+植物大力菜花:
+  Id: 267
+  Data: 0
+  Display: '&f- &6植物·大力菜花 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a230'
+  - '&7'
+  - '&7限制等级:&a50'
+  - '&7'
+  - '&7撕裂几率:&a20%'
+  - '&7'
+  - '&7PVP攻击力:&a+10%'
+  - '&7'
+  - '&7暴击几率:&a10%'
+  - '&7'
+  - '&7暴击伤害:&a100%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a狂暴捶打'
+  - '&7'
+  - '&7技能伤害:&a伤害附加'
+  - '&7'
+  - '&7最大范围:&a目标'
+  - '&7'
+  - '&7触发方式:&a攻击时'
+  - '&7'
+  - '&7冷却时间:&a几率触发'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+植物火炬树桩皮肤:
+  Id: 351
+  Data: 1
+  Display: '&f- &6植物·火炬树桩 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a墨镜星星'
+  - '&7'
+  - '&7撕裂几率:&a3%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a副武器'
+  - '&7'
+  - '&7攻击力:&a100'
+  - '&7'
+  - '&7限制等级:&a30'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7暴击几率:&a+4%'
+  - '&7'
+  - '&7点燃几率:&a+50%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a助燃'
+  - '&7'
+  - '&7技能用处:&a攻击时点燃敌人'
+  - '&7'
+  - '&7最大范围:&a目标'
+  - '&7'
+  - '&7触发方式:&a攻击触发'
+  - '&7'
+  - '&7冷却时间:&a半几率'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+植物火焰豌豆射手:
+  Id: 293
+  Data: 0
+  Display: '&f- &6植物·火焰豌豆射手 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a150'
+  - '&7'
+  - '&7点燃几率:&a10%'
+  - '&7'
+  - '&7PVP攻击力:&a+20%'
+  - '&7'
+  - '&7暴击几率:&a12%'
+  - '&7'
+  - '&7暴击伤害:&a120%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a火焰弹'
+  - '&7'
+  - '&7技能伤害:&a10'
+  - '&7'
+  - '&7最大范围:&a10'
+  - '&7'
+  - '&7触发方式:&a右键'
+  - '&7'
+  - '&7冷却时间:&a0.5s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物火焰豌豆射手} @Target ~onUse
+植物激光豆:
+  Id: 276
+  Data: 0
+  Display: '&f- &6植物·激光豆 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a480'
+  - '&7'
+  - '&7暴击几率:&a2%'
+  - '&7'
+  - '&7暴击伤害:&a+260%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a激光炫舞'
+  - '&7'
+  - '&7技能用处:&a激光在目标上飞舞'
+  - '&7'
+  - '&7技能伤害:&a70'
+  - '&7'
+  - '&7最大范围:&a10格范围'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a0.3S'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物激光豆} @Target ~onUse
+植物火龙草:
+  Id: 369
+  Data: 0
+  Display: '&f- &6植物·火龙草 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a110'
+  - '&7'
+  - '&7暴击几率:&a8%'
+  - '&7'
+  - '&7暴击伤害:&a+100%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a火龙草吐息'
+  - '&7'
+  - '&7技能用处:&a喷火'
+  - '&7'
+  - '&7技能伤害:&a40'
+  - '&7'
+  - '&7最大范围:&a10格范围'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a12S'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物火龙草} @Target ~onUse
+植物玉米加农炮:
+  Id: 283
+  Data: 0
+  Display: '&f- &6植物·玉米加农炮 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a110'
+  - '&7'
+  - '&7撕裂几率:&a10%'
+  - '&7'
+  - '&7暴击几率:&a5%'
+  - '&7'
+  - '&7暴击伤害:&a130%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a玉米加农杀'
+  - '&7'
+  - '&7技能伤害:&a瞬间移动 瞬间刺杀'
+  - '&7'
+  - '&7最大范围:&a20'
+  - '&7'
+  - '&7技能伤害:&a80'
+  - '&7'
+  - '&7触发方式:&a右键'
+  - '&7'
+  - '&7冷却时间:&a24s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物玉米加农炮} @Target ~onUse
+植物能量花:
+  Id: 351
+  Data: 13
+  Display: '&f- &6植物·能量花 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a副武器'
+  - '&7'
+  - '&7生命上限:&a+300'
+  - '&7'
+  - '&7限制等级:&a30'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a无'
+  - '&7'
+  - '&7技能用处:&a无'
+  - '&7'
+  - '&7最大范围:&a无'
+  - '&7'
+  - '&7触发方式:&a无'
+  - '&7'
+  - '&7冷却时间:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+植物钢地刺:
+  Id: 309
+  Data: 0
+  Display: '&f- &6植物·钢地刺 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a靴子'
+  - '&7'
+  - '&7生命上限:&a500'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+6%'
+  - '&7'
+  - '&7反射几率:&a10%'
+  - '&7'
+  - '&7反射伤害:&a5%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a绝地反击'
+  - '&7'
+  - '&7技能用处:&a收到伤害有几率反击'
+  - '&7'
+  - '&7最大范围:&a自身->目标'
+  - '&7'
+  - '&7触发方式:&a穿戴'
+  - '&7'
+  - '&7冷却时间:&a？？？'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7耐久度:&a600&7/600'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+植物钢地刺无限耐久:
+  Id: 309
+  Data: 0
+  Display: '&f- &6植物·钢地刺 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a靴子'
+  - '&7'
+  - '&7生命上限:&a500'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+6%'
+  - '&7'
+  - '&7反射几率:&a10%'
+  - '&7'
+  - '&7反射伤害:&a5%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a绝地反击'
+  - '&7'
+  - '&7技能用处:&a收到伤害有几率反击'
+  - '&7'
+  - '&7最大范围:&a自身->目标'
+  - '&7'
+  - '&7触发方式:&a穿戴'
+  - '&7'
+  - '&7冷却时间:&a？？？'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+植物雷龙草:
+  Id: 351
+  Data: 4
+  Display: '&f- &6植物·雷龙草 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a150'
+  - '&7'
+  - '&7限制等级:&a30'
+  - '&7'
+  - '&7雷霆几率:&a10%'
+  - '&7'
+  - '&7暴击几率:&a8%'
+  - '&7'
+  - '&7暴击伤害:&a+100%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a雷龙草吐息'
+  - '&7'
+  - '&7技能用处:&a招雷'
+  - '&7'
+  - '&7技能伤害:&a伤害附加'
+  - '&7'
+  - '&7最大范围:&a目标'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a几率触发'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+植物竹员外:
+  Id: 338
+  Data: 0
+  Display: '&f- &6植物·竹员外 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a80'
+  - '&7'
+  - '&7暴击几率:&a50%'
+  - '&7'
+  - '&7暴击伤害:&a50%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a开荒热情'
+  - '&7'
+  - '&7技能用处:&a引爆身边生物 群体攻击'
+  - '&7'
+  - '&7伤害值:&a50'
+  - '&7'
+  - '&7最大范围:&a10格范围'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a15S'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物竹员外} @Target ~onUse
+神秘埃及豌豆荚1:
+  Id: 279
+  Data: 0
+  Display: '&f- &6植物·豌豆荚 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a20'
+  - '&7'
+  - '&7PVP攻击力:&a+10%'
+  - '&7'
+  - '&7暴击几率:&a11%'
+  - '&7'
+  - '&7暴击伤害:&a110%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a暂无'
+  - '&7'
+  - '&7技能伤害:&a空'
+  - '&7'
+  - '&7最大范围:&a空'
+  - '&7'
+  - '&7触发方式:&a空'
+  - '&7'
+  - '&7冷却时间:&a空'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+神秘埃及豌豆荚2:
+  Id: 279
+  Data: 0
+  Display: '&f- &6植物·豌豆荚 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a40'
+  - '&7'
+  - '&7PVP攻击力:&a+10%'
+  - '&7'
+  - '&7暴击几率:&a11%'
+  - '&7'
+  - '&7暴击伤害:&a110%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a暂无'
+  - '&7'
+  - '&7技能伤害:&a空'
+  - '&7'
+  - '&7最大范围:&a空'
+  - '&7'
+  - '&7触发方式:&a空'
+  - '&7'
+  - '&7冷却时间:&a空'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+神秘埃及豌豆荚3:
+  Id: 279
+  Data: 0
+  Display: '&f- &6植物·豌豆荚 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a60'
+  - '&7'
+  - '&7PVP攻击力:&a+10%'
+  - '&7'
+  - '&7暴击几率:&a11%'
+  - '&7'
+  - '&7暴击伤害:&a110%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a暂无'
+  - '&7'
+  - '&7技能伤害:&a空'
+  - '&7'
+  - '&7最大范围:&a空'
+  - '&7'
+  - '&7触发方式:&a空'
+  - '&7'
+  - '&7冷却时间:&a空'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+神秘埃及豌豆荚4:
+  Id: 279
+  Data: 0
+  Display: '&f- &6植物·豌豆荚 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a80'
+  - '&7'
+  - '&7PVP攻击力:&a+10%'
+  - '&7'
+  - '&7暴击几率:&a11%'
+  - '&7'
+  - '&7暴击伤害:&a110%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a暂无'
+  - '&7'
+  - '&7技能伤害:&a空'
+  - '&7'
+  - '&7最大范围:&a空'
+  - '&7'
+  - '&7触发方式:&a空'
+  - '&7'
+  - '&7冷却时间:&a空'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+神秘埃及豌豆荚5:
+  Id: 279
+  Data: 0
+  Display: '&f- &6植物·豌豆荚 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a100'
+  - '&7'
+  - '&7PVP攻击力:&a+20%'
+  - '&7'
+  - '&7暴击几率:&a18%'
+  - '&7'
+  - '&7暴击伤害:&a110%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a暂无'
+  - '&7'
+  - '&7技能伤害:&a空'
+  - '&7'
+  - '&7最大范围:&a空'
+  - '&7'
+  - '&7触发方式:&a空'
+  - '&7'
+  - '&7冷却时间:&a空'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+神秘埃及豌豆荚皮肤:
+  Id: 279
+  Data: 0
+  Display: '&f- &6植物·豌豆荚 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a能量豆形态'
+  - '&7一颗大大的豌豆'
+  - '&7超满足'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a400'
+  - '&7'
+  - '&7PVP攻击力:&a+20%'
+  - '&7'
+  - '&7暴击几率:&a18%'
+  - '&7'
+  - '&7暴击伤害:&a110%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a暂无'
+  - '&7'
+  - '&7技能伤害:&a空'
+  - '&7'
+  - '&7最大范围:&a空'
+  - '&7'
+  - '&7触发方式:&a空'
+  - '&7'
+  - '&7冷却时间:&a空'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+僵尸舞王:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §fSkull of BowIVC
+      internal: H4sIAAAAAAAAAONiYOBi4AnOLs3JCSjKT8vMSeVgYPFLzE1lYHPKL/cMc2ZgAAA15njNIwAAAA==
+      skull-owner: BowIVC
+头颅幸运方块:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §fSkull of SW4T_YT
+      internal: H4sIAAAAAAAAAONiYOBi4AnOLs3JCSjKT8vMSeVgYPFLzE1lYA8ONwmJjwxhYAAAywuHFSQAAAA=
+      skull-owner: SW4T_YT
+头颅幻影:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §fSkull of GuyDebord
+      internal: H4sIAAAAAAAAAONiYOBi4AnOLs3JCSjKT8vMSeVgYPFLzE1l4HQvrXRJTcovSmFgAAC6PWIrJgAAAA==
+      skull-owner: GuyDebord
+头颅恶魔绿眼:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §fSkull of Freebreak
+      internal: H4sIAAAAAAAAAONiYOBi4AnOLs3JCSjKT8vMSeVgYPFLzE1l4HQrSk1NKkpNzGZgAABWsSmyJgAAAA==
+      skull-owner: Freebreak
+头颅女丝袜蒙眼:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §fSkull of NotRedRex3x
+      internal: H4sIAAAAAAAAAONiYOBi4AnOLs3JCSjKT8vMSeVgYPFLzE1l4PbLLwlKTQlKrTCuYGAAANyvD2ooAAAA
+      skull-owner: NotRedRex3x
+头颅杀神红眼:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §fSkull of Wansk_
+      internal: H4sIAAAAAAAAAONiYOBi4AnOLs3JCSjKT8vMSeVgYPFLzE1lYAtPzCvOjmdgAAA7KylxIwAAAA==
+      skull-owner: Wansk_
+智慧村剧情开始:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: WRITTEN_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: BOOK_SIGNED
+      title: 智慧村剧情一
+      author: HTN_HZEH
+      pages:
+      - |-
+        智慧村村长：孩子，你知道吗？§0
+        §0很久很久以前，僵尸横边整个大陆，到处缺乏生机。幸好有智慧树的庇护，植物开始拥有了智慧，以强大的力量对付僵尸。§0
+        §0智慧村村长：现在生存世界僵尸相对较弱，那里资源丰富，如果你想好好开发那里的资源，你就得...§0
+        §0我：要干什么§0
+        §0智慧村村长：如果你升级了智慧树，那么你的工具也会获得加强。
+      - 任务：收集 原版腐肉*64
+      generation: 0
+'11111':
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §b§l冲浪头颅
+      internal: H4sIAAAAAAAAAONiYOBi4AnOLs3JCSjKT8vMSeVgYPFLzE1l4ArOyyxILfJNzMxhYAAA7gGwKycAAAA=
+      skull-owner: SniperMail
+      lore:
+      - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+      - '&7'
+      - '&7获取方式:&a彩蛋'
+      - '&7'
+      - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+      - '&7'
+      - '&7装备位置:&a头盔'
+      - '&7'
+      - '&7攻击力:&a120'
+      - '&7'
+      - '&7生命上限:&a+3000'
+      - '&7'
+      - '&7洞穿智慧:&a+3%'
+      - '&7'
+      - '&7经验加成:&a+10%'
+      - '&7'
+      - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+植物棱镜草:
+  Id: 267
+  Data: 0
+  Display: '&f- &6植物·棱镜草 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a450'
+  - '&7'
+  - '&7限制等级:&a80'
+  - '&7'
+  - '&7撕裂几率:&a8%'
+  - '&7'
+  - '&7暴击几率:&a10%'
+  - '&7'
+  - '&7暴击伤害:&a+200%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a太阳折射'
+  - '&7'
+  - '&7技能用处:&a群体伤害 '
+  - '&7'
+  - '&7技能伤害:&a200伤害'
+  - '&7'
+  - '&7最大范围:&a20格范围'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a7s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物棱镜草} @Target ~onUse
+植物全息坚果:
+  Id: 299
+  Data: 0
+  Display: '&f- &6植物·全息坚果 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a盔甲'
+  - '&7'
+  - '&7生命上限:&a1000'
+  - '&7'
+  - '&7限制等级:&a80'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+5%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a自动回血'
+  - '&7'
+  - '&7技能用处:&a自动回血'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a穿戴'
+  - '&7'
+  - '&7冷却时间:&a每秒'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7耐久度:&a1000&7/1000'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Color: 0,255,255
+  Skills:
+  - skill{s=植物全息坚果} @Self ~onTimer:20
+植物全息坚果无限耐久:
+  Id: 299
+  Data: 0
+  Display: '&f- &6植物·全息坚果 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a盔甲'
+  - '&7'
+  - '&7生命上限:&a1000'
+  - '&7'
+  - '&7限制等级:&a80'
+  - '&7'
+  - '&7经验加成:&a+5%'
+  - '&7'
+  - '&7攻击速度:&a+5%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a自动回血'
+  - '&7'
+  - '&7技能用处:&a自动回血'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a穿戴'
+  - '&7'
+  - '&7冷却时间:&a每秒'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+    Unbreakable: true
+    Color: 0,255,255
+  Skills:
+  - skill{s=植物全息坚果} @Self ~onTimer:20
+植物飞碟花:
+  Id: 294
+  Data: 0
+  Display: '&f- &6植物·飞碟花 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a500'
+  - '&7'
+  - '&7限制等级:&a80'
+  - '&7'
+  - '&7凋零几率:&a15%'
+  - '&7'
+  - '&7中毒几率:&a2%'
+  - '&7'
+  - '&7缓慢几率:&a5%'
+  - '&7'
+  - '&7失明几率:&a8%'
+  - '&7'
+  - '&7暴击伤害:&a+500%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a隐匿-暗杀'
+  - '&7'
+  - '&7技能用处:&短暂获得隐身效果'
+  - '&7'
+  - '&7最大范围:&a自身'
+  - '&7'
+  - '&7触发方式:&a持有触发'
+  - '&7'
+  - '&7冷却时间:&a？？？s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物飞碟花} @Self ~onTimer:200
+植物火焰花拳击手:
+  Id: 276
+  Data: 0
+  Display: '&f- &6植物·火焰花拳击手 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a610'
+  - '&7'
+  - '&7限制等级:&a90'
+  - '&7'
+  - '&7撕裂几率:&a8%'
+  - '&7'
+  - '&7失明几率:&a25%'
+  - '&7'
+  - '&7暴击几率:&a+15%'
+  - '&7'
+  - '&7暴击伤害:&a+200%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a疯狂出拳'
+  - '&7'
+  - '&7技能用处:&a敌人遭受暴击'
+  - '&7'
+  - '&7技能伤害:&a200'
+  - '&7'
+  - '&7最大范围:&a10格'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a3s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物火焰花拳击手} @Target ~onUse
+植物闪电芦苇:
+  Id: 276
+  Data: 0
+  Display: '&f- &6植物·闪电芦苇 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a650'
+  - '&7'
+  - '&7限制等级:&a100'
+  - '&7'
+  - '&7雷霆几率:&a10%'
+  - '&7'
+  - '&7缓慢几率:&a80%'
+  - '&7'
+  - '&7暴击几率:&a10%'
+  - '&7'
+  - '&7暴击伤害:&a+150%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a雷霆闪电'
+  - '&7'
+  - '&7技能用处:&a群体遭受闪电'
+  - '&7'
+  - '&7技能伤害:&a400伤害/生物'
+  - '&7'
+  - '&7最大范围:&a20格范围'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a12s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物闪电芦苇} @LivingEntitiesInRadius{r=20} ~onUse
+植物脉冲黄桃:
+  Id: 286
+  Data: 0
+  Display: '&f- &6植物·脉冲黄桃 &f -'
+  Lore:
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7皮肤:&a无'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7装备位置:&a主武器'
+  - '&7'
+  - '&7攻击力:&a700'
+  - '&7'
+  - '&7限制等级:&a120'
+  - '&7'
+  - '&7失明几率:&a80%'
+  - '&7'
+  - '&7暴击几率:&a+30%'
+  - '&7'
+  - '&7暴击伤害:&a+100%'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  - '&7'
+  - '&7技能类型:&a脉冲波'
+  - '&7'
+  - '&7技能用处:&a目标遭受脉冲攻击'
+  - '&7'
+  - '&7技能伤害:&a100/秒 共12秒'
+  - '&7'
+  - '&7最大范围:&a20格范围'
+  - '&7'
+  - '&7触发方式:&a右键触发'
+  - '&7'
+  - '&7冷却时间:&a15s'
+  - '&7'
+  - '§c§m  §6§m  §e§m  §a§m  §b§m  §e§m §b§m  §a§m  §e§m  §6§m  §c§m  '
+  Enchantments: 
+  Options:
+      Unbreakable: true
+  Skills:
+  - skill{s=植物脉冲黄桃} @Target ~onUse
+游玩本服:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: WRITTEN_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: BOOK_SIGNED
+      title: 服务器游玩
+      author: HTN_HZEH
+      pages:
+      - |-
+        如何开心的游玩本服？§0
+        §0技能炫酷的植物多多§0
+        §0同样，制作者将按照高精准度来模仿植物大战僵尸手游一与二。§0
+        §0在服务器中，你可以把游戏币理解为阳光，通过阳光购买植物。兑换植物前请确认完毕，兑换后不得退货。§0
+        §0植物家园（主城）无法PVP，可到僵尸世界进行PVP，输入/pvp可以开启自己的pvp模式。§0
+        §0
+        §0如何获取游戏币->
+      - |-
+        1，打僵尸掉落游戏币§0
+        §02，出售僵尸的掉落物§0
+        §03，出售植物在全球市场§0
+        §04活动与福利§0
+        §05，RMB找其他玩家购买§0
+        §0
+        §0服务器规定：§0
+        §01，允许人民币交易§0
+        §02，禁止杀戮光环与变速齿轮§0
+        §03，连点器请调0.2以上§0
+        §0
+        §0
+        §0和谐对待每个人 享受健康生活
+      generation: 0
+食用本服:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: WRITTEN_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: BOOK_SIGNED
+      title: 食用本服请注意
+      author: HTN_HZEH
+      pages:
+      - |-
+        如何使用技能？§0
+        §0游玩本服 建议：§0
+        §0选项->视频设置->界面尺寸：中这样你可以更看清武器的介绍§0
+        §0
+        §0一般的说 右键对准怪物可以放技能§0
+        §0一些特殊的 拿着&穿着§0
+        §0就可以触发技能§0
+        §0右键一定要对准目标§0
+        §0不然会浪费CD
+      generation: 0

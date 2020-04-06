@@ -1,0 +1,348 @@
+command /set gender [<text>]:
+	trigger:
+		if {性别::%player%} is not set:
+			if arg 1 is "男":
+				set {性别::%player%} to "男"
+				send "&f[&b月老&f]: &f你已成功登记为男性!" to player
+				broadcast "&f[&b月老&f]: &a%player%&e下面有个硬硬的东西!他是男的!"
+				stop
+			if arg 1 is "女":
+				set {性别::%player%} to "女"
+				send "&f[&b月老&f]: &f你已成功登记为女性!" to player
+				broadcast "&f[&b月老&f]: &a%player%&e下面什么都没有,她是女的!"
+				stop
+			if arg 1 is not "男" or "女":
+				send "&f[&b月老&f]: &f正确用法为&c/Set Gender &f(男/女)" to player
+				stop
+		if {性别::%player%} is set:
+			send "&f[&b月老&f]: &f你已经登记过性别了"
+			stop
+			
+command /设置求婚戒指:
+	permission: admin
+	trigger:
+		set {求婚戒指} to player's tool
+		send "&f[&b月老&f]: 求婚戒指设置成功"
+		stop
+	
+command /获取求婚戒指:
+	permission: admin
+	trigger:
+		give 1 of {求婚戒指} to player
+		send "&f[&b月老&f]: 求婚戒指获取成功"
+		stop
+			
+command /接受求婚 [<player>]:
+	permission: marry.use
+	trigger:
+		if {待同意请求::%arg-1%} is player:
+			if {性别::%player%} is "男":
+				if {性别::%arg-1%} is "男":
+					set {取向::%player%} to "基友"
+					set {取向::%arg-1%} to "基友"
+			if {性别::%player%} is "男":
+				if {性别::%arg-1%} is "女":
+					set {取向::%player%} to "夫妻"
+					set {取向::%arg-1%} to "夫妻"
+			if {性别::%player%} is "女":
+				if {性别::%arg-1%} is "男":
+					set {取向::%player%} to "夫妻"
+					set {取向::%arg-1%} to "夫妻"
+			if {性别::%player%} is "女":
+				if {性别::%arg-1%} is "女":
+					set {取向::%player%} to "百合"
+					set {取向::%arg-1%} to "百合"
+			set {待同意请求::%arg-1%} to "已同意"
+			set {恋人::%arg 1%} to player
+			set {恋人::%player%} to arg 1
+			set {亲密度::%player%} to 20
+			set {亲密度::%arg-1%} to 20
+			send "&f[&b月老&f]: &f你同意了&c %arg-1% &f的求婚请求" to player
+			send "&f[&b月老&f]: &c%player% &f同意了你的求婚请求!" to arg 1
+			broadcast "&7(&c!&7) &f热烈祝贺 &c%player% &f与 &c%{恋人::%player%}% &f终成眷属!"
+			send all players title "&a结婚系统" with subtitle "&f热烈祝贺 &c%player% &f与 &c%{恋人::%player%}% &f终成眷属!" for 4 seconds with 1 ticks fade in and 1 ticks fade out
+			stop
+		if {恋人::%arg-1%} is player:
+			send "&f[&b月老&f]: &f你已经接受了&c %arg-1% &f的求婚!" to player
+			stop
+		if {待同意请求::%arg-1%} is not player:
+			send "&f[&b月老&f]: &c%arg-1% &f并没有向你求婚!" to player
+			stop
+			
+command /拒绝求婚 [<player>]:
+	permission: marry.use
+	trigger:
+		if {待同意请求::%arg-1%} is player:
+			clear {待同意请求::%arg-1%}
+			send "&f[&b月老&f]: &f你拒绝了&c %arg-1% &f的求婚请求" to player
+			send "&f[&b月老&f]: &c%player% &f拒绝了你的求婚请求!" to arg 1
+			send "&7(&c!&7) &f求婚戒指已返还!" to arg 1
+			give 1 of {求婚戒指} to arg 1
+			stop
+		if {恋人::%arg-1%} is player:
+			send "&f[&b月老&f]: &f你已经接受了&c %arg-1% &f的求婚!" to player
+			stop
+		if {待同意请求::%arg-1%} is not player:
+			send "&f[&b月老&f]: &c%arg-1% &f并没有向你求婚!" to player
+			stop
+
+command /marry [<text>] [<player>]:
+	permission: marry.use
+	trigger:
+		if arg 1 is set:
+			if arg 1 is "to":
+				if {恋人::%player%} is not set:
+					if {性别::%player%} is set:
+						if {性别::%arg-2%} is set:
+							if arg 2 is set:
+								if arg 2 is not player:
+									if arg 2 is not offline:
+										if player have 1 of {求婚戒指}:
+											remove 1 of {求婚戒指} from player's inventory
+											send "&7(&c!&7) &f结婚请求发送成功" to player
+											send "&7(&c!&7) &f收到一条来自&a%player%&f求婚请求请求,请问你想怎么做?" to arg 2
+											send "" to arg 2
+											json("%arg 2%","          ||§7[ §a点击同意 §7]||cmd:/接受求婚 %player%||      ||§7[ §a点击拒绝 §7]||cmd:/拒绝求婚 %player%")
+											send "" to arg 2
+											send arg 2 title "&a结婚系统" with subtitle "§f收到一条求婚请求" for 10 seconds with 1 ticks fade in and 1 ticks fade out
+											set {待同意请求::%player%} to arg 2
+											stop
+										else:
+											send "&f[&b月老&f]: &f你缺少求婚戒指来求婚" to player
+											stop
+									else:
+										send "&f[&b月老&f]: &f目标玩家不在线!" to player
+										stop
+								else:
+									send "&f[&b月老&f]: &f听说你想和自己结婚?" to player
+									stop
+							else:
+								send "&f[&b月老&f]: &f你想和空气结拜为夫妻吗?" to player
+								stop
+						else:
+							send "&f[&b月老&f]: &f你求婚的对象还没有选择性别哦!" to player
+							stop
+					else:
+						send "&f[&b月老&f]: &f请你先确认了自己的性别再来求婚吧!" to player
+						stop
+				else:
+					send "&f[&b月老&f]: &f请不要背叛你所选择的爱情" to player
+					stop
+			if arg 1 is "tp":
+				if {恋人::%player%} is set:
+					if {亲密度::%player%} >= 80:
+						teleport player to {恋人::%player%}
+						send "&7(&c!&7) &f你传送到了你恋人面前!" to player
+						stop
+					else:
+						send "&7(&c!&7) &f亲密度需要达到 &c80 &f才能使用恋人TP哦!" to player
+						stop			
+				else:
+					send "&f[&b月老&f]: &f小伙子想什么呢,你还是个单身狗嘞!" to player
+					stop
+			if arg 1 is "sethome":
+				if {恋人::%player%} is set:
+					set {二人世界::%player%} to location of player
+					set {二人世界::%{恋人::%player%}%} to location of player
+					send "&7(&c!&7) &f已将此处设置为你们的二人世界" to player
+					send "&7(&c!&7) &f你的情侣更新了你的二人世界坐标" to {恋人::%player%}
+					stop
+				else:
+					send "&f[&b月老&f]: &f小伙子想什么呢,你还是个单身狗嘞!" to player
+					stop
+			if arg 1 is "home":
+				if {恋人::%player%} is set:
+					if {二人世界::%player%} is set:
+						send "&7(&c!&7) &f你回到了你们的二人世界!" to player
+						teleport player to {二人世界::%player%}
+						stop
+					else:
+						send "&7(&c!&7) &f你们还没有设置自己的二人世界哦!" to player
+						stop
+				else:
+					send "&f[&b月老&f]: &f小伙子想什么呢,你还是个单身狗嘞!" to player
+					stop
+			if arg 1 is "give":				
+				if {恋人::%player%} is set:
+					if {恋人::%player%} is not offline:
+						if player's tool is not air:
+							set {礼物::%player%} to player's tool
+							remove {礼物::%player%} from player
+							close {恋人::%player%}'s inventory
+							open chest with 3 rows named "&0收到礼物" to {恋人::%player%}
+							format slot 0 of {恋人::%player%} with {礼物::%player%} to run [make player execute command ""]
+							send "&f[&b月老&f]: &f你的礼物已经送到了你的恋人手中!" to player
+							send "&f[&b月老&f]: &c%player% &f送了你一个小礼物哦!" to {恋人::%player%}
+							send "&f[&b月老&f]: &f你们之间的 &c亲密度 &f+1" to player
+							send "&f[&b月老&f]: &f你们之间的 &c亲密度 &f+1" to {恋人::%player%}
+							set {亲密度::%player%} to {亲密度::%player%}+1
+							set {亲密度::%{恋人::%player%}%} to {亲密度::%player%}
+							stop
+						else:
+							send "&f[&b月老&f]: &f你不能给你的恋人送新鲜空气!" to player
+							stop
+					else:
+						send "&f[&b月老&f]: &f你的恋人现在不在线哦!" to player
+						stop
+				else:
+					send "&f[&b月老&f]: &f你还是一只可爱的单身狗呢~" to player
+					stop
+			if arg 1 is "say":
+				if {恋人::%player%} is set:
+					if {私聊::%player%} is not set:
+						set {私聊::%player%} to "true"
+						send "&7(&c!&7) &f你打开了情侣私聊模式" to player
+						stop
+					if {私聊::%player%} is "false":
+						set {私聊::%player%} to "true"
+						send "&7(&c!&7) &f你打开了情侣私聊模式" to player
+						stop
+					if {私聊::%player%} is "true":
+						set {私聊::%player%} to "false"
+						send "&7(&c!&7) &f你关闭了情侣私聊模式" to player
+						stop	
+				else:
+					send "&f[&b月老&f]: &f小伙子想什么呢,你还是个单身狗嘞!" to player
+					stop
+			if arg 1 is "fuck":
+				if {恋人::%player%} is set:
+					send "(&c!&7) &f你和&c%{恋人::%player%}%&f离婚了" to player
+					send "(&c!&7) &c%player%&f和你离婚了" to {恋人::%player%}
+					delete {待同意请求::%player%}
+					delete {待同意请求::%{恋人::%player%}%}
+					delete {亲密度::%player%}
+					delete {亲密度::%{恋人::%player%}%}
+					delete {私聊::%player%}
+					delete {私聊::%{恋人::%player%}%}
+					delete {亲吻冷却::%player%}
+					delete {亲吻冷却::%{恋人::%player%}%}
+					delete {取向::%player%}
+					delete {取向::%{恋人::%player%}%}
+					delete {二人世界::%player%}
+					delete {二人世界::%{恋人::%player%}%}
+					delete {恋人::%{恋人::%player%}%}
+					delete {恋人::%player%}
+					stop
+				else:
+					send "&f[&b月老&f]: &f小伙子想什么呢,你还是个单身狗嘞!" to player
+					stop
+			else:
+				message "&e------------ &6Marry &e------------"
+				message "&6/Set Gender &f(男/女) - &e登记自己的性别"
+				message "&6/marry to &f(玩家名) - &e向此玩家求婚"
+				message "&6/marry give &f- &e向自己的恋人送出手上的物品"
+				message "&6/marry sethome &f- &e设置脚下为你们的二人世界"
+				message "&6/marry home &f- &e回到你们的二人世界"
+				message "&6/marry say &f- &e打开情侣私聊模式"
+				message "&e------------ &6Marry &e------------"
+				stop
+		else:
+			message "&e------------ &6Marry &e------------"
+			message "&6/Set Gender &f(男/女) - &e登记自己的性别"
+			message "&6/marry to &f(玩家名) - &e向此玩家求婚"
+			message "&6/marry give &f- &e向自己的恋人送出手上的物品"
+			message "&6/marry sethome &f- &e设置脚下为你们的二人世界"
+			message "&6/marry home &f- &e回到你们的二人世界"
+			message "&6/marry say &f- &e打开情侣私聊模式"
+			message "&e------------ &6Marry &e------------"
+			stop
+				
+on chat:
+	if {恋人::%player%} is set:
+		if {私聊::%player%} is "true":
+			send "&f[&b恋人悄悄话&f]: &f%message%" to {恋人::%player%}
+			send "&f[&b恋人悄悄话&f]: &f%message%" to player
+			cancel event
+			stop
+			
+on rightclick on a player:
+	if event-entity is {恋人::%player%}:
+		if {亲吻冷却::%player%} is not set:
+			drawHalo particle "heart", center player, id "%player%", rainbowMode false, solid true, density 20, visibleRange 16, tps 6, second 1
+			apply Regeneration 1 to the player for 10 seconds
+			send "&7(&c!&7) &f你亲吻了你的恋人,获得了 &c血量恢复 &f增益效果!" to player
+			set {亲吻冷却::%player%} to 300
+			wait 15 ticks
+			stopEffect "%player%"
+			loop 300 times:
+				wait 1 seconds
+				set {亲吻冷却::%player%} to {亲吻冷却::%player%}-1
+			stop
+		if {亲吻冷却::%player%} is set:
+			if {亲吻冷却::%player%} is 0:
+				drawHalo particle "heart", center player, id "%player%", rainbowMode false, solid true, density 20, visibleRange 16, tps 6, second 1
+				apply Regeneration 1 to the player for 10 seconds
+				send "&7(&c!&7) &f你亲吻了你的恋人,获得了 &c血量恢复 &f增益效果!" to player
+				set {亲吻冷却::%player%} to 300
+				wait 15 ticks
+				stopEffect "%player%"
+				loop 300 times:
+					wait 1 seconds
+					set {亲吻冷却::%player%} to {亲吻冷却::%player%}-1
+				stop
+		if {亲吻冷却::%player%} is set:
+			if {亲吻冷却::%player%} is not 0:
+				send "&7(&c!&7) &f感情再好也要节制,请 &c%{亲吻冷却::%player%}%&f 秒之后再试!" to player
+				stop
+			
+on placeholder request with prefix "marry":
+	if the identifier is "chat":
+		if {恋人::%player%} is not set:
+			set the result to "单身狗"
+			stop
+		if {恋人::%player%} is set:
+			set the result to "%{恋人::%player%}%"
+			stop
+on placeholder request with prefix "marry":
+	if the identifier is "mi":
+		if {亲密度::%player%} is not set:
+			set the result to "0"
+			stop
+		if {亲密度::%player%} is set:
+			set the result to "%{亲密度::%player%}%"
+			stop
+on placeholder request with prefix "marry":
+	if the identifier is "xin":
+		if {性别::%player%} is not set:
+			set the result to "未登记"
+			stop
+		if {性别::%player%} is set:
+			set the result to "%{性别::%player%}%"
+			stop
+on placeholder request with prefix "marry":
+	if the identifier is "qu":
+		if {取向::%player%} is not set:
+			set the result to "未知"
+			stop
+		if {取向::%player%} is set:
+			set the result to "%{取向::%player%}%"
+			stop
+				
+command /清理缓存:
+	permission: admin
+	trigger:
+		clear {性别::*}
+		clear {待同意请求::*}
+		clear {恋人::*}
+		clear {取向::*}
+		clear {亲密度::*}
+		clear {二人世界::*}
+		clear {传送::*}
+		clear {私聊::*}
+		clear {亲吻冷却::*}
+		clear {求婚戒指}
+		send "&a变量缓存清理成功" to player
+		stop
+		
+command /测试变量:
+	permission: admin
+	trigger:
+		send "%{性别::*}%" to player
+		send "%{待同意请求::*}%" to player
+		send "%{恋人::*}%" to player
+		send "%{取向::*}%" to player
+		send "%{亲密度::*}%" to player
+		send "%{二人世界::*}%" to player
+		send "%{传送::*}%" to player
+		send "%{私聊::*}%" to player
+		stop

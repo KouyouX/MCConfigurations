@@ -1,0 +1,122 @@
+options:
+	prefix: &a&l挂机 >> &f       #插件消息前缀
+	时间: 60                   #每多少秒获得一次经验,金币,点券
+	经验模式: "yuanban"             #模式。目前有 YuanBan,sx 2种模式，yuanban是原版经验，sx是sxlevel经验
+	金币: 100                    #金币数量
+	点券: 0                   #点券数量
+	经验: 60                   #经验数量
+	世界: "plot"              #支持多个世界例子: "world" or "zc"
+
+
+
+
+
+
+
+	
+function Dazuo_reload(n: number):
+	set {_t} to now
+	send "{@prefix} &7重载成功" to all ops
+	send "{@prefix} &7耗时: &f%difference between {_t} and now%" to all ops
+
+on script load:
+	Dazuo_reload(0)
+	 
+command /挂机:
+	permission: Dazuo.use
+	trigger:
+		if player is in {@世界}:
+			if player's vehicle is not set:
+				set {Dazuo::%player%} to true
+				spawn 1 armor stand at location 1.6 below player
+				set {_Sit} to last spawned entity
+				add "{NoGravity:1}" to nbt of {_Sit}
+				add "{Invisible:1}" to nbt of {_Sit}
+				make player ride {_Sit}
+				make player glow
+				apply potion of Blindness of tier 4 without particles to player for 999 minutes
+				drawHalo particle "happyVillager", center player, id "%player%", rainbowMode false, solid true, density 5, visibleRange 6, tps 6, second {@时间}
+				send action bar "{@prefix} &a你已进入挂机模式" to player
+				send "{@prefix} 你已进入挂机模式,按下 &eShift &f即可取消挂机!" to player
+				stop
+		else:
+			message "{@prefix}&f你不在指定世界" 
+
+
+on quit:
+	if {Dazuo::%player%} is true:
+		delete player's vehicle
+		set {Dazuo::%player%} to false
+		make player stop glowing
+		stopEffect "%player%"
+		remove blindness from the player
+		delete {Sitsj::%player%}
+		delete {Sitjb::%player%}
+		delete {SitExp::%player%}
+		stop
+
+			
+on dismount:
+	if {Dazuo::%player%} is true:
+		delete player's vehicle
+		set {Dazuo::%player%} to false
+		make player stop glowing
+		stopEffect "%player%"
+		remove blindness from the player
+		delete {Sitsj::%player%}
+		if {SitExp::%player%} is not set:
+			send "{@prefix} &f挂机结束,累计获得经验 &e0 &f点!累计获得金币&e%{Sitjb::%player%}%&f元" to player
+		else:
+			send "{@prefix} &f挂机结束,累计获得经验 &e%{SitExp::%player%}%&f点!累计获得金币&e%{Sitjb::%player%}%&f元" to player
+		delete {SitExp::%player%}
+		stop
+
+every {@时间} second:
+	if {@经验模式} is "YuanBan":
+		loop all players:
+			if {Dazuo::%loop-player%} is true:
+				add {@经验} to {SitExp::%loop-player%}
+				add {@金币} to {Sitjb::%loop-player%}
+				add {@经验} experience to loop-player
+				add {@时间} to {Sitsj::%loop-player%}
+				add {@金币} to the loop-player's account
+				execute console command "/p give %loop-player% {@点券}"
+	if {@经验模式} is "sx":
+		loop all players:
+			if {Dazuo::%loop-player%} is true:
+				add {@经验} to {SitExp::%loop-player%}
+				add {@金币} to {Sitjb::%loop-player%}
+				execute console command "/sl add %loop-player% {@经验}"
+				add {@时间} to {Sitsj::%loop-player%}
+				add {@金币} to the loop-player's account
+				execute console command "/p give %loop-player% {@点券}"
+
+				
+every {@时间} second:
+	loop all players:
+		if {Dazuo::%loop-player%} is true:
+			send action bar "{@prefix} &f挂机了&e%{Sitsj::%loop-player%}%&f秒" to loop-player
+
+
+			
+on chat:
+	if {Dazuo::%player%} is true:
+		cancel event
+		send "{@prefix} &f正在挂机中!无法发言。"
+		stop
+	else:
+		stop
+on command:
+	if {Dazuo::%player%} is true:
+		cancel event
+		send "{@prefix} &f正在挂机中!无法输入指令。"
+		stop
+	else:
+		stop
+on damage:
+	if {Dazuo::%attacker%} is true:
+		cancel event
+		send "{@prefix} &f正在挂机中!无法攻击。" to attacker
+		stop
+	else:
+		stop

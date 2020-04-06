@@ -1,0 +1,184 @@
+world:
+  3283, 66, 1075:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/27 15:04:43
+    Scripts:
+    - '[@player "你已经进入僵尸世界"][@bypass warp 僵尸世界一][@player "请小心谨慎"][@player "举报恶意多次屠杀萌新，可以获得丰厚奖励"][@player
+      "PVP已开启，尽量和平对待他人"][@cooldown:30]'
+  3255, 70, 1082:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/28 07:31:50
+    Scripts:
+    - '[@command jbsd][@cooldown:2]'
+  3212, 70, 1112:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/28 09:45:36
+    Scripts:
+    - '[@cooldown:1][@bypass heal]'
+  3213, 70, 1113:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/28 11:24:00
+    Scripts:
+    - '[@bypass kit cd][@cooldown:10]'
+  3251, 70, 1070:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/02 15:32:30
+    Scripts:
+    - '[@bypass mm i get 100游戏币][@cooldown:987654321][@player "你领取了开荒福利"]'
+  3249, 70, 1070:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/02 15:32:43
+    Scripts:
+    - '[@bypass mm i get 1000游戏币][@cooldown:987654321][@player "你领取了V3福利"]'
+  3247, 70, 1070:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/03 13:51:24
+    Scripts:
+    - '[@bypass mm i get 100游戏币][@cooldown:987654321][@player "以前人为警示"][@player "请勿作弊，刷取违规物品"][@player
+      "如有发现，请及时举报"]'
+  3192, 69, 1167:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/05 11:10:36
+    Scripts:
+    - '[@bypass mv tp world_nether][@cooldown:10]'
+sj:
+  178, 65, 236:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/28 08:15:18
+    Scripts:
+    - '[@bypass warp 僵尸世界2][@cooldown:10]'
+  178, 65, 235:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/28 09:33:49
+    Scripts:
+    - '[@bypass warp 僵尸世界3][@cooldown:10]'
+  148, 57, 119:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/28 10:48:29
+    Scripts:
+    - '[@bypass mm m spawn 僵王博士][@oldcooldown:60]'
+  178, 65, 234:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/28 10:53:32
+    Scripts:
+    - '[@bypass warp 僵尸世界4][@cooldown:10]'
+  178, 65, 232:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/28 14:39:55
+    Scripts:
+    - '[@cooldown:10][@bypass warp 僵尸世界5]'
+  827, 57, 534:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/28 21:36:49
+    Scripts:
+    - '[@bypass mm m spawn 埃及僵王博士][@oldcooldown:120]'
+  918, 62, 591:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/28 21:44:02
+    Scripts:
+    - '[@bypass warp 僵尸世界6][@cooldown:10]'
+  911, 62, 598:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/28 21:44:11
+    Scripts:
+    - '[@bypass warp 僵尸世界7][@cooldown:10]'
+  870, 67, 614:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/28 22:18:00
+    Scripts:
+    - '[@bypass warp 僵尸世界8][@cooldown:10]'
+  870, 67, 613:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/28 22:40:06
+    Scripts:
+    - '[@bypass warp 僵尸世界9][@cooldown:10]'
+  896, 57, 823:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/28 22:40:34
+    Scripts:
+    - '[@oldcooldown:180][@bypass mm m spawn 海盗僵王博士]'
+  870, 67, 616:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/29 19:32:50
+    Scripts:
+    - '[@bypass warp 僵尸世界10][@cooldown:10]'
+  686, 66, 598:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/29 19:34:07
+    Scripts:
+    - '[@bypass warp 僵尸世界11][@cooldown:10]'
+  686, 66, 597:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/29 19:34:23
+    Scripts:
+    - '[@bypass warp 僵尸世界12][@cooldown:10]'
+  655, 56, 503:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/02/29 19:46:27
+    Scripts:
+    - '[@oldcooldown:180][@bypass mm m spawn 功夫僵王博士]'
+  1051, 60, -846:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/01 13:36:37
+    Scripts:
+    - '[@oldcooldown:180][@bypass mm m spawn 科技僵王博士]'
+  1017, 65, -752:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/01 13:50:40
+    Scripts:
+    - '[@cooldown:10][@bypass warp 僵尸世界14]'
+  1016, 65, -752:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/01 13:50:44
+    Scripts:
+    - '[@cooldown:10][@bypass warp 僵尸世界15]'
+  686, 66, 595:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/01 13:56:44
+    Scripts:
+    - '[@cooldown:10][@bypass warp 僵尸世界13]'
+  5084, 69, -155:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/02 13:43:47
+    Scripts:
+    - '[@oldcooldown:180][@bypass mm m spawn 暗黑僵王博士]'
+  1015, 65, -754:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/02 13:53:11
+    Scripts:
+    - '[@cooldown:10][@bypass warp 僵尸世界16]'
+  4972, 68, -90:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/02 13:53:46
+    Scripts:
+    - '[@cooldown:10][@bypass warp 僵尸世界17]'
+  4972, 70, -90:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/02 13:53:52
+    Scripts:
+    - '[@cooldown:10][@bypass warp 僵尸世界18]'
+  4972, 68, -89:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/03 08:07:40
+    Scripts:
+    - '[@bypass warp 僵尸世界18][@cooldown:10]'
+  880, 46, 65:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/03 22:05:24
+    Scripts:
+    - '[@oldcooldown:180][@bypass mm m spawn 冲浪僵王博士]'
+  914, 63, -171:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/03 22:18:29
+    Scripts:
+    - '[@cooldown:10][@bypass warp 僵尸世界20]'
+  914, 63, -169:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/03 22:18:35
+    Scripts:
+    - '[@cooldown:10][@bypass warp 僵尸世界21]'
+  4972, 68, -93:
+    Author: 5820a8a0-cbec-30f5-ba2d-d7f8ebae905b
+    LastEdit: 2020/03/03 22:23:34
+    Scripts:
+    - '[@cooldown:10][@bypass warp 僵尸世界19][$cost:1000]'

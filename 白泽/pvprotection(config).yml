@@ -1,0 +1,46 @@
+#命令前缀 | Command prefix
+Prefix: '&8&l[&6&lPvP&8&l] '
+
+#插件语言 | Plugin language
+#默认提供中文(Chinese)和英文语言(English) | Provide Chinese and English by default
+Language: Chinese
+
+#是否将玩家的设置储存到配置文件中 | Save player status settings to configuration files
+Storage-Player-settings: false
+
+#主命令是否用于切换PvP状态 | Is the main command used to switch PvP status?
+Main-Command-Switch-State: true
+
+#PvP的状态设置 | PvP status settings
+PvP-Status:
+    #默认启用PvP | PvP is enabled by default
+    Default-Enabled: false
+    #是否启用战斗区域 | Whether PVP can only be carried out in battle region.
+    #如果启用，不在战斗区域内的玩家即使开启了PvP模式，也不可以进行PvP | If enabled, players who are not in the combat region can not use PvP even if they have PvP mode enabled.
+    Fighting-Region: false
+    #切换状态的延迟（秒） | Delay in switching status (seconds)
+    #受到玩家攻击、命令切换状态后，需等待多少秒才可以再次切换状态 | After being attacked or switching state with commands, it takes several second(s) to switch state again.
+    Toggle-delay: 8
+    #禁用PvP的世界 | Disable the world of PvP
+    Disable-Worlds:
+    - exampleworld
+
+#权限设置 | Permissions settings
+Permissions:
+    Cooldown-bypass: pvpprotection.cooldownbypass
+    Commands:
+        Help: pvpprotection.command.help
+        Toggle: pvpprotection.command.switchstatus
+        Reload: pvpprotection.command.reload
+        Enable: pvpprotection.command.on
+        Disable: pvpprotection.command.off
+        Tool: pvpprotection.command.tool
+        Select: pvpprotection.command.select
+        Set: pvpprotection.command.set
+        Region:
+            Help: pvpprotection.command.region.help
+            Info: pvpprotection.command.region.info
+            Create: pvpprotection.command.region.create
+            Delete: pvpprotection.command.region.delete
+            Teleport: pvpprotection.command.region.teleport
+            List: pvpprotection.command.region.list

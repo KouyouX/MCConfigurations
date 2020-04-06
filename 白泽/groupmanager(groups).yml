@@ -1,0 +1,120 @@
+groups:
+  Owner:
+    default: false
+    permissions:
+    - +vanish.effects.toggle.all
+    - -vanish.effects.*
+    - '*'
+    inheritance:
+    - Default
+    info:
+      build: true
+      prefix: '&c'
+      suffix: ''
+  Jiandu:
+    default: false
+    permissions:
+    - essentials.fly
+    - essentials.god
+    - essentials.hat
+    - essentials.invsee
+    - essentials.invsee.modify
+    - essentials.kick
+    - essentials.top
+    - essentials.tp
+    - essentials.mute
+    - essentials.togglejail
+    - essentials.togglejail.offline
+    inheritance:
+    - Default
+    info:
+      build: true
+      prefix: '&7[&e监督&7]&a'
+      suffix: ''
+  Default:
+    default: true
+    permissions:
+    - essentials.home
+    - essentials.back 
+    - essentials.delhome
+    - essentials.msg
+    - essentials.sethome
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - Dazuo.use
+    - dazuo.use
+    - marry.use
+    - gang.*
+    - gang.player
+    - gang.color
+    - gang.number.10
+    - plots.use
+    - plots.plot.1
+    - plots.permpack.basicinbox
+    - plots.permpack.basic
+    - plots.permpack.basicflags
+    - plots.set.flag.fly.true
+    - plots.set.flag.fly.false
+    - plots.flag.set.fly.true
+    - plots.flag.set.fly.false
+    - plots.deny.* 
+    - -plots.set.flag.heal.* 
+    - -plots.set.flag.feed.*   
+    - -plots.set.flag.gamemode
+    - -plots.set.flag.gamemode.creative
+    - -plots.set.flag.gamemode.survival
+    - -plots.set.flag.gamemode.adventure
+    - pvptoggle.use
+    - pvptoggle.self.toggle
+    - pvptoggle.self.status
+    - sx-attribute.sell
+    - scriptblockplus.interact.use
+    - scriptblockplus.walk.use 
+    - crazycrates.access
+    - -bukkit.command.kill
+    - essentials.chat.color
+    - essentials.suicide
+    - chestcommands.item.金币商店.yml
+    - chestcommands.item.cd.yml
+    - chestcommands.open.cd.yml
+    - ChestCommands.open.fbcs.yml
+    - chestcommands.open.ghcd.yml
+    - chestcommands.open.ghxt.yml
+    - chestcommands.金币商店.open
+    - chestcommands.open.金币商店.yml
+    - chestcommands.open.marry.yml
+    - chestcommands.open.mypet.yml
+    - chestcommands.open.pvp.yml
+    - essentials.bal
+    - essentials.ignore
+    - essentials.igore
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.build
+    - essentials.build.*
+    - flytime.buy
+    - flytime.skyblockfly
+    - marry.*
+    - chatitem.use
+    - morefish.shop
+    - item2chat.use
+    - cr.base
+    - cr.info
+    - cr.preview
+    - crazyauctions.access
+    - crazyauctions.sell
+    - crazyauctions.sell.10
+    - crazyauctions.bid
+    - crazyauctions.bid.1
+    inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      build: false
+      prefix: '&a'
+      suffix: ''

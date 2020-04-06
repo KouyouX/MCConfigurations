@@ -1,0 +1,682 @@
+蛇毒液术:
+  Cooldown: 3
+  Skills:
+  - missile{ot=5;oh=55;v=15;i=1;hR=1;vR=1;in=0.75;syo=1.5}
+5:
+  Skills:
+  - effect:particles{p=reddust;color=#00FF00;a=5;hS=0.15;vS=0.15} @origin
+  - effect:particles{p=happyVillager;a=8;hS=0.1;vS=0.1} @origin
+  - effect:particles{p=reddust;color=#00FF00;a=1;hS=0.12;vS=0.12} @origin
+55:
+  Skills:
+  - damage{amount=5;i=false}
+  - effect:particles{p=reddust;color=#00FF00;a=15;hS=0.2;vS=0.2;y=1.0;s=2.5;}
+  - effect:sound{s=entity.generic.explode;v=1.2;p=1.5}
+毒液冲击:
+  Cooldown: 10
+  Skills:
+  - throw{v=15;velocityY=3} @Self
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - leap{velocity=430} @target
+  - jump{velocity=0.3}
+  - effect:particletornado{p=reddust;color=#00FF00;mr=1;h=1;i=1;d=3;rs=1;sh=1;cs=0;ca=1;chs=1;cvs=1;cps=0.3;cyo=0.2} @PlayersInRadius{r=12}
+  - effect:particletornado{p=happyVillager;mr=2;h=1;i=1;d=8;rs=1;sh=1;cs=0;ca=1;chs=1;cvs=1;cps=0.3;cyo=0.2} @PlayersInRadius{r=12}
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - throw{v=18;velocityY=5} @PlayersInRadius{r=12}
+  - effect:happyVillager @PlayersInRadius @LivingEntitiesInRadius{r=12}
+  - effect:particles{p=cloud;a=10;hS=0.5;vS=0.5} @PlayersInRadius{r=12}
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - damage{a=7;ia=false;pi=true;pk=true} @PlayersInRadius{r=12}
+功夫气功僵尸气功:
+  Skills:
+  - damage{amount=50;ignoreArmor=true} @target
+  - effect:particles{p=reddust;c=#e10000;a=5;hS=0.15;vS=0.15} @target
+  - effect:particles{p=flame;a=8;hS=0.1;vS=0.1} @target
+  - effect:particles{p=flame;a=1;hS=0.12;vS=0.12} @target
+功夫气功僵王博士气功:
+  Skills:
+  - damage{amount=80;ignoreArmor=true} @target
+  - effect:particles{p=reddust;c=#e10000;a=5;hS=0.15;vS=0.15} @target
+  - effect:particles{p=flame;a=8;hS=0.1;vS=0.1} @target
+  - effect:particles{p=flame;a=1;hS=0.12;vS=0.12} @target
+功夫僵王博士技能:
+  Cooldown: 0
+  Skills:
+  - prison{material=web;duration=100;breakable=true} @PlayersInRadius{r=4}
+  - effect:sound{s=entity.shulker_bullet.hit;volume=10;p=0.5} @PlayersInRadius{r=20}
+  - delay 30
+  - effect:particleline{p=reddust;c=#00FF00;amount=50;fromOrigin=true;ys=0.5} @PlayersInRadius{r=4}
+  - effect:sound{s=entity.wither.shoot;volume=10;p=0.5} @PlayersInRadius{r=20}
+  - damage{amount=70;i=true} @PlayersInRadius{r=4}
+鬼鲛弹:
+  Cooldown: 10
+  Skills:
+  - delay 20
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=1}
+  - damage{a=1;i=false;preventknockback=true} @PlayersInRadius{r=1}
+  - ignite{d=200} @PlayersInRadius{r=1} 
+  - delay 3
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=2}
+  - damage{a=1;i=false;preventknockback=true} @PlayersInRadius{r=2} 
+  - ignite{d=200} @PlayersInRadius{r=2}
+  - delay 3
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=3} 
+  - damage{a=1;i=false;preventknockback=true} @PlayersInRadius{r=3}
+  - ignite{d=200} @PlayersInRadius{r=3}
+  - delay 3
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=4} 
+  - damage{a=2;i=false;preventknockback=true} @PlayersInRadius{r=4}
+  - ignite{d=200} @PlayersInRadius{r=4}
+  - delay 3
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=5} 
+  - damage{a=1;i=false;preventknockback=true} @PlayersInRadius{r=5}
+  - ignite{d=200} @PlayersInRadius{r=5}
+  - delay 3
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=6} 
+  - damage{a=1;i=false;preventknockback=true} @PlayersInRadius{r=6}
+  - ignite{d=200} @PlayersInRadius{r=6}
+  - delay 3
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=7} 
+  - damage{a=1;i=false;preventknockback=true} @PlayersInRadius{r=7}
+  - ignite{d=200} @PlayersInRadius{r=7}
+  - delay 3 
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=8}
+  - damage{a=1;i=false;preventknockback=true} @PlayersInRadius{r=8}
+  - ignite{d=200} @PlayersInRadius{r=8}
+  - delay 3
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=9}
+  - damage{a=3;i=false;preventknockback=true} @PlayersInRadius{r=9}
+  - ignite{d=200} @PlayersInRadius{r=9}
+  - delay 3
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=10}
+  - damage{a=1;i=false;preventknockback=true} @PlayersInRadius{r=10}
+  - ignite{d=200} @PlayersInRadius{r=10}
+  - delay 3   
+  - sound{s=mob.ghast.fireball;v=2;p=1} @Self
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - effect:particlering{p=splash;a=350;vs=0.6;hs=0.6;s=0;y=0;points=20;radius=11}
+  - effect:particles{p=splash;a=20;vs=1;hs=0.5;Speed=1;yOffset=1} @Self
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - sound{s=mob.ghast.fireball;v=2;p=1} @Self
+  - effect:particlering{p=splash;a=30;vs=0.5;hs=0.5;s=0;y=1;points=20;radius=11}
+  - effect:particlering{p=splash;a=30;vs=0.5;hs=0.5;s=0;y=1;points=20;radius=11}
+  - damage{a=6;i=false;preventknockback=true} @PlayersInRadius{r=11}
+  - ignite{d=2} @PlayersInRadius{r=11}
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - sound{s=mob.ghast.fireball;v=2;p=1} @Self
+  - effect:particles{p=dripWater;a=20;vs=1;hs=0.5;Speed=1;yOffset=1} @Self
+  - effect:particlering{p=splash;a=30;vs=0.5;hs=0.5;s=0;y=2;points=20;radius=11}
+  - effect:particlering{p=splash;a=30;vs=0.5;hs=0.5;s=0;y=2;points=20;radius=11}
+  - damage{a=3;i=false;preventknockback=true} @PlayersInRadius{r=11}
+  - sound{s=block.fire.ambient;v=2;p=1} @Self
+  - sound{s=mob.ghast.fireball;v=2;p=1} @Self
+  - ignite{d=3} @PlayersInRadius{r=11}
+  - effect:particles{p=dripWater;a=20;vs=1;hs=0.5;Speed=1;yOffset=1} @Self
+暗黑魔法师僵尸技能:
+  Cooldown: 0
+  Skills:
+  - damage{a=10} @PlayersInRadius{r=8}
+  - potion{t=SLOW;d=200;l=4} @PlayersInRadius{r=8}
+  - effect:particlering{p=witchmagic;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=1} 
+  - effect:particlering{p=witchmagic;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=1} 
+  - delay 2
+  - effect:particlering{p=witchmagic;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=2} 
+  - effect:particlering{p=witchmagic;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=2} 
+  - delay 2
+  - effect:particlering{p=witchmagic;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=3} 
+  - effect:particlering{p=witchmagic;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=3} 
+  - delay 2
+  - effect:particlering{p=witchmagic;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=4} 
+  - effect:particlering{p=witchmagic;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=4} 
+  - delay 2
+  - effect:particlering{p=witchmagic;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=5} 
+  - effect:particlering{p=witchmagic;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=5} 
+  - skill{s=暗黑魔法师僵尸技能} @Self
+暗黑魔法师僵尸特效:
+  Skills:
+  - damage{amount=50} @target
+  - effect:particles{p=witchmagic;c=#e10000;a=5;hS=0.15;vS=0.15} @target
+  - effect:particles{p=witchmagic;a=8;hS=0.1;vS=0.1} @target
+  - effect:particles{p=witchmagic;a=1;hS=0.12;vS=0.12} @target
+召唤飞剑:
+  Skills:
+  - mythicorbitalprojectile{onTick=召唤飞剑1;pobject=飞剑主;i=1;md=10;oradx=2;oradz=2;oradsec=2;se=false;sb=false;pvoff=0;pfacedir=true} @Self
+  - delay 8
+  - mythicorbitalprojectile{onTick=召唤飞剑1;pobject=飞剑装饰;i=1;md=10;oradx=2;oradz=2;oradsec=2;se=false;sb=false;pvoff=0;pfacedir=true} @Self
+  - delay 8
+  - mythicorbitalprojectile{onTick=召唤飞剑1;pobject=飞剑装饰;i=1;md=10;oradx=2;oradz=2;oradsec=2;se=false;sb=false;pvoff=0;pfacedir=true} @Self
+  - delay 8
+  - mythicorbitalprojectile{onTick=召唤飞剑1;pobject=飞剑装饰;i=1;md=10;oradx=2;oradz=2;oradsec=2;se=false;sb=false;pvoff=0;pfacedir=true} @Self
+  - delay 8
+  - mythicorbitalprojectile{onTick=召唤飞剑1;pobject=飞剑装饰;i=1;md=10;oradx=2;oradz=2;oradsec=2;se=false;sb=false;pvoff=0;pfacedir=true} @Self
+  - delay 8
+  - mythicorbitalprojectile{onTick=召唤飞剑1;pobject=飞剑装饰;i=1;md=10;oradx=2;oradz=2;oradsec=2;se=false;sb=false;pvoff=0;pfacedir=true} @Self
+  - delay 8
+  - mythicorbitalprojectile{onTick=召唤飞剑1;pobject=飞剑装饰;i=1;md=10;oradx=2;oradz=2;oradsec=2;se=false;sb=false;pvoff=0;pfacedir=true} @Self
+  - delay 8
+  - mythicorbitalprojectile{onTick=召唤飞剑1;pobject=飞剑装饰;i=1;md=10;oradx=2;oradz=2;oradsec=2;se=false;sb=false;pvoff=0;pfacedir=true} @Self
+召唤飞剑1:
+  Skills:
+  - damage{a=200} @PlayersNearOrigin{r=1.5}
+飞剑:
+  Skills:
+  - mythicProjectile{onTick=flyswdm;pobject=飞剑弹;ontick=IP-飞剑弹;onend=IP-飞剑弹Hit;v=20;i=1;hR=1;vR=1;pvoff=-1;pfacedir=true}
+IP-飞剑弹:
+  Skills:
+  - effect:particles{p=cloud;amount=1;speed=0;hS=0.2;vS=0.2} @origin
+IP-飞剑弹Hit:
+  Skills:
+  - effect:particles{p=witchmagic;amount=20;speed=0;hS=0.2;vS=0.2} @origin
+  - effect:explosion
+  - damage{a=100}
+flysw:
+  Skills:
+  - mythicorbitalprojectile{onTick=flyswdm;pobject=armorstand1;i=1;md=10;se=false;sb=false;pvoff=1;pfacedir=true} @Self
+flyswdm:
+  Skills:
+  - damage{a=100} @PlayersNearOrigin{r=1.5}
+我们是飞剑弹:
+  Skills:
+  - mythicprojectile{pobject=armorstand1;ontick=IP-我们是飞剑弹;onend=IP我们是飞剑弹Hit;v=8;i=1;hR=0.1;vR=0.1;pfacedir=true}
+IP-我们是飞剑弹:
+  Skills:
+  - customparticles{p=witchmagic;amount=10;hs=0.1;vs=0.1;speed=0;yoffset=0.5;foffset=0.8} @origin
+IP我们是飞剑弹Hit:
+  Skills:
+  - effect:particles{p=witchmagic;amount=60;speed=0;hR=0.2;vR=0.2} @origin
+科技电磁盾僵尸:
+  Cooldown: 0
+  Skills:
+  - effect:particlesphere{p=reddust;color=#0000FF;a=300;radius=1.5;y=0.5}
+科技僵王博士特效:
+  Cooldown: 0
+  Skills:
+  - effect:particlebox{particle=splash;amount=50;radius=3}
+科技僵王博士技能:
+  Cooldown: 0
+  Skills:
+  - damage{a=100} @PlayersInRadius{r=8}
+  - potion{t=SLOW;d=200;l=4} @PlayersInRadius{r=8}
+  - effect:particlering{p=bubble;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=1} 
+  - effect:particlering{p=splash;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=1} 
+  - delay 2
+  - effect:particlering{p=bubble;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=2} 
+  - effect:particlering{p=splash;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=2} 
+  - delay 2
+  - effect:particlering{p=bubble;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=3} 
+  - effect:particlering{p=splash;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=3} 
+  - delay 2
+  - effect:particlering{p=bubble;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=4} 
+  - effect:particlering{p=splash;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=4} 
+  - delay 2
+  - effect:particlering{p=bubble;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=5} 
+  - effect:particlering{p=splash;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=5} 
+  - skill{s=科技僵王博士技能} @Self
+海盗僵王博士雷电:
+  Cooldown: 8
+  Skills:
+  - lightning @EntitiesInRadius{r=10} 
+植物大丽菊:
+  Cooldown: 8
+  Skills:
+  - effect:particletornado{p=witchmagic;cp=angryVillager;mr=1;h=0.5;i=1;d=100;rs=0.2;sh=2;cs=0;ca=0;chs=1;cvs=1.5;cps=5;cyo=0.5}
+  - delay 20
+  - effect:particletornado{p=angryVillager;cp=witchmagic;mr=1;h=0.5;i=1;d=100;rs=0.2;sh=2;cs=0;ca=0;chs=1;cvs=1.5;cps=5;cyo=0.5}
+  - damage{a=1400} 
+植物五角星星果:
+  Cooldown: 60
+  Skills:
+  - projectile{type=METEOR;g=0.1;onTick=五角星星果特效;onEnd=五角星星果结束特效;v=20;i=1;g=0.3;mr=60;hfs=30;hnp=true;hR=1.0;vR=1.0} @RLNTE{amount=15;radius=20;spacing=3;minradius=4}
+五角星星果特效:
+  Skills:
+  - effect:particles{p=reddust;color=#8A2BE2;a=10;vS=0.5;hS=0.5} @origin
+  - effect:particles{p=flame;a=10;vS=0.5;hS=0.5} @origin
+  - effect:particles{p=largesmoke;a=5;vS=0.5;hS=0.5} @origin
+五角星星果结束特效:
+  Skills:
+  - effect:particles{particle=flame;amount=5;vSpread=1;hSpread=1;Speed=1;yOffset=0}@LivingEntitiesInRadius{r=10}
+  - effect:particles{particle=smoke;amount=5;vSpread=2;hSpread=1;Speed=1;yOffset=0} @LivingEntitiesInRadius{r=10}
+  - effect:particles{particle=lava;amount=5;vSpread=2;hSpread=1;Speed=1;yOffset=0} @LivingEntitiesInRadius{r=10}
+  - effect:particles{particle=lava;amount=5;vSpread=3;hSpread=1;Speed=1;yOffset=0} @LivingEntitiesInRadius{r=10}
+  - effect:particles{particle=reddust;amount=10;vSpread=3;hSpread=1;Speed=0.01;yOffset=0} @LivingEntitiesInRadius{r=10}
+  - throw{velocity=6;velocityY=6} @LivingEntitiesInRadius{r=5}
+  - damage{a=1000} @LivingEntitiesInRadius{r=10}
+植物榴莲:
+  Skills:
+  - damage{amount=2400}
+  - effect:particlesphere{p=mobspell;amount=100;r=1.5;speed=0;hR=4;vR=2;y=0}
+植物磁力菇:
+  Cooldown: 5
+  Skills:
+  - forcepull{spread=2} @Target{a=10}
+  - damage{a=400} @Target{a=10}
+植物阳光菇:
+  Cooldown: 8
+  Skills:
+  - heal{a=2000}
+  - effect:particlebox{particle=flame;amount=50;radius=3}
+植物缠绕水草:
+  Cooldown: 8
+  Skills:
+  - damage{a=1800} @Target{a=10}
+  - effect:particletornado{p=portal;cp=witchmagic;mr=1;h=0.5;i=1;d=100;rs=0.2;sh=2;cs=0;ca=0;chs=1;cvs=1.5;cps=5;cyo=0.5}
+  - potion{type=SLOW;duration=40;level=10} 
+植物蒲公英炸弹:
+  Cooldown: 4
+  Skills:
+  - explosion{yield=4;bd=false;fire=false}
+  - damage{a=800}
+植物脉冲黄桃:
+  Cooldown: 15
+  Skills:
+  - damage{a=100} @Target
+  - effect:particlebox{particle=mobspell;amount=50;radius=100} @Target
+  - effect:particlering{particle=mobspell;radius=1;points=45;yOffset=0.7;amount=1;hS=1;vS=0} @Target
+  - effect:particles{particle=dragonbreath;amount=20;hS=0.2;vS=0.2;yOffset=0.7;speed=0.1} @Target
+  - delay 20
+  - damage{a=100} @Target
+  - effect:particlebox{particle=mobspell;amount=50;radius=100} @Target
+  - effect:particlering{particle=mobspell;radius=1;points=45;yOffset=0.7;amount=1;hS=1;vS=0} @Target
+  - effect:particles{particle=dragonbreath;amount=20;hS=0.2;vS=0.2;yOffset=0.7;speed=0.1} @Target
+  - delay 20
+  - damage{a=100} @Target
+  - effect:particlebox{particle=mobspell;amount=50;radius=100} @Target
+  - effect:particlering{particle=mobspell;radius=1;points=45;yOffset=0.7;amount=1;hS=1;vS=0} @Target
+  - effect:particles{particle=dragonbreath;amount=20;hS=0.2;vS=0.2;yOffset=0.7;speed=0.1} @Target
+  - delay 20
+  - damage{a=100} @Target
+  - effect:particlebox{particle=mobspell;amount=50;radius=100} @Target
+  - effect:particlering{particle=mobspell;radius=1;points=45;yOffset=0.7;amount=1;hS=1;vS=0} @Target
+  - effect:particles{particle=dragonbreath;amount=20;hS=0.2;vS=0.2;yOffset=0.7;speed=0.1} @Target
+  - delay 20
+  - damage{a=100} @Target
+  - effect:particlebox{particle=mobspell;amount=50;radius=100} @Target
+  - effect:particlering{particle=mobspell;radius=1;points=45;yOffset=0.7;amount=1;hS=1;vS=0} @Target
+  - effect:particles{particle=dragonbreath;amount=20;hS=0.2;vS=0.2;yOffset=0.7;speed=0.1} @Target
+  - delay 20
+  - damage{a=100} @Target
+  - effect:particlebox{particle=mobspell;amount=50;radius=100} @Target
+  - effect:particlering{particle=mobspell;radius=1;points=45;yOffset=0.7;amount=1;hS=1;vS=0} @Target
+  - effect:particles{particle=dragonbreath;amount=20;hS=0.2;vS=0.2;yOffset=0.7;speed=0.1} @Target
+  - delay 20
+  - damage{a=100} @Target
+  - effect:particlebox{particle=mobspell;amount=50;radius=100} @Target
+  - effect:particlering{particle=mobspell;radius=1;points=45;yOffset=0.7;amount=1;hS=1;vS=0} @Target
+  - effect:particles{particle=dragonbreath;amount=20;hS=0.2;vS=0.2;yOffset=0.7;speed=0.1} @Target
+植物闪电芦苇:
+  Cooldown: 12
+  Skills:
+  - lightning @LivingEntitiesInRadius{r=20}
+  - damage{a=400} @LivingEntitiesInRadius{r=20}
+植物捣蛋萝卜:
+  Cooldown: 16
+  Skills:
+  - effect:particles{p=largeexplode;a=5;hS=1;vS=1} @Target{a=10}
+  - damage{a=1600} @Target{a=10}
+  - delay 20
+  - effect:particles{p=largeexplode;a=5;hS=1;vS=1} @Target{a=10}
+  - damage{a=1600} @Target{a=10}
+  - delay 20
+  - effect:particles{p=largeexplode;a=5;hS=1;vS=1} @Target{a=10}
+  - damage{a=1600} @Target{a=10}
+植物龙舌兰:
+  Cooldown: 8 
+  Skills:
+  - Effect:Particles{p=slime;amount=150;vs=3;hs=0.05;s=0}
+  - Effect:Particles{p=happyVillager;amount=2;vs=0.1;hs=0.05;s=0;y=0.1}
+  - delay 2
+  - Effect:Particles{p=slime;amount=1;vs=0;hs=0;s=-0.1;y=0}
+  - Effect:Particles{p=happyVillager;amount=1;vs=0;hs=0;s=-0.1;y=0}
+  - damage{a=1600}
+  - Effect:Particles{p=slime;amount=40;vs=0.1;hs=0.05;s=0;y=0.1;y=4}
+  - Effect:Particles{p=happyVillager;amount=20;vs=0.1;hs=0.05;s=0;y=0.1;y=4}
+植物樱桃炸弹:
+  Cooldown: 18
+  Skills:
+  - damage{a=50} @Target{r=13}
+  - effect:particlering{p=reddust;color=#000000;radius=4;points=32;amount=100;hS=1;vS=0.5;y=1}
+  - effect:particlering{p=reddust;color=#000000;radius=3;points=32;amount=100;hS=1;vS=0.5;y=2}
+  - explosion{yield=4;bd=false;fire=false} @Target
+植物火毒花:
+  Cooldown: 0
+  Skills:
+  - heal{a=30} @self
+植物火毒花特效:
+  Cooldown: 0
+  Skills:
+  - effect:particlering{particle=witchmagic;radius=1.5;points=45;yOffset=0.7;amount=1;hS=1;vS=0} 
+植物鸡你太美特效:
+  Cooldown: 0
+  Skills:
+  - effect:particlering{particle=blockcrack_41_0;radius=1.5;points=45;yOffset=0.7;amount=1;hS=1;vS=0} 
+陨落之星:
+  Cooldown: 30
+  Skills:
+  - effect:particlering{p=flame;a=50;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=1} @LivingEntitiesInRadius{r=10} 
+  - effect:particlering{p=flame;a=50;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=2} @LivingEntitiesInRadius{r=10} 
+  - effect:particlering{p=flame;a=50;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=3} @LivingEntitiesInRadius{r=10} 
+  - effect:particlering{p=flame;a=50;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=4} @LivingEntitiesInRadius{r=10} 
+  - effect:particlering{p=flame;a=50;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=5} @LivingEntitiesInRadius{r=10} 
+  - effect:particlering{p=flame;a=50;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=6} @LivingEntitiesInRadius{r=10} 
+  - effect:particlering{p=flame;a=50;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=7} @LivingEntitiesInRadius{r=10} 
+  - effect:particlering{p=flame;a=50;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=8} @LivingEntitiesInRadius{r=10} } 
+  - effect:particlering{p=flame;a=50;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=10} @LivingEntitiesInRadius{r=10} 
+  - ignite{d=100} @LivingEntitiesInRadius{r=10}
+  - damage{a=80;i=false} @LivingEntitiesInRadius{r=4}
+  - skill{s=流星雨} @Self
+  - heal{a=80} @Self
+流星雨:
+  Skills:
+  - delay 20
+  - projectile{type=METEOR;g=0.1;onTick=流星雨特效;onEnd=流星雨结束特效;v=20;i=1;g=0.3;mr=60;hfs=30;hnp=true;hR=1.0;vR=1.0} @RLNTE{amount=15;radius=20;spacing=3;minradius=4}
+流星雨特效:
+  Skills:
+  - effect:particles{p=reddust;color=#8A2BE2;a=10;vS=0.5;hS=0.5} @origin
+  - effect:particles{p=flame;a=10;vS=0.5;hS=0.5} @origin
+  - effect:particles{p=largesmoke;a=5;vS=0.5;hS=0.5} @origin
+流星雨结束特效:
+  Skills:
+  - effect:sound{sound=random.explode;volume=2;p=1} @PIR{r=10}
+  - effect:particles{particle=flame;amount=5;vSpread=1;hSpread=1;Speed=1;yOffset=0}@LivingEntitiesInRadius{r=10}
+  - effect:particles{particle=smoke;amount=5;vSpread=2;hSpread=1;Speed=1;yOffset=0} @LivingEntitiesInRadius{r=10}
+  - effect:particles{particle=lava;amount=5;vSpread=2;hSpread=1;Speed=1;yOffset=0} @LivingEntitiesInRadius{r=10}
+  - effect:particles{particle=lava;amount=5;vSpread=3;hSpread=1;Speed=1;yOffset=0} @LivingEntitiesInRadius{r=10}
+  - effect:particles{particle=reddust;amount=10;vSpread=3;hSpread=1;Speed=0.01;yOffset=0} @LivingEntitiesInRadius{r=10}
+  - throw{velocity=6;velocityY=6} @LivingEntitiesInRadius{r=5}
+植物棱镜草:
+  Cooldown: 7
+  Skills:
+  - effect:particles{particle=snowshovel;amount=100;hS=1;vS=1;speed=0.2} @LivingEntitiesInRadius{r=20}
+  - effect:particles{particle=snowshovel;amount=100;hS=1;vS=1;speed=0.2} @LivingEntitiesInRadius{r=20}
+  - damage{amount=100;i=false} @LivingEntitiesInRadius{r=20}
+  - delay 15
+  - effect:particles{particle=snowshovel;amount=100;hS=1;vS=1;speed=0.2} @LivingEntitiesInRadius{r=20}
+  - damage{amount=100;i=false} @LivingEntitiesInRadius{r=20}
+植物全息坚果:
+  Cooldown: 0
+  Skills:
+  - heal{amount=50} @Self 
+植物飞碟花:
+  Cooldown: 0
+  Skills:
+  - potion{type=invisiblitt;duration=170;level=1} @Self
+植物火焰花拳击手:
+  Cooldown: 3
+  Skills:
+  - damage{amount=200} @Target
+  - effect:particles{particle=flame;amount=250;hS=1.3;vS=1.3;speed=0.3} @Target
+  - effect:particles{particle=largesmoke;amount=20;hS=1;vS=1;speed=0.2} @Target
+  - effect:particles{particle=dragonbreath;amount=70;hS=1;vS=1;speed=0.2} @Target
+植物三叶草:
+  Cooldown: 14
+  Skills:
+  - effect:particlering{particle=blockcrack_82;radius=0.8;points=30;amount=300;hS=0;vS=0.05}
+  - delay 4
+  - effect:particlering{particle=blockcrack_82;radius=0.6;points=25;amount=200;hS=0;vS=0.05}
+  - delay 4
+  - effect:particlering{particle=blockcrack_82;radius=0.4;points=20;amount=100;hS=0;vS=0.05}
+  - delay 4
+  - effect:particles{particle=reddust;amount=300;hS=0.2;vS=2.5;y=1;speed=0}
+  - throw{velocity=10;velocityY=15}
+  - damage{a=40} @Target
+植物冰冻生菜:
+  Cooldown: 10
+  Skills:
+  - potion{type=SLOW;duration=20;level=10}
+  - potion{type=BLINDNESS;duration=20;level=10}
+  - effect:particles{p=reddust;c=#e10000;a=50;hS=0.15;vS=0.15} @target
+  - effect:particles{p=bubble;a=80;hS=0.1;vS=0.1} @target
+  - effect:particles{p=bubble;a=10;hS=0.12;vS=0.12} @target
+  - effect:particles{p=magiccrit;a=80;hS=0.1;vS=0.1} @target
+  - effect:particles{p=magiccrit;a=10;hS=0.12;vS=0.12} @target
+  - effect:particles{p=splash;a=80;hS=0.1;vS=0.1} @target
+  - effect:particles{p=splash;a=10;hS=0.12;vS=0.12} @target
+植物冰冻生菜皮肤:
+  Cooldown: 10
+  Skills:
+  - potion{type=SLOW;duration=20;level=10} @LivingEntitiesInRadius{r=8}
+  - potion{type=BLINDNESS;duration=20;level=10} @LivingEntitiesInRadius{r=8}
+  - effect:particles{p=reddust;c=#e10000;a=50;hS=0.15;vS=0.15} @LivingEntitiesInRadius{r=8}
+  - effect:particles{p=bubble;a=80;hS=0.1;vS=0.1} @LivingEntitiesInRadius{r=8}
+  - effect:particles{p=bubble;a=10;hS=0.12;vS=0.12} @LivingEntitiesInRadius{r=8}
+  - effect:particles{p=magiccrit;a=80;hS=0.1;vS=0.1} @LivingEntitiesInRadius{r=8}
+  - effect:particles{p=magiccrit;a=10;hS=0.12;vS=0.12} @LivingEntitiesInRadius{r=8}
+  - effect:particles{p=splash;a=80;hS=0.1;vS=0.1} @LivingEntitiesInRadius{r=8}
+  - effect:particles{p=splash;a=10;hS=0.12;vS=0.12} @LivingEntitiesInRadius{r=8}
+植物土豆地雷:
+  Cooldown: 12
+  Skills:
+  - damage{a=20} @Target{r=12}
+  - effect:particles{p=flame;a=50;hS=2.0;vS=1.0} @target{r=12}
+  - effect:particles{p=lava;a=10;hS=1.0;vS=2.0} @target{r=12}
+  - effect:particles{p=sweepAttack;a=50;hS=1.0;vS=1.0} @target{r=12}
+  - explosion{yield=4;bd=false;fire=false} @target{r=12}
+植物坚果:
+  Cooldown: 0
+  Skills:
+  - heal{amount=40;overheal=true} @self
+植物墓碑苔藓:
+  Cooldown: 12
+  Skills:
+  - missile{ot=墓碑苔藓_TICK5;oh=墓碑苔藓_HIT5;v=8;i=1;hR=1;vR=1;in=0.75}
+墓碑苔藓_TICK5:
+  Skills:
+  - effect:particles{p=snowshovel;a=1} @origin
+墓碑苔藓_HIT5:
+  Skills:
+  - effect:particles{p=explode;a=50;hS=1;vS=1}
+  - prison{material=STONE;duration=50;breakable=false}
+  - damage{a=12;i=false}
+植物墓碑苔藓:
+  Cooldown: 12
+  Skills:
+  - missile{ot=墓碑苔藓_TICK5;oh=墓碑苔藓_HIT5;v=8;i=1;hR=1;vR=1;in=0.75}
+墓碑苔藓_TICK5:
+  Skills:
+  - effect:particles{p=snowshovel;a=1} @origin
+墓碑苔藓_HIT5:
+  Skills:
+  - effect:particles{p=explode;a=50;hS=1;vS=1}
+  - prison{material=STONE;duration=50;breakable=false}
+  - damage{a=12;i=false}
+植物大蒜:
+  Cooldown: 5
+  Skills:
+  - potion{type=SLOW;duration=60;level=3}
+  - effect:particles{p=mobSpell;a=80;hs=1.0;vs=1.0;s=0;y=0.8}
+  - effect:particlering{particle=witchmagic;radius=5;points=85;yOffset=0.5;amount=30;hS=0.1;vS=0.1} 
+植物激光豆:
+  Cooldown: 0
+  Skills:
+  - effect:particlebox{particle=slime;amount=10;radius=4} @Target
+  - damage{amount=70;i=false}
+植物火焰豌豆射手:
+  Cooldown: 0.5
+  Skills:
+  - shootfireball{y=1;v=3} @target 
+  - damage{amount=10;i=false}
+植物火葫芦:
+  Cooldown: 0.2
+  Skills:
+  - missile{ot=火葫芦_TICK;oh=火葫芦_HIT;v=20;i=1;hR=1;vR=1;in=0.75;syo=1.5}
+火葫芦_TICK:
+  Skills:
+  - effect:particles{p=largesmoke;c=#e10000;a=5;hS=0.15;vS=0.15} @origin
+  - effect:particles{p=lava;a=8;hS=0.1;vS=0.1} @origin
+  - effect:particles{p=lava;a=1;hS=0.12;vS=0.12} @origin
+火葫芦_HIT:
+  Skills:
+  - damage{amount=50;i=false}
+  - effect:particles{p=lava;a=15;hS=0.2;vS=0.2;y=1.0;s=2.5;}
+植物火龙草:
+  Cooldown: 12
+  Skills:
+  - missile{ot=FBLT_TICK;oh=FBLT_HIT;v=15;i=1;hR=1;vR=1;in=0.75;syo=1.5}
+FBLT_TICK:
+  Skills:
+  - effect:particles{p=reddust;c=#e10000;a=5;hS=0.15;vS=0.15} @origin
+  - effect:particles{p=flame;a=8;hS=0.1;vS=0.1} @origin
+  - effect:particles{p=lava;a=1;hS=0.12;vS=0.12} @origin
+FBLT_HIT:
+  Skills:
+  - damage{amount=40;i=false}
+  - effect:particles{p=lava;a=15;hS=0.2;vS=0.2;y=1.0;s=2.5;}
+  - effect:sound{s=entity.generic.explode;v=1.2;p=1.5}
+植物烟雾蘑菇:
+  Cooldown: 2
+  Skills:
+  - missile{ot=烟雾蘑菇TICK;oh=烟雾蘑菇HIT;v=15;i=1;hR=1;vR=1;in=0.75;syo=1.5}
+烟雾蘑菇TICK:
+  Skills:
+  - effect:particles{p=witchmagic;c=#e10000;a=5;hS=0.15;vS=0.15} @origin
+  - effect:particles{p=witchmagic;a=8;hS=0.1;vS=0.1} @origin
+  - effect:particles{p=witchmagic;a=1;hS=0.12;vS=0.12} @origin
+烟雾蘑菇HIT:
+  Skills:
+  - damage{amount=5;i=false}
+  - effect:particles{p=witchmagic;a=15;hS=0.2;vS=0.2;y=1.0;s=2.5;}
+植物玉米加农炮:
+  Cooldown: 25
+  Skills:
+  - damage{a=80}
+  - effect:particles{p=mobspell;a=50;hS=1.0;vS=1.0} @origin
+  - teleport{spreadh=1;spreadv=0}
+  - delay 1
+  - effect:particles{p=mobspell;a=150;hS=2.0;vS=1.0} @target
+  - effect:particles{p=mobspell;a=150;hS=1.0;vS=2.0} @target
+  - effect:particles{p=mobspell;a=50;hS=1.0;vS=1.0} @target
+  - effect:particles{p=reddust;c=#006059;a=20;hs=1.0;vs=1.0;s=0;y=0.8}
+  - delay 20
+  - effect:particles{p=reddust;c=#006059;a=20;hs=1.0;vs=1.0;s=0;y=0.8}
+植物白萝卜:
+  Cooldown: 0
+  Skills:
+  - effect:particletornado{p=cloud;cp=flame;a=20;mr=1;h=0.5;i=1;d=100;rs=0.2;sh=2;cs=0;ca=0;chs=1;cvs=1.5;cps=5;cyo=0.5}
+植物竹员外:
+  Cooldown: 15
+  Skills:
+  - damage{a=50} @LivingEntitiesInRadius{r=15}
+  - explosion{yield=4;bd=false;fire=false} @LivingEntitiesInRadius{r=15}
+  - effect:particlering{particle=blockcrack_82;radius=0.8;points=30;amount=300;hS=0;vS=0.05} @LivingEntitiesInRadius{r=15}
+  - delay 4
+  - effect:particlering{particle=blockcrack_82;radius=0.6;points=25;amount=200;hS=0;vS=0.05} @LivingEntitiesInRadius{r=15}
+  - delay 4
+  - effect:particlering{particle=blockcrack_82;radius=0.4;points=20;amount=100;hS=0;vS=0.05} @LivingEntitiesInRadius{r=15}
+  - delay 4
+  - effect:particles{particle=reddust;amount=300;hS=0.2;vS=2.5;y=1;speed=0} @LivingEntitiesInRadius{r=15}
+  - throw{velocity=10;velocityY=15} @LivingEntitiesInRadius{r=15}
+植物竹笋:
+  Cooldown: 10
+  Skills:
+  - effect:particlering{particle=happyVillager;radius=3;points=45;yOffset=0.7;amount=1;hS=1;vS=0} @LivingEntitiesInRadius{r=20}
+  - effect:particles{particle=happyVillager;amount=20;hS=0.2;vS=0.2;yOffset=0.7;speed=0.1} @LivingEntitiesInRadius{r=20}
+  - throw{velocity=0;velocityY=4} @LivingEntitiesInRadius{r=20}
+  - damage{amount=80;ignoreArmor=true;pk=false;pi=ture} @LivingEntitiesInRadius{r=20}
+  - delay 4
+  - effect:particlering{particle=happyVillager;radius=2;points=45;yOffset=0.7;amount=1;hS=1;vS=0} @LivingEntitiesInRadius{r=20}
+  - effect:particles{particle=happyVillager;amount=20;hS=0.2;vS=0.2;yOffset=0.7;speed=0.1} @LivingEntitiesInRadius{r=20}
+  - throw{velocity=0;velocityY=4} @LivingEntitiesInRadius{r=20}
+植物花盆:
+  Cooldown: 0
+  Skills:
+  - heal{amount=3;overheal=true} @self
+实体金币购买:
+  Cooldown: 0
+  Skills:
+  - effect:particlesphere{p=reddust;color=#FFD700;amount=20;r=1.5;speed=0;hR=4;vR=2;y=0} @self
+  - delay 10
+  - effect:particlesphere{p=reddust;color=#FFD700;amount=20;r=1.5;speed=0;hR=4;vR=2;y=0} @self
+  - delay 10
+  - skill{s=实体金币购买}
+植物666e白风:
+  Cooldown: 0
+  Skills:
+  - effect:particles{p=lava;a=30;hS=1;vS=1} @Target
+  - damage{a=2000} @Target
+植物666e领域:
+  Cooldown: 0
+  Skills:
+  - effect:particlering{particle=cloud;radius=0.8;points=16;yOffset=0.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=cloud;radius=1.0;points=14;yOffset=0.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=cloud;radius=1.2;points=12;yOffset=0.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=cloud;radius=1.4;points=10;yOffset=0.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=cloud;radius=1.6;points=8;yOffset=0.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=cloud;radius=2.0;points=6;yOffset=0.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=cloud;radius=2.7;points=4;yOffset=0.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=cloud;radius=3.5;points=2;yOffset=0.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=cloud;radius=4.0;points=2;yOffset=0.2;amount=1;hS=1;vS=0}
+植物zhoo白风:
+  Cooldown: 0
+  Skills:
+  - effect:particles{p=crit;a=30;hS=1;vS=1} @Target
+  - damage{a=3800} @Target
+植物zhoo回血:
+  Cooldown: 0
+  Skills:
+  - heal{a=50}
+植物zhoo领域2:
+  Cooldown: 0
+  Skills:
+  - effect:particlering{particle=crit;radius=1;points=16;yOffset=1.5;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=crit;radius=1;points=16;yOffset=1.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=crit;radius=1;points=16;yOffset=1.0;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=crit;radius=1;points=16;yOffset=0.8;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=crit;radius=1;points=16;yOffset=0.6;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=crit;radius=1;points=16;yOffset=0.4;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=crit;radius=1;points=16;yOffset=0.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=crit;radius=1;points=16;yOffset=0.1;amount=1;hS=1;vS=0}
+植物zhoo领域:
+  Cooldown: 0
+  Skills:
+  - effect:particlering{particle=cloud;radius=0.8;points=16;yOffset=0.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=cloud;radius=1.0;points=14;yOffset=0.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=cloud;radius=1.2;points=12;yOffset=0.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=cloud;radius=1.4;points=10;yOffset=0.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=cloud;radius=1.6;points=8;yOffset=0.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=cloud;radius=2.0;points=6;yOffset=0.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=cloud;radius=2.7;points=4;yOffset=0.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=cloud;radius=3.5;points=2;yOffset=0.2;amount=1;hS=1;vS=0}
+  - delay 3
+  - effect:particlering{particle=cloud;radius=4.0;points=2;yOffset=0.2;amount=1;hS=1;vS=0}
+植物Dafuk回血:
+  Cooldown: 0
+  Skills:
+  - heal{amount=100} @Self 
+植物Dafuk反击:
+  Cooldown: 3
+  Skills:
+  - lightning @Target
+  - damage{a=2000} @Target

@@ -1,0 +1,5 @@
+on damage:
+	victim is player:
+		damage was caused by projectile:
+			if location of projectile is head location of victim:
+				message "爆头" to attacker 

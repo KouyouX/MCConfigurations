@@ -1,0 +1,131 @@
+menu-settings:
+  name: '&d&l植物大战僵尸&e&l&o垃圾菜单'
+  rows: 2
+  command: 'cd'
+  open-with-item:
+    id: 347
+    item-id: 347
+    left-click: true
+    right-click: true
+
+TreeDiagramA1:
+  NAME: ''
+  ID: 160
+  DATA-VALUE: 3
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+
+
+
+TreeDiagramA3:
+  NAME: '&e世界时间改为早上'
+  LORE:
+    - '&7消耗200游戏币'
+  ID: 175
+  PRICE: 200
+  COMMAND: 'op:time set 1000'
+  POSITION-X: 3
+  POSITION-Y: 1
+
+
+TreeDiagramA5:
+  NAME: ''
+  ID: 160
+  DATA-VALUE: 3
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+
+
+
+TreeDiagramA7:
+  NAME: '&e时间天气设置为晴天'
+  LORE:
+    - '&7消耗200游戏币'
+  ID: 351
+  DATA-VALUE: 11
+  PRICE: 200
+  COMMAND: 'op:sun'
+  POSITION-X: 7
+  POSITION-Y: 1
+
+
+TreeDiagramA9:
+  NAME: ''
+  ID: 160
+  DATA-VALUE: 3
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+
+
+TreeDiagramB1:
+  NAME: ''
+  ID: 160
+  DATA-VALUE: 3
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+
+
+TreeDiagramB2:
+  NAME: ''
+  ID: 160
+  DATA-VALUE: 3
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+
+
+TreeDiagramB3:
+  NAME: ''
+  ID: 160
+  DATA-VALUE: 3
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+
+
+TreeDiagramB4:
+  NAME: '&e回城'
+  ID: 2
+  COMMAND: 'op:spawn'
+  POSITION-X: 4
+  POSITION-Y: 2
+
+
+TreeDiagramB6:
+  NAME: '&e自杀'
+  ID: 397
+  COMMAND: 'op:suicide'
+  POSITION-X: 6
+  POSITION-Y: 2
+
+
+TreeDiagramB7:
+  NAME: ''
+  ID: 160
+  DATA-VALUE: 3
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+
+
+TreeDiagramB8:
+  NAME: ''
+  ID: 160
+  DATA-VALUE: 3
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 2
+
+
+TreeDiagramB9:
+  NAME: ''
+  ID: 160
+  DATA-VALUE: 3
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 2
+

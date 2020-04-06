@@ -1,0 +1,9 @@
+kits:
+  tools:
+    delay: 31536000
+    items:
+    - 339 3 name:&a新手装备兑换券 lore:&7请到主城新手礼包NPC兑换新手装备
+  cd:
+    delay: 0
+    items:
+    - 347 1 name:&d自助菜单 lore:&7玩家自助功能菜单。
