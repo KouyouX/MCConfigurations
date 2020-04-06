@@ -1,4 +1,4 @@
-# NyasRoryo/MCConfigurations
+# gwzz-yang/MCConfigurations
 
 ### 这是什么？
 
@@ -10,4 +10,4 @@
 
 ### 我也可以贡献吗？
 
-可以，只需要发送到 **NyasRoryo@outlook.com** 或提issue，或fork并发起PR
+可以，只需要发送到 **gwzz_yang@outlook.com** 或提issue，或fork并发起PR
